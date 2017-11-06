@@ -58,4 +58,31 @@
 
 	</head>
 	<body>
+      
+      <header>
+        <section class="mdev-main-wrapper">
+          <p><span>Canada's Biggest</span> Indoor Adventure Park</p>
+          <nav class="mdev-main-nav">
+            <ul>
+              <li><a href="#">Play</a></li>
+              <li><a href="#">Plan</a></li>
+              <li><a href="#">Groups</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Book Event</a></li>
+            </ul>
+          </nav>
+          <ul class="mdev-account-links">
+            <li><a href="#">Account Login</a></li>
+            <li><a href="#">Register</a></li>
+          </ul>
+        </section>
+      </header>
+      
+      <section class="mdev-hero">
+        <div class="tfac-home-logo">
+          <img src=""  alt="" />
+        </div>
+        <h1>Build Your Own Adventure</h1>
+        <a href="cta-button">Book Now</a>
+      </section>
 
