@@ -60,3 +60,8 @@ dist/
 **/*/mdev-theme/
 **/mdev-theme/
 mdev-theme/
+.ds_store
+*.ds_store
+.DS_STORE
+*.DS_STORE
+
