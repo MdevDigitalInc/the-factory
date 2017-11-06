@@ -1,4 +1,4 @@
-<?php /* Template Name: Arcade */ 
+<?php /* Template Name: Play */ 
 include 'header-inner.php'; ?>
 
 <main role="main">
