@@ -1,27 +1,25 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>TITLE TITLE TITLE</title>
-
-
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<!-- [ FACEBOOK OG ] -->
-		<meta property="og:url"             content="http://moreiradevelopment.io" />
-		<meta property="og:title"           content="[ MOREIRA DEVELOPMENT PROJECT ] CLIENT | PROJECT " />
-		<meta property="og:description"     content="Base Project Install" />
-		<meta property="og:image"           content="http://moreiradevelopment.io/social/moreira-development-og.jpg" />
-		<!-- [ TWITTER CARDS ] -->
-		<meta name="twitter:card"           content="http://moreiradevelopment.io/social/moreira-development-twitcard.png" />
-		<meta name="twitter:site"           content="@SAMPLE">
-		<meta name="twitter:creator"        content="@SAMPLE">
-		<meta name="twitter:title"          content="[ MOREIRA DEVELOPMENT PROJECT ] CLIENT | PROJECT " />
-		<meta name="twitter:description"    content="Base Project Install" />
-		<meta name="twitter:image"          content="http://moreiradevelopment.io/social/moreira-development-twitcard.png" />
-		<!-- [ FONTS ] -->
+  <head>
+    <meta charset="utf-8">
+    <title>TITLE TITLE TITLE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- [ FACEBOOK OG ] -->
+    <meta property="og:url"             content="http://moreiradevelopment.io" />
+    <meta property="og:title"           content="[ MOREIRA DEVELOPMENT PROJECT ] CLIENT | PROJECT " />
+    <meta property="og:description"     content="Base Project Install" />
+    <meta property="og:image"           content="http://moreiradevelopment.io/social/moreira-development-og.jpg" />
+    <!-- [ TWITTER CARDS ] -->
+    <meta name="twitter:card"           content="http://moreiradevelopment.io/social/moreira-development-twitcard.png" />
+    <meta name="twitter:site"           content="@SAMPLE">
+    <meta name="twitter:creator"        content="@SAMPLE">
+    <meta name="twitter:title"          content="[ MOREIRA DEVELOPMENT PROJECT ] CLIENT | PROJECT " />
+    <meta name="twitter:description"    content="Base Project Install" />
+    <meta name="twitter:image"          content="http://moreiradevelopment.io/social/moreira-development-twitcard.png" />
+    <!-- [ FONTS ] -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
-		<!-- [ RESPONSIVE VIEWPORT ] -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- [ RESPONSIVE VIEWPORT ] -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- [ Stylesheet ] -->
     <link href="./css/styles.css" rel="stylesheet">
     <!-- [ ICONS ] -->
@@ -55,22 +53,20 @@
     <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="/icons/apple-touch-startup-image-768x1004.png">
     <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="/icons/apple-touch-startup-image-1496x2048.png">
     <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="/icons/apple-touch-startup-image-1536x2008.png">
-
-	</head>
-	<body>
-      
-      <header>
-        <div class="inner-logo">
-          <img src="" alt="">
-        </div>
-        <p><span class="b-green">Canada's Biggest</span> Indoor Adventure Park</p>
+  </head>
+  <body>
+    <header>
+      <div class="inner-logo">
+        <img src="" alt="">
+      </div>
+      <p><span class="b-green">Canada's Biggest</span> Indoor Adventure Park</p>
         <nav>
           <ul>
-              <li><a href="#">Play</a></li>
-              <li><a href="#">Plan</a></li>
-              <li><a href="#">Groups</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Book Event</a></li>
+            <li><a href="#">Play</a></li>
+            <li><a href="#">Plan</a></li>
+            <li><a href="#">Groups</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Book Event</a></li>
             </ul>
           </nav>
           <ul class="mdev-account-links">
@@ -79,7 +75,6 @@
           </ul>
         </nav>
       </header>
-      
       <section class="mdev-hero inner-hero">
         <h1>Arcade</h1>
         <a href="cta-button">Buy Credits Now</a>
