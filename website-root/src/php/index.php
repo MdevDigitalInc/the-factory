@@ -12,7 +12,7 @@
       </div>
       <a href="cta-button" href="#">See All</a>
   </section>
-  
+
   <section class="mdev-promo-tiles">
     <div class="mdev-main-wrapper">
       <!-- Wordpress Loop -->
@@ -51,7 +51,7 @@
   </section>
   <section class="mdev-activity-tiles">
     <div class="mdev-main-wrapper">
-      
+
       <h3>More things to do at <span class="green">The Factory</span></h3>
       <div class="tile">
         <div class="tile-image">
@@ -126,7 +126,7 @@
         <a href="#" class="green">Get Directions</a>
       </div>
     </div>
-  </section> 
+  </section>
 </main>
 
 <?php include 'footer.php'; ?>
