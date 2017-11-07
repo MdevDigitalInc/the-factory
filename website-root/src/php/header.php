@@ -10,15 +10,20 @@
     <!--Main Navigation -->
     <?php include 'navigation.php'; ?>
 
-    <section class="tfac-main-hero">
-      <div class="tfac-hero-content flex flex-hor-start flex-vert-between">
-        <div class="tfac-home-logo">
-          <img src="./img/the-factory-logo.svg"  alt="The Factory, Canada's Biggest Indoor Adventure Park" />
+    <section class="tfac-hero-mask">
+      <div class="tfac-main-hero hero-bkg-filter" style="background-image:url('./img/heros/hero-home.png')">
+        <div class="tfac-hero-content flex flex-hor-start flex-vert-center">
+          <div class="tfac-home-logo tfac-logo-splash">
+            <img src="./img/the-factory-logo.svg"  alt="The Factory, Canada's Biggest Indoor Adventure Park" />
+          </div>
+          <div class="tfac-hero-cta">
+            <h1 class="tfac-hero-shadow u-uppercase">Build Your Adventure</h1>
+             <a class="tfac-btn tfac-main-cta"
+              href="#"
+              title="Book Event">Book Now<i class="tfac-btn-arrow"></i>
+            </a>
+          <div>
         </div>
-        <div class="tfac-hero-cta">
-          <h1>Build Your Own Adventure</h1>
-          <a href="tfac-btn tfac-main-cta" title="Book Now">Book Now</a>
-        <div>
       </div>
     </section>
 

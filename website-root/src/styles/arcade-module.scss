@@ -1,3 +1,5 @@
+
+/* stylelint-disable */
 .mdev-arcade-image-wrapper {
   -webkit-display: flex;
   display: flex;
@@ -13,7 +15,7 @@
 .mdev-arcade-image-wrapper div img {
   width: 100%;
   height: auto;
-} 
+}
 
 .mdev-arcade-image-wrapper img.back {
   position: relative;
@@ -25,7 +27,7 @@
   z-index: 2;
 }
 
-.mdev-arcade-wrapper { 
+.mdev-arcade-wrapper {
   margin-top: 120px;
   flex-grow: 2;
 }
@@ -56,3 +58,4 @@
 .mdev-arcade-content .button_wrapper a {
   margin-left: auto;
 }
+/* stylelint-enable */

@@ -8,14 +8,31 @@
 /-------------------------------------*/
 
 /* Base Button */
-.mdev-base-btn {
+.tfac-btn {
   width: auto;
   padding: 20px;
   transition: all, .3s;
   text-transform: uppercase;
-  font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  font-size: inherit;
 }
 
+.tfac-main-cta {
+  font-family: $heading-font;
+  padding: $tfac-padding-sm;
+  color: $black;
+  background: $tfac-green;
+}
 
+.tfac-btn-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  border-top: 6px solid transparent;
+  border-left: 6px solid $black;
+  border-bottom: 6px solid transparent;
+}
