@@ -4,7 +4,7 @@
     <span class="tfac-green">Canada's Biggest</span> Indoor Adventure Park
   </div>
 
-  <div class="tfac-nav-links flex flex-hor-end flex-hor-between">
+  <div class="tfac-nav-links flex flex-hor-end flex-hor-between flex-no-wrap">
       <a href="#" title="Play at The Factory">Play</a>
       <a href="#" title="Plan Your Outing">Plan</a>
       <a href="#" title="Groups Information">Groups</a>
@@ -13,8 +13,9 @@
         href="#"
         title="Book Event">Book Event</a>
 
-      <div class="tfac-account-links">
+      <div class="tfac-account-links u-capitalize">
         <a href="#" title="Account Login">Account login</a>
+        <span>|</span>
         <a href="#" title="Register Account">Register</a>
       </div>
   </div>

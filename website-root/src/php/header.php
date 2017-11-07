@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>TITLE TITLE TITLE</title>
+    <title>Indoor Adventure Park in London, Ontario | The Factory</title>
     <?php include 'meta-head.php'; ?>
     <!-- Add Scripts here if needed -->
   </head>

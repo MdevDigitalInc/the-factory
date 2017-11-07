@@ -5,7 +5,7 @@
 // Wrapper Classes
 
 .mdev-main-wrapper {
-  width: 95%;
+  width: 98%;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -15,12 +15,16 @@
     max-width: 800px;
   }
 
-  @media #{$laptop-up} {
+  @media #{$laptop-only} {
     max-width: 1400px;
   }
 
-  @media #{$xl-up} {
+  @media #{$desktop-only} {
     max-width: 1600px;
+  }
+
+  @media #{$xl-up} {
+    max-width: 1980px;
   }
 }
 
