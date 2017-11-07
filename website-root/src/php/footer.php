@@ -1,7 +1,9 @@
 <section class="mdev-cta-banner">
   <div class="mdev-main-wrapper">
       <h3>More to do at <span class="green">The Factory</span></h3>
-      <!-- loop to pull multiple featured images (up to a max of 7) -->
+      <div class="cta-image-wrapper">
+        <img src=""
+      </div>
       <div>
         <h2><span class="b-green">Canada's Biggest</span> Indoor adventure park</h2>
       </div>
