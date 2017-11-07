@@ -54,7 +54,7 @@ include 'header-inner.php'; ?>
   </section>
   <section class="mdev-adventure-plan">
     <div class="plan-content mdev-main-wrapper">
-      <h2>Plan your Indoor <span class="green">Adventure</span></h2>
+      <h3>Plan your Indoor <span class="green">Adventure</span></h3>
       <div class="plan-item">
         <!--icon-->
         <h3>How does it work?</h3>

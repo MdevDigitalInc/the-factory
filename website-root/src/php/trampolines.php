@@ -3,27 +3,26 @@ include 'header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
-    <section class="softplay-intro">
+    <section class="trampolines-intro">
       <div>
-        <h2>Kids <span class="green">0 - 10</span></h2>
-        <h4>Fun <span class="green">&amp;</span> Independant <span class="green">Play</span></h4>
-        <p>Finding fun things to do with kids and toddlers can be hard.  Located next to the big trampolines and ropes room, is a room just to their size, allowing families with kids of various ages to have fun at The Factory.  Kids will feel independent and accomplished as they conquer bite-sized challenges.</p>
+        <h2>Tame the <span class="green">Trampoline</span></h2>
+        <p>The Factory brings cutting edge innovation to the trampoline park by providing an experience where movement, lights and sound meet an adrenaline rush like no other.  Dunk harder on our basketball slam stations or time yourself on our multi-level Warrior Course experience.  Challenge your friends on the extreme glow-in-the-dark dodgeball court or on the battle beam dueling put.  With over 20,000 square feet of trampoline action, you'll make today unforgettable.</p>
         <div class="stats">
           <div>
-            <h3>5,500</h3>
+            <h3>20,000</h3>
             <p>Square Feet</p>
           </div>
           <div>
-            <h3>3</h3>
-            <p>Play Zones</p>
+            <h3>7</h3>
+            <p>Attractions</p>
           </div>
           <div>
-            <h3>8</h3>
-            <p>Scavenger Hunts</p>
+            <h3>20,000</h3>
+            <p>Trampoline Springs</p>
           </div>
           <div>
-            <h3>4</h3>
-            <p>Slides</p>
+            <h3>13</h3>
+            <p>Warrior Obstacles</p>
           </div>
         </div>
       </div>
@@ -43,7 +42,7 @@ include 'header-inner.php'; ?>
     </section>
   
     <section class="warrior-module">
-      <h3><span class="green">Warrior</span> Course</h3>
+      <h2><span class="green">Warrior</span> Course</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -62,7 +61,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="battle-beam-module">
-      <h3><span class="green">Battle</span> Beam</h3>
+      <h2><span class="green">Battle</span> Beam</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -76,7 +75,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="glow-ball-module">
-      <h3><span class="green">Glow</span> Ball</h3>
+      <h2><span class="green">Glow</span> Ball</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -90,7 +89,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="meltdown-module">
-      <h3><span class="green">Meltdown</span> Challenge</h3>
+      <h2><span class="green">Meltdown</span> Challenge</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
