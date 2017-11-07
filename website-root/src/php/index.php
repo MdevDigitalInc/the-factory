@@ -52,10 +52,10 @@
   <section class="mdev-activity-tiles">
     <div class="mdev-main-wrapper">
       
-      <h2>More things to do at <span class="green">The Factory</span></h2>
+      <h3>More things to do at <span class="green">The Factory</span></h3>
       <div class="tile">
         <div class="tile-image">
-        <h3>Axe Throwing</h3>
+        <h5>Axe Throwing</h5>
         </div>
         <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
         <img src="batl-logo.png" alt="BATL" />
@@ -76,11 +76,11 @@
   </section>
   <section class="mdev-party-tiles">
     <div class="mdev-main-wrapper">
-      <h2>Parties <span class="green">&</span>Event</span></h2>
+      <h4>Parties <span class="green">&</span>Event</span></h4>
       <p>Be the hero of your group and plan the best birthday party or special ever!  Book you party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
       <div class="tile">
         <img src="" alt="" />
-        <h3>Kids</h3>
+        <h6>Kids</h6>
         <p>Create a unique and fun birthday party experience for kids, that will leave them smiling for days</p>
         <a href="#" class="green">Learn More</a>
       </div>
@@ -100,7 +100,7 @@
   </section>
   <section class="mdev-adventure-plan">
     <div class="plan-content mdev-main-wrapper">
-      <h2>Plan your Indoor <span class="green">Adventure</span></h2>
+      <h3>Plan your Indoor <span class="green">Adventure</span></h3>
       <div class="plan-item">
         <!--icon-->
         <h3>How does it work?</h3>

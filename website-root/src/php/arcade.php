@@ -21,7 +21,8 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="laser-maze-module">
-      <h3><span class="green">Featuring</span>Laser Maze</h3>
+      <h3><span class="green">Featuring</span></h3>
+      <h2>Laser Maze</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -35,7 +36,8 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="trampoline-ninja-module">
-      <h3><span class="green">Featuring</span> Trampoline Ninja</h3>
+      <h3><span class="green">Featuring</span></h3>
+      <h2>Trampoline Ninja</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />

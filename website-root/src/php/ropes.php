@@ -29,7 +29,7 @@ include 'header-inner.php'; ?>
     </section>
   
     <section class="obstacle-module">
-      <h3><span class="green">Obstacles</span></h3>
+      <h2><span class="green">Obstacles</span></h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -43,7 +43,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="ziplines-module">
-      <h3><span class="green">Ziplines</span></h3>
+      <h2><span class="green">Ziplines</span></h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -57,7 +57,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="free-fall-module">
-      <h3>Free <span class="green">Fall</span></h3>
+      <h2>Free <span class="green">Fall</span></h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
