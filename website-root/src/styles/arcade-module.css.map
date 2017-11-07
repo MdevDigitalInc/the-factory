@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "file": "arcade-module.css",
-  "sources": [
-    "arcade-module.scss"
-  ],
-  "mappings": ";AAAA,AAAA,0BAA0B,CAAC;EACzB,eAAe,EAAE,IAAK;EACtB,OAAO,EAAE,IAAK;EACd,cAAc,EAAE,GAAI;EACpB,WAAW,EAAE,MAAO;EACpB,SAAS,EAAE,KAAM,GAClB;;;AAED,AAA2B,0BAAD,CAAC,GAAG,CAAC;EAC7B,eAAe,EAAE,YAAa,GAC/B;;;AAED,AAA+B,0BAAL,CAAC,GAAG,CAAC,GAAG,CAAC;EACjC,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK,GACd;;AACD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAoCE",
-  "names": []
-}

@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "file": "buttons.css",
-  "sources": [
-    "buttons.scss"
-  ],
-  "mappings": "AAAA;;;;;;;wCAOwC;AAExC,iBAAiB;;AACjB,AAAA,cAAc,CAAC;EACb,KAAK,EAAE,IAAK;EACZ,OAAO,EAAE,IAAK;EACd,UAAU,EAAE,QAAS;EACrB,cAAc,EAAE,SAAU;EAC1B,SAAS,EAAE,IAAK;EAChB,cAAc,EAAE,GAAI;EACpB,MAAM,EAAE,OAAQ,GACjB",
-  "names": []
-}
