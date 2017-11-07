@@ -6,8 +6,8 @@
  *	styles including colour and typography
  *
 /-------------------------------------*/
-
 /* Base Button */
+/* line 11, /Users/andrewwightman/Documents/GitHub/the-factory/website-root/src/styles/buttons.scss */
 .mdev-base-btn {
   width: auto;
   padding: 20px;
@@ -15,7 +15,6 @@
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-
+/*# sourceMappingURL=buttons.css.map */

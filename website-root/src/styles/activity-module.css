@@ -1,0 +1,17 @@
+/* line 1, /Users/andrewwightman/Documents/GitHub/the-factory/website-root/src/styles/activity-module.scss */
+.mdev-activity-tiles .mdev-main-wrapper .tiles {
+  -webkit-display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/* line 8, /Users/andrewwightman/Documents/GitHub/the-factory/website-root/src/styles/activity-module.scss */
+.mdev-activity-tiles .mdev-main-wrapper .tiles .tile {
+  width: 410px; }
+
+/* line 12, /Users/andrewwightman/Documents/GitHub/the-factory/website-root/src/styles/activity-module.scss */
+.mdev-activity-tiles .mdev-main-wrapper .tiles .tile .tile-image {
+  width: 100%;
+  height: 335px; }
+
+/*# sourceMappingURL=activity-module.css.map */
