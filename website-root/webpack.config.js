@@ -26,7 +26,7 @@ const rootNodeModulesPath = resolve(__dirname, 'node_modules')
 // Determines the name of the output folder
 // that webpack will create to adhere to
 // wordpress documentation.
-const THEME_NAME        = 'mdev-theme'
+const THEME_NAME        = 'tfac-theme'
 exports.THEME_NAME      = THEME_NAME
 
 // Generate Style Loader Order

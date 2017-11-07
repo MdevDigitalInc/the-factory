@@ -17,7 +17,7 @@
     <meta name="twitter:description"    content="Base Project Install" />
     <meta name="twitter:image"          content="http://moreiradevelopment.io/social/moreira-development-twitcard.png" />
     <!-- [ FONTS ] -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar|Lato:400,700" rel="stylesheet">
     <!-- [ RESPONSIVE VIEWPORT ] -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- [ Stylesheet ] -->
@@ -73,7 +73,7 @@
         </ul>
       </section>
     </header>
-      
+
     <section class="mdev-hero">
       <div class="tfac-home-logo">
         <img src=""  alt="" />

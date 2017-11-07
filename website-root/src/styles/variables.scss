@@ -7,19 +7,38 @@ $color-brand-primary: #13b2a9;
 $color-brand-accent: #333;
 $bkg-light-grey: #fafafa;
 $black: #000;
-$white: #fff;
+$white: #fafafa;
 
+$tfac-green: #a8eb06;
+$tfac-blue: #0ab1b7;
+$tfac-red: #c80003;
+$tfac-yellow: #eee606;
 
 // Main Font
-$main-font: 'Titillium Web', 'Helvetica', sans-serif;
-$heading-weight: 700;
-$subheading-weight: 500;
-$body-weight: 300;
+$main-font: 'Lato', Helvetica, sans-serif;
+$heading-font: 'Lalezar', cursive;
 
+$font-weight-bold: 700;
+$heading-weight: $font-weight-bold;
+$font-weight-subheading: 500;
+$font-weight-body: 400;
+
+$line-height-body: 30px;
 // Sizing Variables
+$font-size-body: 18px;
 
 // Spacing Variables
+$tfac-padding-sm: 20px;
+$tfac-padding-md: 25px;
+$tfac-padding-lg: 30px;
 
+$letter-spacing-sm: 16px;
+$letter-spacing-md: 20px;
+$letter-spacing-lg: 26px;
+
+$line-height-sm: 26px;
+$line-height-md: 30px;
+$line-height-lg: 90px;
 // Button Variables
 
 // Radius Variables

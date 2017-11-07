@@ -64,4 +64,6 @@ mdev-theme/
 *.ds_store
 .DS_STORE
 *.DS_STORE
-
+tfac-theme/
+**/*/tfac-theme/
+**/tfac-theme/
