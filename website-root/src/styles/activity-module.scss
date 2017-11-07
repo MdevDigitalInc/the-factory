@@ -1,0 +1,15 @@
+.mdev-activity-tiles .mdev-main-wrapper .tiles {
+  -webkit-display:flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mdev-activity-tiles .mdev-main-wrapper .tiles .tile {
+  width: 410px;
+}
+
+.mdev-activity-tiles .mdev-main-wrapper .tiles .tile .tile-image {
+  width: 100%;
+  height: 335px;
+}

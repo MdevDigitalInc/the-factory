@@ -38,47 +38,8 @@ include 'header-inner.php'; ?>
       </div>
       <a href="cta-button" href="#">Find our More</a>
   </section>
-  <section class="mdev-arcade-module">
-    <!-- Add Metaboxes for 3 different images -->
-    <div class="mdev-arcade-image-wrapper">
-      <div>
-        <img class="back" src="img/arcade/arcade-left.png" alt="" />
-      </div>
-      <div class="mdev-arcade-wrapper">
-        <div>
-        <img class="top" src="img/arcade/arcade-main.png" alt="" />
-        </div>
-        <div class="mdev-arcade-content">
-          <div class="mdev-arcade-title">
-            <h2 class="mdev-arcade-title u-uppercase">Arcade</h2>
-          </div>
-          <div>
-            <p>Add to your fun at The Factory by adding arcade credits to your day and redeeming some prizes to take home! Play the latest games with over 40 different ones to choose from.</p>
-            <div class="button_wrapper">
-              <a class="tfac-btn tfac-main-cta" href="#">See Games</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img class="back" src="img/arcade/arcade-right.jpg" alt="" />
-      </div>
-    </div>
-  </section>
-  <section class="mdev-activity-tiles">
-    <div class="mdev-main-wrapper">
-      
-      <h2>More things to do at <span class="green">The Factory</span></h2>
-      <div class="tile">
-        <div class="tile-image">
-        <h3>Axe Throwing</h3>
-        </div>
-        <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-        <img src="batl-logo.png" alt="BATL" />
-        <a href="#" class="cta-button">More</a>
-      </div>
-    </div>
-  </section>
+  <?php include 'arcade-module.php'; ?>
+  <?php include 'activity-module.php'; ?>
   <section class="mdev-adventure-plan">
     <div class="plan-content mdev-main-wrapper">
       <h3>Plan your Indoor <span class="green">Adventure</span></h3>

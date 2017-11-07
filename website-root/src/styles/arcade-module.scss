@@ -14,6 +14,7 @@
   width: 100%;
   height: auto;
 } 
+
 .mdev-arcade-image-wrapper img.back {
   position: relative;
   z-index: 1;
@@ -24,7 +25,7 @@
   z-index: 2;
 }
 
-.mdev-arcade-wrapper{
+.mdev-arcade-wrapper { 
   margin-top: 120px;
   flex-grow: 2;
 }
@@ -52,6 +53,6 @@
   text-align: right;
 }
 
-.mdev-arcade-content .button_wrapper a{
+.mdev-arcade-content .button_wrapper a {
   margin-left: auto;
 }
