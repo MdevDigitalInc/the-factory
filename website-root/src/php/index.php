@@ -3,6 +3,7 @@
 <main role="main">
   <section class="mdev-feature-splash mdev-main-wrapper">
     <h2>Make Today <span class="green">Epic</span></h2>
+      <h1>Make America Great Again</h1>
       <p>Located in London, Ontario, The Factory is the must-do attraction for the active and adventurous, with many activities to choose from, all under one roof.  The decision is yours - make yoday like every other day, or make today epic.</p>
       <div class="mdev-activity-list">
       <!-- Wordpress Query/Loop - Background Image attached to mdev-activity, CPT Title on H3 -->
@@ -12,7 +13,7 @@
       </div>
       <a href="cta-button" href="#">See All</a>
   </section>
-  
+
   <section class="mdev-promo-tiles">
     <div class="mdev-main-wrapper">
       <!-- Wordpress Loop -->
@@ -51,7 +52,7 @@
   </section>
   <section class="mdev-activity-tiles">
     <div class="mdev-main-wrapper">
-      
+
       <h3>More things to do at <span class="green">The Factory</span></h3>
       <div class="tile">
         <div class="tile-image">
@@ -126,7 +127,7 @@
         <a href="#" class="green">Get Directions</a>
       </div>
     </div>
-  </section> 
+  </section>
 </main>
 
 <?php include 'footer.php'; ?>
