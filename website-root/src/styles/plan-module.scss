@@ -40,14 +40,12 @@
     line-height: $line-height-sm;
   }
   
-  .link-wrapper{
+  .link-wrapper {
     padding-top: $tfac-padding-sm;
     
     a {
       letter-spacing: $letter-spacing-md;
-      font-size: $font-size-slogan
+      font-size: $font-size-slogan;
     }
   }
-  
-
 }
