@@ -36,6 +36,10 @@
   vertical-align: middle;
 }
 
+.u-normal-weight {
+  font-weight: 400;
+}
+
 .u-heading-weight {
   font-weight: 700;
 }
@@ -64,6 +68,10 @@
 /* stylelint-enable */
 .u-bold {
   font-weight: $heading-weight;
+}
+
+.u-normal {
+  font-weight: $font-weight-body;
 }
 
 .u-hidden {
