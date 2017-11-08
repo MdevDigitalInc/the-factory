@@ -1,7 +1,7 @@
 <section class="mdev-activity-tiles">
     <div class="mdev-main-wrapper">
 
-      <h3>More things to do at <span class="green">The Factory</span></h3>
+      <h3 class="activity-title u-uppercase u-normal">More things to do at <span class="tfac-blue u-bold">The Factory</span></h3>
       <div class="tiles">
         <div class="tile">
           <div class="tile-image" style="background-image: url('img/home/home-feat-axethrowing.png')">
