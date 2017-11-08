@@ -1,7 +1,4 @@
-.mdev-arcade-module {
-  padding: 75px 0;
-}
-
+/* stylelint-disable */
 .mdev-arcade-image-wrapper {
   -webkit-display: flex;
   display: flex;
@@ -28,7 +25,7 @@
     z-index: 2;
   }
 
-  .mdev-arcade-wrapper { 
+  .mdev-arcade-wrapper {
     margin-top: 120px;
     flex-grow: 2;
   }
@@ -39,25 +36,26 @@
     flex-direction: row;
     margin: 20px 0;
     padding: 0 10px;
-    
+
     .mdev-arcade-title {
       flex-basis: 50%;
       text-align: center;
     }
-    
+
     p {
       line-height: $line-height-sm;
     }
-    
+
     .button_wrapper {
       margin-top: 20px;
       display: flex;
       text-align: right;
     }
-    
+
     a {
       font-size: $font-size-button;
       margin-left: auto;
     }
   }
 }
+/* stylelint-enable */
