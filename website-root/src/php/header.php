@@ -8,7 +8,7 @@
   </head>
   <body>
     <!--Main Navigation -->
-    <?php include 'navigation.php'; ?>
+    <?php include 'nav/navigation.php'; ?>
 
     <section class="tfac-hero-mask">
       <div class="tfac-main-hero hero-bkg-filter" style="background-image:url('./img/heros/hero-home.png')">

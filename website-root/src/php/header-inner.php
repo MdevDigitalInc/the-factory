@@ -2,24 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>TITLE TITLE TITLE</title>
+    <title>Indoor Adventure Park in London, Ontario | The Factory</title>
     <?php include 'meta-head.php'; ?>
     <!-- Add Scripts here if needed -->
   </head>
   <body>
     <!--Main Navigation -->
-    <?php include 'navigation.php'; ?>
+    <?php include 'nav/navigation.php'; ?>
 
-    <section class="tfac-main-hero">
-      <div class="mdev-main-wrapper">
-        <div class="tfac-hero-content flex flex-hor-start flex-vert-between">
-          <div class="tfac-home-logo">
-            <img src="./img/the-factory-logo.svg"  alt="The Factory, Canada's Biggest Indoor Adventure Park" />
+    <section class="tfac-hero-mask">
+      <div class="tfac-main-hero hero-bkg-filter" style="background-image:url('./img/heros/hero-home.png')">
+        <div class="mdev-main-wrapper">
+          <div class="tfac-hero-content flex flex-hor-start flex-vert-center">
+            <div class="tfac-hero-cta">
+              <h1 class="tfac-hero-shadow u-uppercase">Build Your Adventure</h1>
+               <a class="tfac-btn tfac-main-cta"
+                href="#"
+                title="Buy Credits">Buy Credits Now<i class="tfac-btn-arrow"></i>
+              </a>
+            <div>
           </div>
-          <div class="tfac-hero-cta">
-            <h1>Arcade</h1>
-            <a href="cta-button">Buy Credits Now</a>
-          <div>
         </div>
       </div>
     </section>

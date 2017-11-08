@@ -3,7 +3,7 @@
   width: 100%;
   position: fixed;
   top: 0;
-  padding: 30px;
+  padding: $tfac-padding-sm $tfac-padding-lg;
   left: 0;
   color: $white;
   font-size: $font-size-body;
@@ -11,6 +11,14 @@
 
   a {
     margin: 0 20px;
+  }
+
+  .tfac-main-cta {
+    line-height: 14px;
+  }
+
+  .tfac-nav-slogan {
+    font-size: 20px;
   }
 }
 
