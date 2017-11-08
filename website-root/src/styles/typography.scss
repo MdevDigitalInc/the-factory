@@ -7,6 +7,7 @@ body {
   font-family: $main-font;
   font-size: $font-size-body;
   color: $black;
+  z-index: 1;
 }
 
 /* Headings & Body Copy */
