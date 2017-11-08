@@ -23,17 +23,18 @@ h4,.h4,
 h5,.h5,
 h6,.h6, {
   font-family: $main-font;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   color: inherit;
 }
 
 h1,
 .h1 {
   font-family: $heading-font;
+  font-weight: $font-weight-body;
 }
 
 .mdev-arcade-title {
-  font-weight: 400;
+  font-weight: $font-weight-body;
 }
 
 // Responsive Font Size Maps

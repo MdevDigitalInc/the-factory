@@ -10,10 +10,12 @@
   width: 100%;
   position: relative;
   height: auto;
-  padding: 37vh 0;
+  padding: 34vh 0;
+  max-height: 900px;
   // Background defined inline on template
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center top;
 
   .tfac-hero-content {
     position: relative;
@@ -25,22 +27,30 @@
     width: 25%;
     position: relative;
     text-align: center;
+    top: -25px;
 
     img {
       width: 55%;
+      margin-right: 40px;
+      position: relative;
     }
   }
 
   .tfac-hero-cta {
-    padding-left: $tfac-padding-lg;
+    padding-left: $tfac-padding-sm;
     color: $white;
     width: 45%;
-    line-height: 90px;
-    letter-spacing: 20px;
+
+    h1 {
+      line-height: 90px;
+      letter-spacing: 5px;
+    }
   }
 
   .tfac-main-cta {
     font-size: 30px;
+    line-height: 24px;
+    vertical-align: middle;
   }
 
   .tfac-hero-shadow {
@@ -79,12 +89,13 @@
 
   &:before {
     @include pseudo();
-    width: 520px;
+    width: 100%;
     z-index: -1;
     background-image: url('../img/splashes/splash-home.svg');
     background-repeat: no-repeat;
     background-size: 100%;
-    @include center(vertical);
-    @include responsive-ratio(577,669);
+    top: 58%;
+    transform: translate3d( 0, -50%, 0);
+    @include responsive-ratio(476,560);
   }
 }

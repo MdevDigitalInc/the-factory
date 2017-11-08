@@ -12,13 +12,12 @@
 <meta name="twitter:description"    content="Base Project Install" />
 <meta name="twitter:image"          content="http://moreiradevelopment.io/social/moreira-development-twitcard.png" />
 <!-- [ FONTS ] -->
-<link href="https://fonts.googleapis.com/css?family=Lalezar|Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lalezar|Lato:400,700,900" rel="stylesheet">
 <!-- [ RESPONSIVE VIEWPORT ] -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- [ Stylesheet ] -->
 <link href="./css/styles.css" rel="stylesheet">
 <!-- [ ICONS ] -->
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="theme-color" content="#fff">
