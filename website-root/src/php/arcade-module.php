@@ -15,7 +15,7 @@
           <div>
             <p>Add to your fun at The Factory by adding arcade credits to your day and redeeming some prizes to take home! Play the latest games with over 40 different ones to choose from.</p>
             <div class="button_wrapper">
-              <a class="mdev-base-btn mdev-green-btn" href="#">See Games</a>
+              <a class="tfac-btn tfac-main-cta" href="#">See Games</a>
             </div>
           </div>
         </div>
