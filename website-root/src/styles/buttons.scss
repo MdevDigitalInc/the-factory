@@ -16,8 +16,13 @@
   letter-spacing: 1px;
   cursor: pointer;
   display: inline-block;
-  line-height: 20px;
   font-size: inherit;
+  font-family: $heading-font;
+}
+
+.mdev-green-btn {
+  background: $tfac-green;
+  color: $black;
 }
 
 .tfac-main-cta {
