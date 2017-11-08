@@ -11,9 +11,9 @@
             <div>
               <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
             </div>
-            <div>
+            <div class="cta-wrapper">
               <img src="batl-logo.png" alt="BATL" />
-              <a href="#" class="mdev-base-btn mdev-green-btn">More</a>
+              <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
           </div>
         </div>
       </div>
@@ -25,9 +25,9 @@
             <div>
               <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
             </div>
-            <div>
+            <div class="cta-wrapper">
               <img src="batl-logo.png" alt="BATL" />
-              <a href="#" class="mdev-base-btn mdev-green-btn">More</a>
+              <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
           </div>
         </div>
       </div>
@@ -39,9 +39,9 @@
             <div>
               <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
             </div>
-            <div>
+            <div class="cta-wrapper">
               <img src="batl-logo.png" alt="BATL" />
-              <a href="#" class="mdev-base-btn mdev-green-btn">More</a>
+              <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
           </div>
         </div>
       </div>
