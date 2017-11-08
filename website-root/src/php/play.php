@@ -40,35 +40,7 @@ include 'header-inner.php'; ?>
   </section>
   <?php include 'arcade-module.php'; ?>
   <?php include 'activity-module.php'; ?>
-  <section class="mdev-adventure-plan">
-    <div class="plan-content mdev-main-wrapper">
-      <h3>Plan your Indoor <span class="green">Adventure</span></h3>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>How does it work?</h3>
-        <p>Questions about how to book your visit and what to do when you arrive?  We can help.</p>
-        <a href="#" class="green">Plan your visit</a>
-      </div>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>Food &amp; Drink</h3>
-        <p>We have food and drink options for all visitors large and small!</p>
-        <a href="#" class="green">See all food &amp; drink</a>
-      </div>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>Hours</h3>
-        <p>Hours vary by day and season but we're open any time for group bookings.  Visit our <a href="#">plan</a> page for more details</p>
-        <a href="#" class="green">See current hours</a>
-      </div>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>Directions</h3>
-        <p>We are located at 100 Kellogg Lane in London, Ontario</p>
-        <a href="#" class="green">Get Directions</a>
-      </div>
-    </div>
-  </section>
+  <?php include 'plan-module.php'; ?>
   
   
 </main>
