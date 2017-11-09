@@ -45,12 +45,10 @@
 -----*/
 @import './wp_core.scss';
 
-
 /*---
   Scaffold
 -----*/
 @import './scaffolding.scss';
-
 
 /*---
  * Navigation
@@ -68,11 +66,6 @@
 @import './buttons.scss';
 
 /*----
-  Print
------*/
-@import './print.scss';
-
-/*----
   Modules
 -----*/
 @import './intro-module.scss';
@@ -80,5 +73,11 @@
 @import './activity-module.scss';
 @import './plan-module.scss';
 @import './footer.scss';
+@import './splash-module.scss';
+
+/*----
+  Print
+-----*/
+@import './print.scss';
 
 

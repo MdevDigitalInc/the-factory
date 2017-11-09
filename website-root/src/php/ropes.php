@@ -1,5 +1,5 @@
 <?php /* Template Name: Ropes */
-include 'header-inner.php'; ?>
+include 'hero-headers/header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">

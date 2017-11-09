@@ -19,13 +19,22 @@
   line-height: 20px;
   font-size: inherit;
   position: relative;
+  font-family: $main-font;
+  font-weight: 900;
 }
 
 .tfac-main-cta {
-  font-family: $main-font;
-  font-weight: 900;
   color: $black;
   background: $tfac-green;
+}
+
+.tfac-secondary-cta {
+  color: $white;
+  background: $tfac-blue;
+
+  .tfac-btn-arrow {
+    border-left: 11px solid $white;
+  }
 }
 
 .tfac-btn-arrow {

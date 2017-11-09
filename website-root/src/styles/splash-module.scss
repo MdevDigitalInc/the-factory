@@ -1,0 +1,127 @@
+// Splash Modules
+.tfac-splash-module {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+
+  .tfac-splash-heading {
+    width: 50%;
+  }
+
+  .tfac-splash-content {
+    width: 48%;
+    padding: 0 60px;
+
+    p {
+      line-height: $line-height-md;
+      margin-bottom: $tfac-padding-xl;
+    }
+  }
+}
+
+//Splash Item Sizes
+$splash-item-desktop: 220px;
+
+.tfac-splash-list {
+  width: 100%;
+  position: relative;
+  margin-bottom: $tfac-padding-xl;
+
+  .tfac-splash-item {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    display: block;
+    height: $splash-item-desktop;
+    z-index: 2;
+
+    &:before {
+      @include pseudo();
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,.09) 60%,rgba(0,0,0,.8) 100%);
+    }
+
+    img {
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+
+    .tfac-splash-item-title {
+      position: absolute;
+      z-index: 10;
+      left: $tfac-padding-sm;
+      bottom: $tfac-padding-sm;
+      color: $white;
+    }
+  }
+}
+
+// Padding
+.tfac-splash-padding {
+  padding: 70px 0 120px;
+}
+
+
+// Home Page Splashes
+.tfac-splash {
+  width: 100%;
+  position: relative;
+}
+
+// Splash Hero
+.tfac-splash-hero {
+  width: 60%;
+  z-index: -1;
+  background-size: cover;
+  @include center(vertical);
+  top: 54%;
+  background-position-x: left;
+  background-position-y: $tfac-padding-xl;
+}
+
+.tfac-splash-mask {
+  width: 100%;
+  padding-top: 87%;
+  background-image: url('../img/splashes/splash-feature.svg');
+  background-size: 101%;
+  background-position: -5px;
+}
+
+// Left | Right overrides
+.tfac-splash-right {
+  .tfac-splash-heading {
+    text-align: left;
+    order: 2;
+  }
+
+  .tfac-splash-content {
+    order: 1;
+  }
+  .tfac-btn {
+    float: left;
+  }
+  .tfac-splash-hero {
+    right: 0;
+  }
+}
+
+.tfac-splash-left {
+  .tfac-splash-heading {
+    text-align: right;
+    order: 1;
+  }
+
+  .tfac-splash-content {
+    order: 2;
+  }
+  .tfac-btn {
+    float: right;
+  }
+
+  .tfac-splash-hero {
+    left: 0;
+  }
+}

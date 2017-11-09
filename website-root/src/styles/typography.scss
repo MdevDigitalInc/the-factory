@@ -7,6 +7,7 @@ body {
   font-family: $main-font;
   font-size: $font-size-body;
   color: $black;
+  background-color: $white;
   z-index: 1;
 }
 
@@ -23,7 +24,7 @@ h4,.h4,
 h5,.h5,
 h6,.h6, {
   font-family: $main-font;
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-body;
   color: inherit;
 }
 

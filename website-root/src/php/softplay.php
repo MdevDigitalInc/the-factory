@@ -1,5 +1,5 @@
-<?php /* Template Name: Softplay */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Softplay */
+include 'hero-headers/header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
@@ -41,7 +41,7 @@ include 'header-inner.php'; ?>
         </div>
       </div>
     </section>
-  
+
     <section class="playground-module">
       <h2>Adventure <span class="green">Playground</span></h2>
       <div class="splash"></div>
