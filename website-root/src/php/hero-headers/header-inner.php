@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Indoor Adventure Park in London, Ontario | The Factory</title>
-    <?php include 'meta-head.php'; ?>
+    <?php include 'modules/meta-head.php'; ?>
     <!-- Add Scripts here if needed -->
   </head>
   <body>

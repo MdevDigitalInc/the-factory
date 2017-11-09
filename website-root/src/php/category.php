@@ -15,5 +15,5 @@
 	</main>
 
 
-<?php include 'sidebar.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include 'structure/sidebar.php'; ?>
+<?php include 'structure/footer.php'; ?>
