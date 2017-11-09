@@ -3,31 +3,7 @@ include 'header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
-    <section class="ropes-intro">
-      <div>
-        <h2>Highest <span class="green">&amp;</span> Largest <span class="green">Indoor Ropes Course</span> in North America</h2>
-        <p>With over 90 rope obstacles to choose from, and heights reaching 75 feet, every time you face The Factory's ropes course, you can have a whole new challenge to defeat.  Soar over the trampoline park on one of the 145 foot ziplines or bravely jump from a 5 foot freefall; the highest in North America</p>
-        <div class="stats">
-          <div>
-            <h3>88</h3>
-            <p>Obstacles</p>
-          </div>
-          <div>
-            <h3>75</h3>
-            <p>Feet High</p>
-          </div>
-          <div>
-            <h3>145</h3>
-            <p>Foot Ziplines</p>
-          </div>
-          <div>
-            <h3>2</h3>
-            <p>Free Fall Jumps</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <?php include 'intro-module.php'; ?>
     <section class="obstacle-module">
       <h2><span class="green">Obstacles</span></h2>
       <div class="splash"></div>
