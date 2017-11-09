@@ -38,10 +38,10 @@ include 'hero-headers/header-video.php'; ?>
       </div>
       <a href="cta-button" href="#">Find our More</a>
   </section>
-  <?php include 'arcade-module.php'; ?>
-  <?php include 'activity-module.php'; ?>
-  <?php include 'plan-module.php'; ?>
+  <?php include 'modules/arcade-module.php'; ?>
+  <?php include 'modules/activity-module.php'; ?>
+  <?php include 'modules/plan-module.php'; ?>
 
 
 </main>
-<?php include 'footer.php'; ?>
+<?php include 'structure/footer.php'; ?>

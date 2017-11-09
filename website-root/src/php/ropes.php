@@ -3,7 +3,7 @@ include 'hero-headers/header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
-    <?php include 'intro-module.php'; ?>
+    <?php include 'modules/intro-module.php'; ?>
     <section class="obstacle-module">
       <h2><span class="green">Obstacles</span></h2>
       <div class="splash"></div>
@@ -48,4 +48,4 @@ include 'hero-headers/header-inner.php'; ?>
     </section>
   </section>
 </main>
-<?php include 'footer.php'; ?>
+<?php include 'structure/footer.php'; ?>

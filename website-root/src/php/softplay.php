@@ -86,4 +86,4 @@ include 'hero-headers/header-inner.php'; ?>
     </section>
   </section>
 </main>
-<?php include 'footer.php'; ?>
+<?php include 'structure/footer.php'; ?>
