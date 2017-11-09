@@ -11,7 +11,20 @@
     <?php include 'nav/navigation-inner.php'; ?>
 
     <section class="tfac-hero-mask">
-      <div class="tfac-main-hero hero-bkg-filter tfac-hero-inner" style="background-image:url('./img/heros/hero-arcade.png')">
+      <div class="tfac-main-hero hero-bkg-filter tfac-hero-inner">
+        <!--
+          HTML 5 Video Module
+          - Make sure to add a poster="" attribute with a still of the first frame
+          - Add .webm video with perfect looping.
+        -->
+        <video class="tfac-hero-video"
+          poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg"
+          style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jp'); background-size: 100%;"
+          preload="auto" autoplay muted loop>
+            <!-- Add Sources Here -->
+            <source src="https://zippy.gfycat.com/PoliticalChubbyBaboon.webm" type="video/webm">
+            <source src="https://zippy.gfycat.com/PoliticalChubbyBaboon.mp4" type="video/mp4">
+        </video>
         <div class="mdev-main-wrapper">
           <div class="tfac-hero-content flex flex-hor-start flex-vert-center">
             <div class="tfac-hero-cta">

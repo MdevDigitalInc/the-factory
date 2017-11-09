@@ -1,4 +1,4 @@
-<?php /* Template Name: Ropes */ 
+<?php /* Template Name: Ropes */
 include 'header-inner.php'; ?>
 
 <main role="main">
@@ -27,7 +27,7 @@ include 'header-inner.php'; ?>
         </div>
       </div>
     </section>
-  
+
     <section class="obstacle-module">
       <h2><span class="green">Obstacles</span></h2>
       <div class="splash"></div>

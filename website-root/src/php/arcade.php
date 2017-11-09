@@ -1,5 +1,5 @@
-<?php /* Template Name: Arcade */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Arcade */
+include 'hero-headers/header-inner-video.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
