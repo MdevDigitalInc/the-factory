@@ -19,7 +19,32 @@
 
   .tfac-nav-slogan {
     font-size: 20px;
+    margin-bottom: 5px;
   }
+}
+
+.tfac-nav-branding {
+  width: 15%;
+  min-width: 146px;
+  padding: 0 65px;
+  position: relative;
+  z-index: 10;
+
+  &:before {
+    @include pseudo();
+    width: 115%;
+    top: -25px;
+    background-image: url('../img/splashes/splash-nav.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+    @include center(horizontal);
+    @include responsive-ratio(318,400);
+  }
+}
+
+.tfac-main-nav-inner {
+  width: 83%;
 }
 
 .tfac-account-links {

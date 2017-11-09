@@ -1,4 +1,4 @@
-<?php /* Template Name: Ropes */ 
+<?php /* Template Name: Ropes */
 include 'header-inner.php'; ?>
 
 <main role="main">

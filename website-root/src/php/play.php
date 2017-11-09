@@ -1,5 +1,5 @@
-<?php /* Template Name: Play */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Play */
+include 'hero-headers/header-video.php'; ?>
 
 <main role="main">
   <section class="ropes-splash">
@@ -41,7 +41,7 @@ include 'header-inner.php'; ?>
   <?php include 'arcade-module.php'; ?>
   <?php include 'activity-module.php'; ?>
   <?php include 'plan-module.php'; ?>
-  
-  
+
+
 </main>
 <?php include 'footer.php'; ?>

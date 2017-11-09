@@ -9,9 +9,8 @@
 .tfac-main-hero {
   width: 100%;
   position: relative;
-  height: auto;
-  padding: 34vh 0;
-  max-height: 900px;
+  height: 100vh;
+  max-height: 880px;
   // Background defined inline on template
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,6 +20,7 @@
     position: relative;
     z-index: 10;
     width: 100%;
+    @include center(vertical);
   }
 
   .tfac-home-logo {
@@ -39,7 +39,7 @@
   .tfac-hero-cta {
     padding-left: $tfac-padding-sm;
     color: $white;
-    width: 45%;
+    width: 50%;
 
     h1 {
       line-height: 90px;
@@ -58,7 +58,24 @@
   }
 }
 
+.tfac-hero-inner {
+  height: auto;
 
+  .mdev-main-wrapper {
+    height: 100vh;
+    max-height: 880px;
+  }
+}
+
+// Video Hero
+.tfac-hero-video {
+  width: 115%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+// Filters
 .hero-bkg-filter {
   z-index: 2;
 
