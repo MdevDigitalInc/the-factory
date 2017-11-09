@@ -6,21 +6,47 @@
 $color-brand-primary: #13b2a9;
 $color-brand-accent: #333;
 $bkg-light-grey: #fafafa;
-$black: #000;
-$white: #fff;
+$black: #333;
+$white: #fafafa;
 
+$tfac-green: #a8eb06;
+$tfac-blue: #0ab1b7;
+$tfac-red: #c80003;
+$tfac-yellow: #eee606;
 
 // Main Font
-$main-font: 'Titillium Web', 'Helvetica', sans-serif;
-$heading-weight: 700;
-$subheading-weight: 500;
-$body-weight: 300;
+$main-font: 'Lato', Helvetica, sans-serif;
+$heading-font: 'Lalezar', cursive;
 
+$font-weight-bold: 700;
+$heading-weight: $font-weight-bold;
+$font-weight-subheading: 500;
+$font-weight-body: 400;
+
+$line-height-body: 30px;
 // Sizing Variables
+$font-size-body: 18px;
+$font-size-slogan: 20px;
+$font-size-small: 16px;
+$font-size-button: 26px;
+$font-size-cta-heading: 30px;
+$intro-stats-number: 72px;
+$intro-stats: 24px;
 
 // Spacing Variables
+$tfac-padding-sm: 20px;
+$tfac-padding-md: 25px;
+$tfac-padding-lg: 30px;
+$tfac-padding-xl: 40px;
 
+$letter-spacing-sm: 1.6px;
+$letter-spacing-md: 2px;
+$letter-spacing-lg: 2.6px;
+
+$line-height-sm: 26px;
+$line-height-md: 30px;
+$line-height-lg: 90px;
 // Button Variables
-
+$tfac-lato-button-pad: 18px 20px 16px;
 // Radius Variables
 $standard-radius: 4px;

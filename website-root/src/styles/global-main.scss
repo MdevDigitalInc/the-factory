@@ -45,18 +45,36 @@
 -----*/
 @import './wp_core.scss';
 
-
 /*---
   Scaffold
 -----*/
 @import './scaffolding.scss';
 
+/*---
+ * Navigation
+-----*/
+@import './navigation.scss';
 
+/*---
+ * Hero Headers
+-----*/
+@import './hero-header.scss';
 
 /*----
   Buttons
 -----*/
 @import './buttons.scss';
+
+/*----
+  Modules
+-----*/
+@import './intro-module.scss';
+@import './arcade-module.scss';
+@import './activity-module.scss';
+@import './plan-module.scss';
+@import './arcade-page.scss';
+@import './footer.scss';
+@import './splash-module.scss';
 
 /*----
   Print

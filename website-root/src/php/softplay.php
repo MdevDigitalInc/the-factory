@@ -1,12 +1,12 @@
-<?php /* Template Name: Softplay */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Softplay */
+include 'hero-headers/header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
     <section class="softplay-intro">
       <div>
         <h2>Kids <span class="green">0 - 10</span></h2>
-        <h4>Fun <span class="green">&amp;</span> Independant <span class="green">Play</span></h4>
+        <h2>Fun <span class="green">&amp;</span> Independant <span class="green">Play</span></h2>
         <p>Finding fun things to do with kids and toddlers can be hard.  Located next to the big trampolines and ropes room, is a room just to their size, allowing families with kids of various ages to have fun at The Factory.  Kids will feel independent and accomplished as they conquer bite-sized challenges.</p>
         <div class="stats">
           <div>
@@ -41,9 +41,9 @@ include 'header-inner.php'; ?>
         </div>
       </div>
     </section>
-  
+
     <section class="playground-module">
-      <h3>Adventure <span class="green">Playground</span></h3>
+      <h2>Adventure <span class="green">Playground</span></h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -57,7 +57,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="infant-module">
-      <h3><span class="green">Infant</span> Area</h3>
+      <h2><span class="green">Infant</span> Area</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -71,7 +71,7 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="interactive-module">
-      <h3><span class="green">Interactive</span> Play</h3>
+      <h2><span class="green">Interactive</span> Play</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -86,4 +86,4 @@ include 'header-inner.php'; ?>
     </section>
   </section>
 </main>
-<?php include 'footer.php'; ?>
+<?php include 'structure/footer.php'; ?>

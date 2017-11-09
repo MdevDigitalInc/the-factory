@@ -1,5 +1,5 @@
-<?php /* Template Name: Play */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Play */
+include 'hero-headers/header-video.php'; ?>
 
 <main role="main">
   <section class="ropes-splash">
@@ -12,7 +12,7 @@ include 'header-inner.php'; ?>
           <h3>Rope Obstacles</h3>
         </div>
       </div>
-      <a href="cta-button" href="#">Find our More/a>
+      <a href="cta-button" href="#">Find our More</a>
   </section>
   <section class="trampolines-splash">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquit ex ea commodo consequat.</p>
@@ -36,52 +36,12 @@ include 'header-inner.php'; ?>
           <h3>Adventure Playground</h3>
         </div>
       </div>
-      <a href="cta-button" href="#">Find our More/a>
+      <a href="cta-button" href="#">Find our More</a>
   </section>
-  <section class="mdev-activity-tiles">
-    <div class="mdev-main-wrapper">
-      
-      <h2>More things to do at <span class="green">The Factory</span></h2>
-      <div class="tile">
-        <div class="tile-image">
-        <h3>Axe Throwing</h3>
-        </div>
-        <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-        <img src="batl-logo.png" alt="BATL" />
-        <a href="#" class="cta-button">More</a>
-      </div>
-    </div>
-  </section>
-  <section class="mdev-adventure-plan">
-    <div class="plan-content mdev-main-wrapper">
-      <h2>Plan your Indoor <span class="green">Adventure</span></h2>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>How does it work?</h3>
-        <p>Questions about how to book your visit and what to do when you arrive?  We can help.</p>
-        <a href="#" class="green">Plan your visit</a>
-      </div>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>Food &amp; Drink</h3>
-        <p>We have food and drink options for all visitors large and small!</p>
-        <a href="#" class="green">See all food &amp; drink</a>
-      </div>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>Hours</h3>
-        <p>Hours vary by day and season but we're open any time for group bookings.  Visit our <a href="#">plan</a> page for more details</p>
-        <a href="#" class="green">See current hours</a>
-      </div>
-      <div class="plan-item">
-        <!--icon-->
-        <h3>Directions</h3>
-        <p>We are located at 100 Kellogg Lane in London, Ontario</p>
-        <a href="#" class="green">Get Directions</a>
-      </div>
-    </div>
-  </section>
-  
-  
+  <?php include 'modules/arcade-module.php'; ?>
+  <?php include 'modules/activity-module.php'; ?>
+  <?php include 'modules/plan-module.php'; ?>
+
+
 </main>
-<?php include 'footer.php'; ?>
+<?php include 'structure/footer.php'; ?>

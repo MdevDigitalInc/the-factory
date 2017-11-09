@@ -1,0 +1,68 @@
+// Navigation Styles
+.tfac-main-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: $tfac-padding-sm $tfac-padding-lg;
+  left: 0;
+  color: $white;
+  font-size: $font-size-body;
+  z-index: 100;
+
+  a {
+    margin: 0 20px;
+  }
+
+  .tfac-main-cta {
+    line-height: 14px;
+  }
+
+  .tfac-nav-slogan {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+.tfac-nav-branding {
+  width: 15%;
+  min-width: 146px;
+  padding: 0 65px;
+  position: relative;
+  z-index: 10;
+
+  &:before {
+    @include pseudo();
+    width: 115%;
+    top: -25px;
+    background-image: url('../img/splashes/splash-nav.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: -1;
+    @include center(horizontal);
+    @include responsive-ratio(318,400);
+  }
+}
+
+.tfac-main-nav-inner {
+  width: 83%;
+}
+
+.tfac-account-links {
+  margin-left: 20px;
+  font-size: $font-size-small;
+
+  a {
+    display: inline-block;
+    margin: 0;
+  }
+
+  span {
+    margin: 0 10px;
+  }
+}
+
+.tfav-nav-slogan {
+  width: auto;
+  position: relative;
+  font-size: $font-size-slogan;
+}

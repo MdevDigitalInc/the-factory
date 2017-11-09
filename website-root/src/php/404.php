@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'hero-headers/header.php'; ?>
 
 	<main role="main">
 		<!-- section -->
@@ -19,5 +19,5 @@
 		<!-- /section -->
 	</main>
 
-<?php include 'sidebar.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include 'structure/sidebar.php'; ?>
+<?php include 'structure/footer.php'; ?>

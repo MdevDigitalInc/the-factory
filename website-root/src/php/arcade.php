@@ -1,27 +1,55 @@
-<?php /* Template Name: Arcade */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Arcade */
+include 'hero-headers/header-inner-video.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
     <section class="arcade-intro">
-      <div>
-        <h2>It's <span class="green">Game</span> On</h2>
+      <div class="intro-content">
+        <h2 class="u-normal u-uppercase">It's <span class="tfac-blue u-bold">Game</span> On</h2>
         <p>Add to your fun at The Factory and experience the wide variety of game options in our arcade.  Easily load up credits to your wristband, tap, play and track your earned points.  After you've earned those points, head on over to the redemption center for sweet prizes.</p>
+      </div>
+      <div>
+        <img src="/img/arcade/arcade-wristbands.png" alt="The Factory Arcade Wristbands" />
       </div>
     </section>
     <section class="game-showcase">
-      <div>
-        <h3>Game Showcase</h3>
+      <div class="showcase-intro">
+        <h3 class="u-uppercase u-normal">Game <span class="tfac-blue u-bold">Showcase</span></h3>
         <p>Our Arcade has over 50 games to play! Try our the newest and latest in games and simulators</p>
-        <a href="#" class="cta-button">Buy Credits Now</a>
+        <a href="#" class="tfac-btn tfac-main-cta">Buy Credits Now <i class="tfac-btn-arrow"></i></a>
       </div>
-      <div class="game-previews">
-        <!-- dynamically set class names and background images on inner game-previews divs -->
-        <div class=""></div>
+      <div class="game-tiles">
+        <div class="tiles">
+          <div class="tile">
+            <img src="img/arcade/game-tile-1.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-2.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-3.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-4.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-5.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-6.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-7.png" />
+          </div>
+          <div class="tile">
+            <img src="img/arcade/game-tile-8.png" />
+          </div>
+        </div>
       </div>
     </section>
     <section class="laser-maze-module">
-      <h3><span class="green">Featuring</span>Laser Maze</h3>
+      <h3><span class="green">Featuring</span></h3>
+      <h2>Laser Maze</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -35,7 +63,8 @@ include 'header-inner.php'; ?>
       </div>
     </section>
     <section class="trampoline-ninja-module">
-      <h3><span class="green">Featuring</span> Trampoline Ninja</h3>
+      <h3><span class="green">Featuring</span></h3>
+      <h2>Trampoline Ninja</h2>
       <div class="splash"></div>
       <div class="featured-image">
         <img src="" alt="" />
@@ -51,4 +80,4 @@ include 'header-inner.php'; ?>
   </section>
 </main>
 
-<?php include 'footer.php'; ?>
+<?php include 'structure/footer.php'; ?>

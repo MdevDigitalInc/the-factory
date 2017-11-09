@@ -8,26 +8,44 @@
 /-------------------------------------*/
 
 /* Base Button */
-.mdev-base-btn {
+.tfac-btn {
   width: auto;
-  padding: 20px;
+  padding: $tfac-lato-button-pad;
   transition: all, .3s;
   text-transform: uppercase;
-  font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  font-size: inherit;
+  position: relative;
+  font-family: $main-font;
+  font-weight: 900;
 }
 
-/* Button Colors */
+.tfac-main-cta {
+  color: $black;
+  background: $tfac-green;
+}
 
-.mdev-action-btn {
-  color: $color-brand-accent;
-  background: $color-brand-primary;
-  border: 1px solid rgba(242,170,0,0);
+.tfac-secondary-cta {
+  color: $white;
+  background: $tfac-blue;
 
-  &:hover {
-    color: $color-brand-primary;
-    background: $color-brand-accent;
-    border: 1px solid rgba(242,170,0,1);
+  .tfac-btn-arrow {
+    border-left: 11px solid $white;
   }
+}
+
+.tfac-btn-arrow {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  border-top: 8px solid transparent;
+  border-left: 11px solid $black;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
 }

@@ -5,8 +5,10 @@
 /* Main */
 body {
   font-family: $main-font;
-  font-size: 16px;
+  font-size: $font-size-body;
   color: $black;
+  background-color: $white;
+  z-index: 1;
 }
 
 /* Headings & Body Copy */
@@ -22,47 +24,61 @@ h4,.h4,
 h5,.h5,
 h6,.h6, {
   font-family: $main-font;
-  font-weight: 700;
+  font-weight: $font-weight-body;
   color: inherit;
+}
+
+h1,
+.h1 {
+  font-family: $heading-font;
+  font-weight: $font-weight-body;
+}
+
+.mdev-arcade-title {
+  font-weight: $font-weight-body;
 }
 
 // Responsive Font Size Maps
 $p-font-sizes: (
   null  : 14px,
   $tablet-up : 16px,
-  $desktop-up: 19px
+  $desktop-up: 18px
 );
 
 $h1-font-sizes: (
   null  : 25px,
   $tablet-up : 28px,
-  $desktop-up: 70px
+  $desktop-up: 120px
 );
 
 $h2-font-sizes: (
   null  : 30px,
   $tablet-up : 32px,
-  $desktop-up: 35px
+  $desktop-up: 60px
 );
 
 $h3-font-sizes: (
   null  : 20px,
   $tablet-up : 22px,
-  $desktop-up: 25px
+  $desktop-up: 40px
 );
 
 $h4-font-sizes: (
   null  : 60%,
   $tablet-up : 90%,
-  $desktop-up: 18px
+  $desktop-up: 22px
 );
 
 $h5-font-sizes: (
-  null  : 14px
+  null  : 14px,
+  $tablet-up: 22px,
+  $desktop-up: 30px
 );
 
 $h6-font-sizes: (
-  null  : 10px
+  null  : 10px,
+  $tablet-up: 18px,
+  $desktop-up: 18px
 );
 
 // Links
@@ -91,7 +107,6 @@ $link-font-sizes: (
 /* Generate Responsive Sizing */
 
 p {
-  line-height: 24px;
   @include font-size($p-font-sizes);
 }
 
@@ -125,7 +140,7 @@ h6,
   @include font-size($h6-font-sizes);
 }
 
-.mdev-main-nav-links {
+.menu-item {
   @include font-size($link-font-sizes);
 }
 
