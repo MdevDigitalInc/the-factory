@@ -1,16 +1,16 @@
-<?php include 'header.php'; ?>
+<?php include 'hero-headers/header.php'; ?>
 
 <main role="main">
-  <section class="mdev-feature-splash mdev-main-wrapper">
-    <h2>Make Today <span class="green">Epic</span></h2>
-      <p>Located in London, Ontario, The Factory is the must-do attraction for the active and adventurous, with many activities to choose from, all under one roof.  The decision is yours - make yoday like every other day, or make today epic.</p>
-      <div class="mdev-activity-list">
-      <!-- Wordpress Query/Loop - Background Image attached to mdev-activity, CPT Title on H3 -->
-        <div class="mdev-activity">
-          <h3>Ropes</h3>
-        </div>
-      </div>
-      <a href="cta-button" href="#">See All</a>
+  <!-- Splash Section [ ROPES ] -->
+  <section class="tfac-splash tfac-splash-left">
+    <!-- Splash Module Include -->
+    <?php include 'modules/splash-module.php'; ?>
+
+    <!-- First BKG Url is for the mask, second is for the desired image -->
+    <div class="tfac-splash-hero" style="background-image: url('./img/home/home-splash-ropes.png');">
+      <div class="tfac-splash-mask"></div>
+    </div>
+   </div>
   </section>
 
   <section class="mdev-promo-tiles">
@@ -27,17 +27,19 @@
       </div>
     </div>
   </section>
-  <section class="mdev-kid-splash mdev-main-wrapper">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquit ex ea commodo consequat.</p>
-    <h2><span class="green">Kid Friendly</span> Zone</h2>
-    <div class="mdev-activity-list">
-      <!--Wordpress Query/Loop - Background Image attached to mdev-activity, CPT title on H3 -->
-      <div class="mdev-activity">
-        <h3>Kids Soft Playground</h3>
-      </div>
+
+  <!-- Splash Section [ KIDS ] -->
+  <section class="tfac-splash tfac-splash-right">
+    <!-- Splash Module Include -->
+    <?php include 'modules/splash-module.php'; ?>
+
+    <!-- First BKG Url is for the mask, second is for the desired image -->
+    <div class="tfac-splash-hero" style="background-image: url('./img/home/home-splash-kids.png');">
+      <div class="tfac-splash-mask"></div>
     </div>
-    <a class="cta-button" href="#">See All</a>
+   </div>
   </section>
+
   <section class="mdev-arcade-module">
     <!-- Add Metaboxes for 3 different images -->
     <img src="" alt="" />
@@ -63,6 +65,20 @@
       </div>
     </div>
   </section>
+
+  <!-- Splash Section [ Wristband ] -->
+  <section class="tfac-splash tfac-splash-left">
+    <!-- Splash Module Include -->
+    <?php include 'modules/splash-module.php'; ?>
+
+    <!-- First BKG Url is for the mask, second is for the desired image -->
+    <div class="tfac-splash-hero" style="background-image: url('./img/home/home-splash-selfies.png');">
+      <div class="tfac-splash-mask"></div>
+    </div>
+   </div>
+  </section>
+
+
   <section class="mdev-wristband-splash mdev-main-wrapper">
     <h2><span class="green">Factory</span> Wristbands</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

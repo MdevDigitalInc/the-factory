@@ -1,5 +1,5 @@
-<?php /* Template Name: Trampolines */ 
-include 'header-inner.php'; ?>
+<?php /* Template Name: Trampolines */
+include 'hero-headers/header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
@@ -40,7 +40,7 @@ include 'header-inner.php'; ?>
         </div>
       </div>
     </section>
-  
+
     <section class="warrior-module">
       <h2><span class="green">Warrior</span> Course</h2>
       <div class="splash"></div>

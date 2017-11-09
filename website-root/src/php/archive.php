@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'hero-headers/header.php'; ?>
 	<main role="main">
 		<!-- section -->
 		<section>
