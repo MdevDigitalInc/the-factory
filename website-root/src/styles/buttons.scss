@@ -21,6 +21,16 @@
   position: relative;
   font-family: $main-font;
   font-weight: 900;
+
+  @media #{$tablet-only} {
+    padding: 1.6vw 1.3vw 1.3vw;
+  }
+  @media #{laptop-up} {
+    padding: 1.3vw 1vw 1vw;
+  }
+  @media #{$desktop-only} {
+    padding: $tfac-lato-button-pad;
+  }
 }
 
 .tfac-main-cta {
@@ -33,7 +43,11 @@
   background: $tfac-blue;
 
   .tfac-btn-arrow {
-    border-left: 11px solid $white;
+    border-left: .5vw solid $white;
+
+    @media #{$tablet-only} {
+      border-left: 1vw solid $white;
+    }
   }
 }
 
@@ -44,8 +58,14 @@
   width: 0;
   height: 0;
   margin-left: 10px;
-  border-top: 8px solid transparent;
-  border-left: 11px solid $black;
-  border-bottom: 8px solid transparent;
+  border-top: .4vw solid transparent;
+  border-left: .5vw solid $black;
+  border-bottom: .4vw solid transparent;
   vertical-align: middle;
+
+  @media #{$tablet-only} {
+    border-top: .9vw solid transparent;
+    border-left: 1vw solid $black;
+    border-bottom: .9vw solid transparent;
+  }
 }

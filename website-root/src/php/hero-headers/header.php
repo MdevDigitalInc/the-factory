@@ -11,7 +11,7 @@
     <?php include 'nav/navigation.php'; ?>
 
     <section class="tfac-hero-mask">
-      <div class="tfac-main-hero hero-bkg-filter" style="background-image:url('./img/heros/hero-home.png')">
+      <div class="tfac-main-hero hero-bkg-filter u-focus-left" style="background-image:url('./img/heros/hero-home.png')">
         <div class="tfac-hero-content flex flex-hor-start flex-vert-center">
           <div class="tfac-home-logo tfac-logo-splash">
             <img src="./img/the-factory-logo.svg"  alt="The Factory, Canada's Biggest Indoor Adventure Park" />

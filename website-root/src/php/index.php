@@ -7,8 +7,9 @@
     <?php include 'modules/splash-module.php'; ?>
 
     <!-- First BKG Url is for the mask, second is for the desired image -->
-    <div class="tfac-splash-hero" style="background-image: url('./img/home/home-splash-ropes.png');">
-      <div class="tfac-splash-mask"></div>
+    <div class="tfac-splash-hero">
+      <div class="tfac-splash-mask" style="background-image: url('../img/splashes/splash-feature.svg');" ></div>
+      <div class="tfac-splash-image" style="background-image: url('./img/home/home-splash-ropes.png');"></div>
     </div>
    </div>
   </section>
@@ -34,8 +35,9 @@
     <?php include 'modules/splash-module.php'; ?>
 
     <!-- First BKG Url is for the mask, second is for the desired image -->
-    <div class="tfac-splash-hero" style="background-image: url('./img/home/home-splash-kids.png');">
-      <div class="tfac-splash-mask"></div>
+    <div class="tfac-splash-hero">
+      <div class="tfac-splash-mask" style="background-image: url('../img/splashes/splash-feature.svg');" ></div>
+      <div class="tfac-splash-image" style="background-image: url('./img/home/home-splash-kids.png');"></div>
     </div>
    </div>
   </section>
@@ -72,8 +74,9 @@
     <?php include 'modules/splash-module.php'; ?>
 
     <!-- First BKG Url is for the mask, second is for the desired image -->
-    <div class="tfac-splash-hero" style="background-image: url('./img/home/home-splash-selfies.png');">
-      <div class="tfac-splash-mask"></div>
+    <div class="tfac-splash-hero">
+      <div class="tfac-splash-mask" style="background-image: url('../img/splashes/splash-feature.svg');" ></div>
+      <div class="tfac-splash-image" style="background-image: url('./img/home/home-splash-selfies.png');"></div>
     </div>
    </div>
   </section>

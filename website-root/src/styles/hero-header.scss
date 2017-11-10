@@ -11,11 +11,14 @@
   width: 100%;
   position: relative;
   height: 100vh;
-  max-height: 880px;
+  max-height: 95vh;
   // Background defined inline on template
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+
+  @media #{$portrait} {
+    max-height: 75vh;
+  }
 
   .tfac-hero-content {
     position: relative;
@@ -43,7 +46,6 @@
     width: 50%;
 
     h1 {
-      line-height: 90px;
       letter-spacing: 5px;
     }
   }
@@ -52,6 +54,21 @@
     font-size: 30px;
     line-height: 24px;
     vertical-align: middle;
+
+    @media #{$tablet-only} {
+      font-size: 1.5vw;
+      line-height: 1.5vw;
+    }
+
+    @media #{$laptop-up} {
+      font-size: 30px;
+      line-height: 24px;
+    }
+
+    @media #{$xl-up} {
+      font-size: 2vw;
+      line-height: 2vw;
+    }
   }
 
   .tfac-hero-shadow {
@@ -64,17 +81,23 @@
 
   .mdev-main-wrapper {
     height: 100vh;
-    max-height: 880px;
+    max-height: 80vw;
+
+    @media #{$tablet-prt-only} {
+      max-height: 75vw;
+    }
   }
 }
 
 // Video Hero
 .tfac-hero-video {
   width: 115%;
-  top: 0;
-  left: 0;
-  position: absolute;
+  @include center(both);
   z-index: -1;
+
+  @media #{$tablet-only} {
+    width: 145%;
+  }
 }
 // Filters
 .hero-bkg-filter {
