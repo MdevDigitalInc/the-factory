@@ -10,26 +10,20 @@
 /* Base Button */
 .tfac-btn {
   width: auto;
-  padding: $tfac-lato-button-pad;
+  padding: 1.3vw 1vw 1vw;
   transition: all, .3s;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   display: inline-block;
   line-height: 20px;
-  font-size: inherit;
+  font-size: 1vw;
   position: relative;
   font-family: $main-font;
   font-weight: 900;
 
-  @media #{$tablet-only} {
-    padding: 1.6vw 1.3vw 1.3vw;
-  }
-  @media #{laptop-up} {
-    padding: 1.3vw 1vw 1vw;
-  }
-  @media #{$desktop-only} {
-    padding: $tfac-lato-button-pad;
+  @media #{$tablet-prt-only} {
+    font-size: 1.3vw;
   }
 }
 
@@ -64,8 +58,18 @@
   vertical-align: middle;
 
   @media #{$tablet-only} {
-    border-top: .9vw solid transparent;
-    border-left: 1vw solid $black;
-    border-bottom: .9vw solid transparent;
+    border-top: .5vw solid transparent;
+    border-left: .6vw solid $black;
+    border-bottom: .5vw solid transparent;
+  }
+  @media #{$laptop-only} {
+    border-top: .55vw solid transparent;
+    border-left: .65vw solid $black;
+    border-bottom: .55vw solid transparent;
+  }
+  @media #{$xl-up} {
+    border-top: .55vw solid transparent;
+    border-left: .65vw solid $black;
+    border-bottom: .55vw solid transparent;
   }
 }

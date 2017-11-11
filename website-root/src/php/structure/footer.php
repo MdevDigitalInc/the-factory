@@ -1,33 +1,5 @@
-<section class="mdev-cta-banner">
-  <div class="mdev-main-wrapper">
-      <h5 class="u-uppercase">More to do at <span class="tfac-blue u-bold">The Factory</span></h5>
-      <div class="cta-image-wrapper">
-        <img src=""
-      </div>
-      <div class="content-wrapper">
-        <div>
-          <h2 class="u-normal u-uppercase"><span class="tfac-blue u-bold">Canada's Biggest</span> Indoor adventure park</h2>
-        </div>
-        <div>
-          <h5 class="u-uppercase">I'm Ready to Book!</h5>
-          <p>Already know what you want to do? Click "Book Online" to guarantee your spot and get the time that's best for you.  If you need to book a party room for your event, click "Book Event" to get started.</p>
-          <p class="button-wrapper">
-            <a href="#" class="tfac-btn tfac-main-cta">Book Online<i class="tfac-btn-arrow"></i></a>
-            <a href="#" class="tfac-btn tfac-main-cta">Book Event<i class="tfac-btn-arrow"></i></a>
-          </p>
-      </div>
-      <div>
-        <h5 class="u-uppercase">I need more info</h5>
-        <ul class="info-links">
-          <li><a href="#"><div><img src="img/icons/icon-plan.svg" /></div><div>Plan</div></a></li>
-          <li><a href="#"><div><img src="img/icons/icon-pricing.svg" /></div><div>Pricing</div></a></li>
-          <li><a href="#"><div><img src="img/icons/icon-faq.svg" /></div><div>FAQ</div></a></li>
-          <li><a href="#"><div><img src="img/icons/icon-attractions.svg" /></div><div>Attractions</div></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
+<?php include 'structure/pre-footer.php'; ?>
+
 <footer>
   <div class="mdev-main-wrapper">
     <div class="logo-wrapper">

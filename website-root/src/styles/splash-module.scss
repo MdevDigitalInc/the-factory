@@ -20,8 +20,10 @@
     }
     @media #{$tablet-prt-only} {
       width: 100%;
-      order: 1!important;
+      /* stylelint-disable */
+      order: 1 !important;
       text-align: left !important;
+      /* stylelint-enable */
     }
   }
 
@@ -40,12 +42,7 @@
   }
 
   p {
-    line-height: $line-height-md;
     margin-bottom: $tfac-padding-xl;
-
-    @media #{$xl-up} {
-      line-height: 1.5vw;
-    }
   }
 
   .tfac-btn {
@@ -162,18 +159,22 @@ $splash-item-xl: 315px;
 
 .tfac-splash-mask {
   width: 101%;
-  padding-top: 90%;
+  padding-top: 91%;
   position: relative;
   z-index: 2;
-  background-size: cover;
+  background-size: 100%;
   background-position: -5px;
+
+  @media #{$desktop-only} {
+    background-size: 101%;
+  }
 
   @media #{$tablet-prt-only} {
     padding-top: 91%;
-    width: 106%;
   }
   @media #{$xl-up} {
-    background-size: 106%;
+    background-size: 109%;
+    padding-top: 93%;
   }
 }
 
