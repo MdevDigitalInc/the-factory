@@ -64,12 +64,13 @@ $h3-font-sizes: (
 $h4-font-sizes: (
   null  : 60%,
   $tablet-up : 90%,
-  $desktop-up: 22px
+  $desktop-up: 22px,
+  $xl-up: 1.25vw
 );
 
 $h5-font-sizes: (
   null  : 14px,
-  $tablet-up: 22px,
+  $tablet-up: 1.4vw,
   $desktop-up: $font-size-cta-heading
 );
 

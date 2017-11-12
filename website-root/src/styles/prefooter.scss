@@ -17,6 +17,10 @@
     flex-wrap: nowrap;
     font-size: 1.2vw;
 
+    @media #{$tablet-prt-only} {
+      font-size: 1.9vw;
+    }
+
     &:last-child {
       border-bottom: none;
     }
@@ -59,6 +63,7 @@
     }
   }
 }
+
 .tfac-pre-column {
   width: 33%;
   padding: 2vw 2vw 0;
@@ -102,6 +107,10 @@
     background-size: cover;
     padding-top: 8%;
     background-repeat: no-repeat;
+
+    @media #{$tablet-prt-only} {
+      padding-top: 10%;
+    }
   }
 }
 

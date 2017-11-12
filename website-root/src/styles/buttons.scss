@@ -21,9 +21,12 @@
   position: relative;
   font-family: $main-font;
   font-weight: 900;
+  appareance: none;
+  border: none;
 
   @media #{$tablet-prt-only} {
     font-size: 1.3vw;
+    padding: 2vw 1.8vw 1.8vw;
   }
 }
 

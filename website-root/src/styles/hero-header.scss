@@ -96,6 +96,9 @@
   @media #{$tablet-only} {
     width: 145%;
   }
+  @media #{$tablet-prt-only} {
+    width: 185%;
+  }
 }
 // Filters
 .hero-bkg-filter {

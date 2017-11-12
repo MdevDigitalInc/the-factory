@@ -134,20 +134,23 @@ $splash-item-xl: 315px;
 .tfac-splash {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 // Splash Hero
 .tfac-splash-hero {
   width: 60%;
   z-index: -1;
-  overflow: visible;
+  overflow: hidden;
   @include center(vertical);
 
   @media #{$tablet-only} {
     width: 72%;
   }
   @media #{$tablet-prt-only} {
-    width: 140%;
+    width: 100%;
+    transform: scale(1.8);
+    top: 25%;
   }
   @media #{$laptop-only} {
     top: 42%;
@@ -159,23 +162,11 @@ $splash-item-xl: 315px;
 
 .tfac-splash-mask {
   width: 101%;
-  padding-top: 91%;
+  padding-top: 88%;
   position: relative;
   z-index: 2;
   background-size: 100%;
   background-position: -5px;
-
-  @media #{$desktop-only} {
-    background-size: 101%;
-  }
-
-  @media #{$tablet-prt-only} {
-    padding-top: 91%;
-  }
-  @media #{$xl-up} {
-    background-size: 109%;
-    padding-top: 93%;
-  }
 }
 
 .tfac-splash-image {
@@ -188,6 +179,7 @@ $splash-item-xl: 315px;
   top: 0;
   left: 0;
   z-index: -1;
+  transform: scale(.98);
 }
 
 // Left | Right overrides
