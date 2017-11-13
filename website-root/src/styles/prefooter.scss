@@ -1,0 +1,117 @@
+.tfac-pre-footer {
+  padding: 10vh 0;
+
+  h5 {
+    padding-bottom: $tfac-padding-sm;
+  }
+}
+
+.tfac-info-links {
+  .tfac-info-link {
+    width: 100%;
+    padding: 1vw 0;
+    border-bottom: 2px solid $tfac-green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    font-size: 1.2vw;
+
+    @media #{$tablet-prt-only} {
+      font-size: 1.9vw;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  span {
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  a {
+    text-transform: uppercase;
+  }
+
+  img {
+    max-height: 50px;
+    width: auto;
+  }
+}
+
+.tfac-column-action {
+  padding-top: $tfac-padding-md;
+
+  @media #{$tablet-prt-only} {
+    flex-wrap: wrap;
+  }
+
+  .tfac-btn {
+    width: 49%;
+    text-align: center;
+
+    @media #{$desktop-only} {
+      letter-spacing: -1px;
+    }
+
+    @media #{$tablet-prt-only} {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}
+
+.tfac-pre-column {
+  width: 33%;
+  padding: 2vw 2vw 0;
+
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
+  }
+
+  h2 {
+    font-size: 277%;
+
+    @media #{$tablet-only} {
+      font-size: 167%;
+    }
+    @media #{$tablet-prt-only} {
+      font-size: 137%;
+    }
+    @media #{$laptop-only} {
+      font-size: 207%;
+    }
+    @media #{$desktop-only} {
+      font-size: 275%;
+    }
+    @media #{$xl-up} {
+      font-size: 376%;
+    }
+  }
+}
+
+.tfac-image-strip {
+  width: 100%;
+  position: relative;
+  margin: 1vh 0;
+
+  .tfac-image-link {
+    display: inline-block;
+    width: 15%;
+    background-size: cover;
+    padding-top: 8%;
+    background-repeat: no-repeat;
+
+    @media #{$tablet-prt-only} {
+      padding-top: 10%;
+    }
+  }
+}
+
+

@@ -12,18 +12,18 @@
   min-width: 320px;
 
   @media #{$tablet-only} {
-    max-width: 800px;
+    max-width: 88vw;
   }
-
+  @media #{$tablet-prt-only} {
+    max-width: 95vw;
+  }
   @media #{$laptop-only} {
-    max-width: 1400px;
+    max-width: 85vw;
   }
-
   @media #{$desktop-only} {
     max-width: 1500px;
   }
-
   @media #{$xl-up} {
-    max-width: 1680px;
+    max-width: 80vw;
   }
 }

@@ -1,57 +1,50 @@
-.arcade-intro {
-  display: flex;
+.tfac-page-intro {
   flex-direction: row;
-  justify-content: space-between;
-  background-color: $white;
-  
-  h2 {
-    font-size: 60px;
-    padding-bottom: $tfac-padding-sm;
-    line-height: 72px;
+  margin-top: 7vh;
+
+  @media #{$portrait} {
+    margin-top: 5vh;
   }
-  
-  p {
-    line-height: $line-height-sm;
+
+  h2 {
+    padding-bottom: $tfac-padding-sm;
   }
 }
 
-.game-showcase {
+.tfac-grid-showcase {
   padding: 100px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: $white;
-  
-  .showcase-intro {
+
+  .tfac-showcase-intro {
     width: 35%;
   }
-  
+
   h3 {
     font-size: 40px;
     letter-spacing: $letter-spacing-md;
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   p {
-    line-height: $line-height-sm;
     padding-bottom: $tfac-padding-lg;
   }
 }
 
-.game-tiles {
+.tfac-grid-tiles {
   width: 52%;
-}
 
-.tiles {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: -10px;
-  
-  .tile {
-    width: 352px;
-    height: 167px;
-    margin: 10px;
+  .tfac-tile {
+    width: 48%;
+    margin: 1%;
+    overflow: hidden;
+    height: 23%;
+
+    img {
+      width: 100%;
+    }
   }
 }
+
