@@ -1,67 +1,107 @@
-.mdev-activity-tiles {
+.tfac-activity-module {
+  // TODO - change background to proper image this one is incorrect.
   background-image: url(../img/home/home-bkg-intro.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  padding: 80px 0;
+  background-position: center bottom;
+  padding: 8vh 0;
 
-  .activity-title {
+  .tfac-activity-title {
     letter-spacing: 2px;
-    line-height: $line-height-md;
-    font-size: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 3vh;
+  }
+}
+
+.tfac-activity-content {
+  position: relative;
+  width: 100%;
+
+  @media #{$tablet-prt-only} {
+    flex-wrap: wrap;
+  }
+}
+
+.tfac-activity-item {
+  width: 30%;
+  min-width: 200px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 50px rgba(0,0,0,.5);
+
+  @media #{$tablet-only} {
+    width: 33%;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+  }
+  @media #{$tablet-prt-only} {
+    width: 100%;
+  }
+  @media #{$laptop-only} {
+    width: 32%;
   }
 
-  .tiles {
-    -webkit-display: flex;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .tile {
-    width: 410px;
-    max-width: 410px;
-  }
-
-  .tile-image {
-    width: 410px;
-    height: 335px;
+  .item-image {
+    width: 100%;
+    height: auto;
+    padding-top: 80%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 20px;
-  }
-
-  .tile-image h5 {
     color: $white;
-    text-transform: uppercase;
+    position: relative;
+
+    @media #{$tablet-prt-only} {
+      padding-top: 40%;
+    }
+
+    h5 {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+
+      @media #{$tablet-prt-only} {
+        font-size: 5vw;
+      }
+    }
   }
 
-  .tile-content {
+  .item-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background: $white;
-    padding: 30px 20px;
-    line-height: $line-height-sm;
-  }
-  
-  p {
-    padding-right: 20px;
-  }
-  
-  .cta-wrapper {
-    width: 100%;
+    padding: $tfac-padding-md;
   }
 
-  .tfac-main-cta {
-    padding: 15px;
-    font-family: $heading-font;
-    font-size: $font-size-button;
-    flex-wrap: no-wrap;
+  .item-text {
+    width: 55%;
+    padding-right: 1vw;
+
+    @media #{$tablet-prt-only} {
+      width: 70%;
+
+      p {
+        font-size: 4vw;
+        padding-right: 5vw;
+        line-height: 5vw;
+      }
+    }
+  }
+
+  .item-actions {
+    width: 45%;
+    padding-left: 2vw;
+
+    @media #{$tablet-prt-only} {
+      width: 30%;
+    }
+
+    .tfac-btn {
+      width: 100%;
+      text-align: center;
+    }
+
+    img {
+      padding-bottom: $tfac-padding-sm;
+    }
   }
 }
