@@ -1,51 +1,76 @@
-.mdev-adventure-plan {
-  
-  padding: 250px 0 100px;
-  
+.tfac-adventure-plan {
+  padding: 20vh 0 10vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+
   h3 {
     letter-spacing: 2px;
-    line-height: $line-height-md;
-    font-size: 40px;
-    padding-bottom: 40px;
     text-align: center;
   }
-  
-  .plan-content {
+
+  .tfac-plan-content {
     background-color: rgba(250, 250, 250, .8);
-    padding: 40px;
+    padding: 2vw;
   }
-    
-  .plan-item-wrapper {
-    display: flex;
-    flex-direction: row;
+
+  .tfac-plan-item-wrapper {
     width: 100%;
-    justify-content: space-between;
+    position: relative;
   }
-    
-  .plan-item {
-    width: 250px;
+
+  .tfac-plan-item {
+    width: 20%;
+    position: relative;
   }
+
   img {
-    display: block;
-    margin: 30px auto;
-    height: 95px;
     width: auto;
+    height: 20%;
+    display: block;
+    margin: 1.5vw auto;
+
+    @media #{$tablet-only} {
+      margin: 2vw auto;
+    }
   }
-  h5 {
-    font-size: 24px;
-    letter-spacing: $letter-spacing-md;
-    padding-bottom: $tfac-padding-sm;
-  }
+
   p {
-    line-height: $line-height-sm;
+    margin-bottom: 3.5vw;
+
+    @media #{$tablet-only} {
+      margin-bottom: 1.5vw;
+    }
+    @media #{$laptop-up} {
+      margin-bottom: 2vw;
+    }
+    @media #{$xl-up} {
+      margin-bottom: 3.5vw;
+    }
   }
-  
+
+  h5 {
+    padding-bottom: $tfac-padding-sm;
+
+    @media #{$tablet-only} {
+      font-size: 1.6vw;
+    }
+    @media #{$tablet-prt-only} {
+      font-size: 1.6vw;
+      font-weight: 700;
+    }
+  }
+
   .link-wrapper {
-    padding-top: $tfac-padding-sm;
-    
+    position: absolute;
+    bottom: 1vw;
+
     a {
       letter-spacing: $letter-spacing-md;
-      font-size: $font-size-slogan;
+      @media #{$tablet-only} {
+        font-size: 1.1vw;
+        latter-spacing: 1px;
+      }
     }
   }
 }

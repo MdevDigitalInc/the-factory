@@ -40,16 +40,13 @@
 // Footer Nav
 .tfac-footer-nav {
   position: relative;
-  width: 52%;
+  width: 53%;
 
   @media #{$laptop-only} {
     min-width: 617px;
   }
   @media #{$desktop-up} {
     min-width: 800px;
-  }
-  @media #{$xl-up} {
-    width: 45%;
   }
 }
 
@@ -156,13 +153,19 @@
     @media #{$laptop-only} {
       padding: 1vw;
     }
+    @media #{$desktop-only} {
+      padding-top: 1.2vw;
+    }
   }
 
   .tfac-btn-arrow {
     margin-left: 0;
     border-top: .25vw solid transparent;
     border-bottom: .25vw solid transparent;
+    /* Needs !Important...*/
+    /* stylelint-disable */
     border-left: .25vw solid #fafafa !important;
+    /* stylelint-enable */
   }
 }
 

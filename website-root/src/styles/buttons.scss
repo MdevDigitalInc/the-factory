@@ -66,13 +66,13 @@
     border-bottom: .5vw solid transparent;
   }
   @media #{$laptop-only} {
-    border-top: .55vw solid transparent;
-    border-left: .65vw solid $black;
-    border-bottom: .55vw solid transparent;
+    border-top: .4vw solid transparent;
+    border-left: .5vw solid $black;
+    border-bottom: .4vw solid transparent;
   }
   @media #{$xl-up} {
-    border-top: .55vw solid transparent;
-    border-left: .65vw solid $black;
-    border-bottom: .55vw solid transparent;
+    border-top: .45vw solid transparent;
+    border-left: .55vw solid $black;
+    border-bottom: .45vw solid transparent;
   }
 }
