@@ -1,6 +1,5 @@
 .tfac-activity-module {
   // TODO - change background to proper image this one is incorrect.
-  background-image: url(../img/home/home-bkg-intro.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -26,6 +25,7 @@
   min-width: 200px;
   position: relative;
   z-index: 2;
+  background: $white;
   box-shadow: 0 0 50px rgba(0,0,0,.5);
 
   @media #{$tablet-only} {
@@ -69,7 +69,11 @@
     flex-direction: row;
     justify-content: space-between;
     background: $white;
-    padding: $tfac-padding-md;
+    padding: 1.2vw;
+
+    @media #{$tablet-prt-only} {
+      padding: 3vw;
+    }
   }
 
   .item-text {
@@ -102,6 +106,83 @@
 
     img {
       padding-bottom: $tfac-padding-sm;
+    }
+  }
+}
+
+.tfac-promo-item {
+  position: relative;
+
+  .item-content {
+    display: block;
+    padding: 0;
+
+    @media #{$tablet-prt-only} {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+  }
+
+  .tfac-promo-text {
+    width: 100%;
+    padding: 1.2vw 1vw 0;
+
+    @media #{$tablet-prt-only} {
+      padding: 3vw;
+      width: 70%;
+
+      p {
+        font-size: 3vw;
+        line0height: 3.5vw;
+      }
+    }
+  }
+
+  .tfac-promo-action {
+    width: 100%;
+    padding: 1vw;
+
+    @media #{$tablet-prt-only} {
+      padding: 3vw;
+      width: 30%;
+    }
+  }
+
+  .tfac-promo-title {
+    font-size: 1.2vw;
+    font-weight: 700;
+    padding-bottom: 1vw;
+    display: block;
+
+    @media #{$tablet-prt-only} {
+      font-size: 2.4vw;
+    }
+  }
+}
+
+.tfac-promo-type {
+  width: 100%;
+  position: relative;
+
+  span {
+    display: inline-block;
+    padding: 1.2vw 1.8vw 1.2vw 1.2vw;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background: $black;
+    min-width: 30%;
+    max-width: 75%;
+    clip-path: polygon(0 0, 100% 0%, 84% 100%, 0 89%);
+    font-size: .9vw;
+
+    @media #{$tablet-prt-only} {
+      padding: 1.8vw 2.2vw 1.8vw 1.8vw;
+      font-size: 2vw;
+      min-width: 15%;
+    }
+    @media #{$laptop-only} {
+      font-size: 1vw;
     }
   }
 }

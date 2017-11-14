@@ -14,19 +14,8 @@
    </div>
   </section>
 
-  <section class="mdev-promo-tiles">
-    <div class="mdev-main-wrapper">
-      <!-- Wordpress Loop -->
-      <div class="tile">
-        <img src="" alt="" />
-        <div class="tile-tag">
-          <p>Event</p>
-        </div>
-        <h3>Trampoline Tuesday</h3>
-        <p>Organized trampoline challenges every Tuesday from 7-9pm.</p>
-        <a href="cta-button">More</a>
-      </div>
-    </div>
+  <section class="tfac-activity-module" style="background-image: url('./img/home/home-bkg-promo.png');" >
+    <?php include 'modules/promo-module.php' ?>
   </section>
 
   <!-- Splash Section [ KIDS ] -->
@@ -44,7 +33,10 @@
   <!-- Arcade Module -->
   <?php include 'modules/arcade-module.php'; ?>
   <!-- Activity Module -->
-  <?php include 'modules/activity-module.php' ?>
+  <!-- TODO - Add proper BKG Image -->
+  <section class="tfac-activity-module" style="background-image: url(../img/home/home-bkg-intro.png);">
+    <?php include 'modules/activity-module.php' ?>
+  </section>
   <!-- Splash Section [ Wristband ] -->
   <section class="tfac-splash tfac-splash-left">
     <!-- Splash Module Include -->
@@ -57,29 +49,26 @@
     </div>
    </div>
   </section>
-
-  <section class="mdev-party-tiles">
+  <!-- Groups -->
+  <section class="tfac-content-section tfac-extra-padding" style="background-image: url(../img/home/home-bkg-intro.png);">
     <div class="mdev-main-wrapper">
-      <h4>Parties <span class="green">&</span>Event</span></h4>
-      <p>Be the hero of your group and plan the best birthday party or special ever!  Book you party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
-      <div class="tile">
-        <img src="" alt="" />
-        <h6>Kids</h6>
-        <p>Create a unique and fun birthday party experience for kids, that will leave them smiling for days</p>
-        <a href="#" class="green">Learn More</a>
+      <div class="tfac-content-blurb flex flex-row flex-hor-between flex-vert-end">
+        <h3 class="tfac-content-title u-uppercase">Parties <span class="tfac-blue">&</span> Event</h3>
+        <p>Be the hero of your group and plan the best birthday party or special ever!  Book you party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
       </div>
+      <!-- Card Module -->
+      <?php include 'modules/card-module.php'; ?>
     </div>
   </section>
-  <section class="food-module">
+  <!-- Food -->
+   <section class="tfac-content-section tfac-food-hoist">
+    <!-- Film Strip -->
+    <?php include 'modules/film-strip-module.php'; ?>
     <div class="mdev-main-wrapper">
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img class="top" src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <h2>Food <span class="green">&amp;</span> Drink</h2>
-      <p>Take a breather from your adventure and grab a drink or a bit to eat.  Our food options include an ice cream bar, coffee house, Italian eatery, subs and salads and good ole' burgers and fries.  Don't worry adults, we've got a fully stocked "beverage" station for you.</p>
-      <a href="#" class="green">See all food &amp; drink</a>
+      <div class="tfac-content-blurb flex flex-row flex-hor-between flex-vert-end">
+        <h3 class="tfac-content-title u-uppercase">Food <span class="tfac-blue"></br>&</span> Drink</h3>
+        <p>Be the hero of your group and plan the best birthday party or special ever!  Book you party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
+      </div>
     </div>
   </section>
   <!-- Plan Section -->

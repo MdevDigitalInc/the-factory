@@ -1,0 +1,48 @@
+.tfac-card-module {
+  width: 100%;
+  position: relative;
+
+  .tfac-card {
+    width: 24%;
+    position: relative;
+    background: $white;
+    box-shadow: 0 0 50px rgba(0,0,0,.5);
+  }
+
+  .tfac-card-image {
+    width: 100%;
+    padding-top: 80%;
+    background-size: cover;
+  }
+
+  .tfac-card-content {
+    padding: 1.5vw;
+  }
+
+  .tfac-card-title {
+    font-size: 1.5vw;
+    padding-bottom: 1vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  p {
+    padding-bottom: 2.5vw;
+
+    @media #{$tablet-prt-only} {
+      font-size: 1.5vw;
+      line-height: 1.7vw;
+    }
+  }
+
+  .tfac-card-link {
+    color: $tfac-blue;
+    font-size: 1.2vw;
+    display: inline-block;
+    position: absolute;
+    right: 1.5vw;
+    bottom: 1.5vw;
+  }
+}
+
+

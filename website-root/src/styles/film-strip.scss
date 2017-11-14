@@ -1,0 +1,36 @@
+.tfac-film-strip {
+  width: 100%;
+  margin-bottom: 5vh;
+
+  .tfac-cell {
+    width: 15%;
+    flex-grow: 2;
+    display: block;
+    height: 23vh;
+    background-size: cover;
+
+    @media #{$tablet-prt-only} {
+      height: 12vh;
+    }
+
+    &:first-child,
+    &:last-child {
+      width: 13%;
+      flex-grow: 1;
+      height: 18vh;
+      @media #{$tablet-prt-only} {
+        height: 10vh;
+      }
+    }
+  }
+  .tfac-main-cell {
+    flex-grow: 3;
+    width: 20%;
+    background-size: cover;
+    height: 28vh;
+
+    @media #{$tablet-prt-only} {
+      height: 15vh;
+    }
+  }
+}
