@@ -40,12 +40,13 @@ include 'hero-headers/header-video.php'; ?>
   <!-- Arcade Module -->
   <?php include 'modules/arcade-module.php'; ?>
   <!-- Activity Module -->
-  <?php include 'modules/activity-module.php'; ?>
+  <!-- TODO - Add proper BKG Image -->
+  <section class="tfac-activity-module" style="background-image: url(../img/home/home-bkg-intro.png);">
+    <?php include 'modules/activity-module.php' ?>
+  </section>
   <!-- Plan Section -->
   <section class="tfac-adventure-plan" style="background-image:url('./img/plan-bkgs/plan-bkg-trampoline.png')">
     <?php include 'modules/plan-module.php'; ?>
   </section>
-
-
 </main>
 <?php include 'structure/footer.php'; ?>

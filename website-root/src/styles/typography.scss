@@ -106,7 +106,8 @@ $link-font-sizes: (
 
 /* Generate Responsive Sizing */
 
-p, .p {
+p,
+.p {
   @include font-size($p-font-sizes);
   line-height: $line-height-md;
   @media #{$xl-up} {
