@@ -130,24 +130,6 @@ $splash-item-xl: 315px;
 }
 
 
-// Home Page Splashes
-.tfac-splash {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-
-  .tfac-splash-activity-title {
-    font-size: 4vw;
-
-    @media #{$tablet-up} {
-      font-size: 5vw;
-    }
-    @media #{$tablet-prt-only} {
-      font-size: 7vw;
-    }
-  }
-}
-
 // Splash Hero
 .tfac-splash-hero {
   width: 60%;
@@ -297,4 +279,32 @@ $splash-item-xl: 315px;
     margin-right: .5vw;
   }
 }
+
+// Home Page Splashes
+.tfac-splash {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  .tfac-splash-activity-title {
+    font-size: 4vw;
+
+    @media #{$tablet-up} {
+      font-size: 5vw;
+    }
+    @media #{$tablet-prt-only} {
+      font-size: 7vw;
+    }
+  }
+
+  .tfac-featuring,
+  .tfac-splash-activity-title {
+    margin-left: 10%;
+
+    @media #{$portrait} {
+      margin-left: 0;
+    }
+  }
+}
+
 

@@ -3,11 +3,11 @@ include 'hero-headers/header-inner.php'; ?>
 
 <main role="main">
   <section class="mdev-main-wrapper">
+    <!-- Intro Module With Splash -->
     <?php include 'modules/intro-module.php'; ?>
     <!-- Laser Feature Splash -->
     <section class="tfac-splash tfac-splash-center">
-      <h3 class="tfac-featuring tfac-blue u-uppercase">Featuring</h3>
-      <h2 class="tfac-splash-activity-title u-uppercase">Obstacles</h2>
+      <h2 class="tfac-splash-activity-title u-uppercase tfac-blue">Obstacles</h2>
       <!-- Splash Module Include -->
       <?php include 'modules/splash-activity-module.php'; ?>
 
@@ -21,8 +21,7 @@ include 'hero-headers/header-inner.php'; ?>
 
     <!-- Laser Feature Splash -->
     <section class="tfac-splash tfac-splash-center">
-      <h3 class="tfac-featuring tfac-blue u-uppercase">Featuring</h3>
-      <h2 class="tfac-splash-activity-title u-uppercase">Zipline</h2>
+      <h2 class="tfac-splash-activity-title u-uppercase tfac-blue">Zipline</h2>
       <!-- Splash Module Include -->
       <?php include 'modules/splash-activity-module.php'; ?>
 
@@ -36,8 +35,7 @@ include 'hero-headers/header-inner.php'; ?>
 
     <!-- Laser Feature Splash -->
     <section class="tfac-splash tfac-splash-center">
-      <h3 class="tfac-featuring tfac-blue u-uppercase">Featuring</h3>
-      <h2 class="tfac-splash-activity-title u-uppercase">Fall</h2>
+      <h2 class="tfac-splash-activity-title u-uppercase tfac-blue">Fall</h2>
       <!-- Splash Module Include -->
       <?php include 'modules/splash-activity-module.php'; ?>
 
