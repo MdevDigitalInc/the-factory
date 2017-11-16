@@ -135,6 +135,17 @@ $splash-item-xl: 315px;
   width: 100%;
   position: relative;
   overflow: hidden;
+
+  .tfac-splash-activity-title {
+    font-size: 4vw;
+
+    @media #{$tablet-up} {
+      font-size: 5vw;
+    }
+    @media #{$tablet-prt-only} {
+      font-size: 7vw;
+    }
+  }
 }
 
 // Splash Hero
@@ -167,6 +178,7 @@ $splash-item-xl: 315px;
   z-index: 2;
   background-size: 100%;
   background-position: -5px;
+  background-repeat: no-repeat;
 }
 
 .tfac-splash-image {
@@ -222,6 +234,67 @@ $splash-item-xl: 315px;
 
   .tfac-splash-hero {
     left: 0;
+  }
+}
+
+.tfac-splash-center {
+  margin: 10vh 0;
+
+  .tfac-splash-hero {
+    width: 100%;
+    @include center(horizontal);
+    top: 6%;
+
+    @media #{$portrait} {
+      top: 10%;
+    }
+  }
+
+  .tfac-splash-mask {
+    padding-top: 60%;
+  }
+}
+
+.tfac-splash-activity {
+  width: 100%;
+
+  .tfac-splash-activity-content {
+    width: 100%;
+    position: relative;
+    margin-top: 34vh;
+    padding: 0 10% 2%;
+
+    @media #{$tablet-only} {
+      padding: 0 10% 3.5%;
+    }
+    @media #{$laptop-only} {
+      padding: 0 10% 3.2%;
+    }
+    @media #{$portrait} {
+      margin-top: 30vh;
+    }
+  }
+
+  .tfac-splash-media {
+    width: 45%;
+    padding-top: 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    box-shadow: 0 0 50px rgba( 0,0,0,.5 );
+  }
+
+  .tfac-splash-copy {
+    width: 55%;
+    padding: 2vw;
+
+    p {
+      margin-bottom: 1vw;
+    }
+  }
+
+  .tfac-icon {
+    margin-right: .5vw;
   }
 }
 
