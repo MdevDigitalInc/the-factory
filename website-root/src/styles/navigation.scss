@@ -3,12 +3,14 @@
   width: 100%;
   position: fixed;
   top: 0;
-  padding: 1vw 2vw;
+  padding: 0 2vw;
   left: 0;
   color: $white;
   font-size: $font-size-body;
   font-weight: 700;
   z-index: 100;
+  transition: all, .2s;
+  background: transparent;
 
   @media #{$tablet-up} {
     font-size: 1vw;
@@ -20,12 +22,10 @@
     font-size: 1vw;
   }
 
-  a {
-    margin: 0 20px;
-
-    @media #{$laptop-only} {
-      margin: 0 1.3vw;
-    }
+  &:hover,
+  &:active,
+  &:focus {
+    background: $black;
   }
 
   .tfac-main-cta {
@@ -53,6 +53,11 @@
       font-size: 1.3vw;
       margin: 0;
     }
+  }
+
+  // Space out button a bit on the left
+  .tfac-btn {
+    margin-left: 10px;
   }
 }
 
@@ -122,4 +127,9 @@
     margin: 0 10px;
   }
 }
+// Active Nav ( For Scroll )
+.tfac-nav-active {
+  background: $black;
+}
+
 
