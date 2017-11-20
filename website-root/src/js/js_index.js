@@ -19,21 +19,17 @@
     //
     // Fix Dropdown Heights
     normalizeDropdown();
+    var mainNav = $('[data-main-navigation]');
+    activeNavigation( mainNav );
 
     // Scroll Events
     // -------------------------------
     $(document).scroll(function (event) {
       // Variables
-      var top  = $(window).scrollTop();
       // Targets ( Use Custom Data Attr )
       var mainNav = $('[data-main-navigation]');
-
-      if ( top >= 50 ) {
-        mainNav.addClass('tfac-nav-active');
-      }
-      else if ( top === 0 ) {
-        mainNav.removeClass('tfac-nav-active');
-      }
+      // Activate Nav Background
+      activeNavigation( mainNav );
     });
 
     // Resize Events (debounced)
@@ -45,6 +41,8 @@
       resizeTimer = setTimeout(function() {
         // Normalize Dropdowns Again...
         normalizeDropdown();
+        // Check Nav
+        activeNavigation( mainNav );
       },250);
     });
   });
@@ -63,6 +61,16 @@
     });
 
     console.log('done');
+  };
 
+  function activeNavigation( target ) {
+    var top = $(window).scrollTop();
+
+    if ( top >= 50 ) {
+      target.addClass('tfac-nav-active');
+    }
+    else if ( top === 0 ) {
+      target.removeClass('tfac-nav-active');
+    }
   };
 })();

@@ -1,8 +1,6 @@
 <!--Main Navigation -->
 <nav data-main-navigation
   class="tfac-main-nav flex flex-hor-start flex-hor-between flex-vert-center u-uppercase">
-  <!-- Temporary JS Placement -->
-  <script type="text/javascript" src="./js/bundle-index.js"></script>
   <div class="tfac-nav-slogan">
     <span class="tfac-green">Canada's Biggest</span> Indoor Adventure Park
   </div>
@@ -23,5 +21,10 @@
         <a href="#" title="Register Account">Register</a>
       </div>
   </div>
+  <!-- Mobile Nav Button -->
+  <div class="tfac-menu-open">
+    TFAC TFAC TFAC
+  </div>
 </nav>
-
+<!--Mobile Navigation-->
+<?php include 'nav/mobile-nav.php'; ?>

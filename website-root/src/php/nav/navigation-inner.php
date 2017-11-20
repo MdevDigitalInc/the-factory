@@ -1,6 +1,7 @@
 <!--Main Navigation -->
 <nav data-main-navigation
   class="tfac-main-nav flex flex-hor-start flex-hor-between flex-vert-start u-uppercase">
+  <div class="tfac-nav-brand-holder"></div>
   <div class="tfac-nav-branding">
     <img src="./img/the-factory-logo.svg"  alt="The Factory, Canada's Biggest Indoor Adventure Park" />
   </div>
@@ -28,5 +29,5 @@
     </div>
   </div>
 </nav>
-
-
+<!--Mobile Navigation-->
+<?php include 'nav/mobile-nav.php'; ?>

@@ -65,7 +65,9 @@
   width: 15%;
   min-width: 146px;
   padding: 0 3.4%;
-  position: relative;
+  position: absolute;
+  left: 2vw;
+  top: 0;
   z-index: 10;
 
   @media #{$tablet-only} {
@@ -88,6 +90,14 @@
   }
 }
 
+.tfac-brand-holder {
+  width: 15%;
+  min-width: 146px;
+  padding: 0 3.4%;
+  position: relative;
+  z-index: 10;
+}
+
 .tfac-main-nav-inner {
   width: 83%;
 
@@ -103,6 +113,13 @@
     justify-content: flex-end;
   }
 }
+
+.tfac-nav-links {
+  @media #{$phone-only} {
+    display: none;
+  }
+}
+
 
 .tfac-account-links {
   margin-left: 20px;
@@ -127,9 +144,10 @@
     margin: 0 10px;
   }
 }
+.tfac-menu-open {
+  display: none;
+}
 // Active Nav ( For Scroll )
 .tfac-nav-active {
   background: $black;
 }
-
-

@@ -9,8 +9,9 @@ body {
   color: $black;
   background-color: $white;
   z-index: 1;
+  width: 100%;
+  overflow-x: hidden;
 }
-
 /* Headings & Body Copy */
 
 /* Reset Fonts */
@@ -41,7 +42,7 @@ $p-font-sizes: (
 );
 
 $h1-font-sizes: (
-  null  : 25px,
+  null  : 14vw,
   $tablet-up : 8vw,
   $desktop-up: 120px,
   $xl-up: 7vw
@@ -114,7 +115,7 @@ p,
   @include font-size($p-font-sizes);
   line-height: 1.9vw;
   @media #{$portrait} {
-    line-height: 2.4vw;
+    line-height: 2.8vh;
   }
   @media #{$xl-up} {
     line-height: 1.5vw;
@@ -173,19 +174,18 @@ h1,
 .h1 {
   font-family: $heading-font;
   font-weight: $font-weight-body;
-
+  @media #{$phone-only} {
+    line-height: 13vw;
+  }
   @media #{$tablet-only} {
     line-height: 6.5vw;
   }
-
   @media #{$laptop-only} {
     line-height: 5.5vw;
   }
-
   @media #{$desktop-only} {
     line-height: 90px;
   }
-
   @media #{$xl-up} {
     line-height: 6vw;
   }

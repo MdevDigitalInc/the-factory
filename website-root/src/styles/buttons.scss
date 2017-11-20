@@ -10,19 +10,24 @@
 /* Base Button */
 .tfac-btn {
   width: auto;
-  padding: 1.3vw 1vw 1vw;
+  padding: 2.6vw 3vw 2vw;
   transition: all, .3s;
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
   display: inline-block;
   line-height: 20px;
-  font-size: 1vw;
   position: relative;
   font-family: $main-font;
   font-weight: 900;
   appareance: none;
+  font-size: 4vw;
   border: none;
+
+  @media #{$tablet-up} {
+    font-size: 1vw;
+    padding: 1.3vw 1vw 1vw;
+  }
 
   @media #{$tablet-prt-only} {
     font-size: 1.3vw;
@@ -40,8 +45,11 @@
   background: $tfac-blue;
 
   .tfac-btn-arrow {
-    border-left: .5vw solid $white;
+    border-left: 1.5vw solid $white;
 
+    @media #{$desktop-up} {
+      border-left: .5vw solid $white;
+    }
     @media #{$tablet-only} {
       border-left: 1vw solid $white;
     }
@@ -55,11 +63,16 @@
   width: 0;
   height: 0;
   margin-left: 10px;
-  border-top: .4vw solid transparent;
-  border-left: .5vw solid $black;
-  border-bottom: .4vw solid transparent;
   vertical-align: middle;
+  border-top: 1.4vw solid transparent;
+  border-left: 1.5vw solid $black;
+  border-bottom: 1.4vw solid transparent;
 
+  @media #{$desktop-up} {
+    border-top: .4vw solid transparent;
+    border-left: .5vw solid $black;
+    border-bottom: .4vw solid transparent;
+  }
   @media #{$tablet-only} {
     border-top: .5vw solid transparent;
     border-left: .6vw solid $black;

@@ -5,12 +5,38 @@
 
     <div class="tfac-footer-brand tfac-footer-content">
       <img src="./img/the-factory-logo.svg" alt="The Factory, Canada's Biggest Indoor Adventure Park">
-      <h4 class="u-uppercase tfac-blue u-bold">Sign up for our newsletter</h5>
+      <h4 class="u-uppercase tfac-blue u-bold">Sign up for our newsletter</h4>
 
       <form class="tfac-footer-form flex flex-hor-start flex-vert-start">
         <input class="footer-input" type="text" name="e-newsletter" placeholder="Your Email Address"></input>
         <button class="tfac-btn tfac-secondary-cta">Go <i class="tfac-btn-arrow"></i></button>
       </form>
+
+      <!-- Mobile Only -->
+      <div class="tfac-footer-mobile">
+        <div class="tfac-mobile-social flex flex-row flex-hor-between flex-vert-center">
+          <a href="#" title="" class="tfac-social-link">
+            <img src="img/icons/icon-social-facebook.svg" />
+          </a>
+          <a href="#" title="" class="tfac-social-link">
+            <img src="img/icons/icon-social-twitter.svg" />
+          </a>
+          <a href="#" title="" class="tfac-social-link">
+            <img src="img/icons/icon-social-snapchat.svg" />
+          </a>
+          <a href="#" title="" class="tfac-social-link">
+            <img src="img/icons/icon-social-youtube.svg" />
+          </a>
+          <a href="#" title="" class="tfac-social-link">
+            <img src="img/icons/icon-social-instagram.svg" />
+          </a>
+        </div>
+
+        <div class="tfac-mobile-address">
+          <h3 class="u-uppercase">Location</h3>
+          <span> 100 kellogg Lane </br> London, Ontario </br> N5W 2T5 </span>
+          <a href="#" title="Directions" class="tfac-blue">Directions</a>
+      <div>
     </div>
 
     <nav class="tfac-footer-nav tfac-footer-content flex flex-between">

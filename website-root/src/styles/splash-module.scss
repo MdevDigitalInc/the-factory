@@ -7,7 +7,7 @@
   @media #{$desktop-up} {
     width: 85%;
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     flex-wrap: wrap;
     padding: 0 7vw;
   }
@@ -18,7 +18,10 @@
     @media #{$tablet-only} {
       width: 40%;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$phone-only} {
+      margin-bottom: 2vh;
+    }
+    @media #{$portrait} {
       width: 100%;
       /* stylelint-disable */
       order: 1 !important;
@@ -34,10 +37,13 @@
     @media #{$tablet-only} {
       width: 60%;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       width: 100%;
       padding: 0;
       margin-bottom: 60px;
+    }
+    @media #{$phone-only} {
+      margin-bottom: 0;
     }
   }
 
@@ -81,8 +87,11 @@ $splash-item-xl: 315px;
     @media #{$tablet-only} {
       max-height: $splash-item-tablet;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       max-height: $splash-item-tablet-prt;
+    }
+    @media #{$phone-only} {
+      max-height: 150px;
     }
     @media #{$laptop-only} {
       max-height: $splash-item-laptop;
@@ -117,15 +126,16 @@ $splash-item-xl: 315px;
 // Padding
 .tfac-splash-padding {
   padding: 5vh 0 10vh;
-  margin-bottom: 30vh;
 
+  @media #{$tablet-up} {
+    padding: 5vh 0 10vh;
+    margin-bottom: 10vh;
+  }
   @media #{$laptop-only} {
     padding: 2vh 0 5vh;
-    margin-bottom: 10vh;
   }
   @media #{$desktop-up} {
     padding: 5vh 0 10vh;
-    margin-bottom: 10vh;
   }
 }
 
@@ -140,16 +150,19 @@ $splash-item-xl: 315px;
   @media #{$tablet-only} {
     width: 72%;
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     width: 100%;
     transform: scale(1.8);
     top: 25%;
+  }
+  @media #{$phone-only} {
+    top: 30%;
   }
   @media #{$laptop-only} {
     top: 42%;
   }
   @media #{$desktop-only} {
-    top: 58%;
+    top: 50%;
   }
 }
 
@@ -190,7 +203,7 @@ $splash-item-xl: 315px;
   .tfac-btn {
     float: left;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       float: right;
     }
   }
@@ -292,7 +305,7 @@ $splash-item-xl: 315px;
     @media #{$tablet-up} {
       font-size: 5vw;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       font-size: 7vw;
     }
   }
