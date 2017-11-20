@@ -1,26 +1,68 @@
 // Splash Modules
 .tfac-splash-module {
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 
+  @media #{$desktop-up} {
+    width: 85%;
+  }
+  @media #{$tablet-prt-only} {
+    flex-wrap: wrap;
+    padding: 0 7vw;
+  }
+
   .tfac-splash-heading {
     width: 50%;
+
+    @media #{$tablet-only} {
+      width: 40%;
+    }
+    @media #{$tablet-prt-only} {
+      width: 100%;
+      /* stylelint-disable */
+      order: 1 !important;
+      text-align: left !important;
+      /* stylelint-enable */
+    }
   }
 
   .tfac-splash-content {
     width: 48%;
     padding: 0 60px;
 
-    p {
-      line-height: $line-height-md;
-      margin-bottom: $tfac-padding-xl;
+    @media #{$tablet-only} {
+      width: 60%;
+    }
+    @media #{$tablet-prt-only} {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 60px;
+    }
+  }
+
+  p {
+    margin-bottom: $tfac-padding-xl;
+  }
+
+  .tfac-btn {
+    font-size: inherit;
+
+    @media #{$tablet-only} {
+      font-size: 2.4vw;
+    }
+    @media #{$xl-up} {
+      font-size: 1.2vw;
     }
   }
 }
 
 //Splash Item Sizes
+$splash-item-tablet-prt: 260px;
+$splash-item-tablet: 170px;
+$splash-item-laptop: 180px;
 $splash-item-desktop: 220px;
+$splash-item-xl: 315px;
 
 .tfac-splash-list {
   width: 100%;
@@ -33,8 +75,21 @@ $splash-item-desktop: 220px;
     position: relative;
     margin: 0;
     display: block;
-    height: $splash-item-desktop;
+    max-height: $splash-item-desktop;
     z-index: 2;
+
+    @media #{$tablet-only} {
+      max-height: $splash-item-tablet;
+    }
+    @media #{$tablet-prt-only} {
+      max-height: $splash-item-tablet-prt;
+    }
+    @media #{$laptop-only} {
+      max-height: $splash-item-laptop;
+    }
+    @media #{$xl-up} {
+      max-height: $splash-item-xl;
+    }
 
     &:before {
       @include pseudo();
@@ -61,33 +116,64 @@ $splash-item-desktop: 220px;
 
 // Padding
 .tfac-splash-padding {
-  padding: 70px 0 120px;
+  padding: 5vh 0 10vh;
+  margin-bottom: 30vh;
+
+  @media #{$laptop-only} {
+    padding: 2vh 0 5vh;
+    margin-bottom: 10vh;
+  }
+  @media #{$desktop-up} {
+    padding: 5vh 0 10vh;
+    margin-bottom: 10vh;
+  }
 }
 
-
-// Home Page Splashes
-.tfac-splash {
-  width: 100%;
-  position: relative;
-}
 
 // Splash Hero
 .tfac-splash-hero {
   width: 60%;
   z-index: -1;
-  background-size: cover;
+  overflow: hidden;
   @include center(vertical);
-  top: 54%;
-  background-position-x: left;
-  background-position-y: $tfac-padding-xl;
+
+  @media #{$tablet-only} {
+    width: 72%;
+  }
+  @media #{$tablet-prt-only} {
+    width: 100%;
+    transform: scale(1.8);
+    top: 25%;
+  }
+  @media #{$laptop-only} {
+    top: 42%;
+  }
+  @media #{$desktop-only} {
+    top: 58%;
+  }
 }
 
 .tfac-splash-mask {
-  width: 100%;
-  padding-top: 87%;
-  background-image: url('../img/splashes/splash-feature.svg');
-  background-size: 101%;
+  width: 101%;
+  padding-top: 88%;
+  position: relative;
+  z-index: 2;
+  background-size: 100%;
   background-position: -5px;
+  background-repeat: no-repeat;
+}
+
+.tfac-splash-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position-x: left;
+  background-position-y: $tfac-padding-xl;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: scale(.98);
 }
 
 // Left | Right overrides
@@ -100,11 +186,17 @@ $splash-item-desktop: 220px;
   .tfac-splash-content {
     order: 1;
   }
+
   .tfac-btn {
     float: left;
+
+    @media #{$tablet-prt-only} {
+      float: right;
+    }
   }
+
   .tfac-splash-hero {
-    right: 0;
+    right: -20px;
   }
 }
 
@@ -117,11 +209,102 @@ $splash-item-desktop: 220px;
   .tfac-splash-content {
     order: 2;
   }
+
   .tfac-btn {
     float: right;
   }
 
   .tfac-splash-hero {
-    left: 0;
+    left: -20px;
   }
 }
+
+.tfac-splash-center {
+  margin: 10vh 0;
+
+  .tfac-splash-hero {
+    width: 100%;
+    @include center(horizontal);
+    top: 6%;
+
+    @media #{$portrait} {
+      top: 10%;
+    }
+  }
+
+  .tfac-splash-mask {
+    padding-top: 60%;
+  }
+}
+
+.tfac-splash-activity {
+  width: 100%;
+
+  .tfac-splash-activity-content {
+    width: 100%;
+    position: relative;
+    margin-top: 34vh;
+    padding: 0 10% 2%;
+
+    @media #{$tablet-only} {
+      padding: 0 10% 3.5%;
+    }
+    @media #{$laptop-only} {
+      padding: 0 10% 3.2%;
+    }
+    @media #{$portrait} {
+      margin-top: 30vh;
+    }
+  }
+
+  .tfac-splash-media {
+    width: 45%;
+    padding-top: 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    box-shadow: 0 0 50px rgba( 0,0,0,.5 );
+  }
+
+  .tfac-splash-copy {
+    width: 55%;
+    padding: 2vw;
+
+    p {
+      margin-bottom: 1vw;
+    }
+  }
+
+  .tfac-icon {
+    margin-right: .5vw;
+  }
+}
+
+// Home Page Splashes
+.tfac-splash {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  .tfac-splash-activity-title {
+    font-size: 4vw;
+
+    @media #{$tablet-up} {
+      font-size: 5vw;
+    }
+    @media #{$tablet-prt-only} {
+      font-size: 7vw;
+    }
+  }
+
+  .tfac-featuring,
+  .tfac-splash-activity-title {
+    margin-left: 10%;
+
+    @media #{$portrait} {
+      margin-left: 0;
+    }
+  }
+}
+
+

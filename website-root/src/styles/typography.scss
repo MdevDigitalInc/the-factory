@@ -28,12 +28,6 @@ h6,.h6, {
   color: inherit;
 }
 
-h1,
-.h1 {
-  font-family: $heading-font;
-  font-weight: $font-weight-body;
-}
-
 .mdev-arcade-title {
   font-weight: $font-weight-body;
 }
@@ -41,38 +35,47 @@ h1,
 // Responsive Font Size Maps
 $p-font-sizes: (
   null  : 14px,
-  $tablet-up : 16px,
-  $desktop-up: 18px
+  $tablet-up : 15px,
+  $desktop-up: 18px,
+  $xl-up: 1.2vw
 );
 
 $h1-font-sizes: (
   null  : 25px,
-  $tablet-up : 28px,
-  $desktop-up: 120px
+  $tablet-up : 8vw,
+  $desktop-up: 120px,
+  $xl-up: 7vw
 );
 
 $h2-font-sizes: (
   null  : 30px,
   $tablet-up : 32px,
-  $desktop-up: 60px
+  $laptop-up : 3vw,
+  $desktop-only: 2.6vw,
+  $xl-up: 3.2vw
 );
 
 $h3-font-sizes: (
   null  : 20px,
-  $tablet-up : 22px,
-  $desktop-up: 40px
+  $tablet-up : 2.4vw,
+  $tablet-prt-only: 3.2vw,
+  $laptop-up : 2.2vw,
+  $desktop-up: 2vw,
+  $xl-up: 2.3vw
 );
 
 $h4-font-sizes: (
   null  : 60%,
   $tablet-up : 90%,
-  $desktop-up: 22px
+  $desktop-up: 22px,
+  $xl-up: 1.25vw
 );
 
 $h5-font-sizes: (
   null  : 14px,
-  $tablet-up: 22px,
-  $desktop-up: 30px
+  $tablet-up: 1.4vw,
+  $desktop-up: $font-size-cta-heading,
+  $xl-up: 1.5vw
 );
 
 $h6-font-sizes: (
@@ -106,8 +109,16 @@ $link-font-sizes: (
 
 /* Generate Responsive Sizing */
 
-p {
+p,
+.p {
   @include font-size($p-font-sizes);
+  line-height: 1.9vw;
+  @media #{$portrait} {
+    line-height: 2.4vw;
+  }
+  @media #{$xl-up} {
+    line-height: 1.5vw;
+  }
 }
 
 h1,
@@ -158,3 +169,24 @@ a {
   }
 }
 
+h1,
+.h1 {
+  font-family: $heading-font;
+  font-weight: $font-weight-body;
+
+  @media #{$tablet-only} {
+    line-height: 6.5vw;
+  }
+
+  @media #{$laptop-only} {
+    line-height: 5.5vw;
+  }
+
+  @media #{$desktop-only} {
+    line-height: 90px;
+  }
+
+  @media #{$xl-up} {
+    line-height: 6vw;
+  }
+}

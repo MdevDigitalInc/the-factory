@@ -2,46 +2,51 @@
 include 'hero-headers/header-video.php'; ?>
 
 <main role="main">
-  <section class="ropes-splash">
-    <h2>High <span class="green">Ropes</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="mdev-activity-list">
-      <!-- Wordpress Query/Loop - Background Image attached to mdev-activity, CPT Title on H3 -->
-        <div class="mdev-activity">
-          <p>Over 90 Obstacles</p>
-          <h3>Rope Obstacles</h3>
-        </div>
-      </div>
-      <a href="cta-button" href="#">Find our More</a>
-  </section>
-  <section class="trampolines-splash">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquit ex ea commodo consequat.</p>
-    <h2 class="green">Trampolines</h2>
-    <div class="mdev-activity-list">
-      <!--Wordpress Query/Loop - Background Image attached to mdev-activity, CPT title on H3 -->
-      <div class="mdev-activity">
-        <p>Challenge your limits</p>
-        <h3>Warrior Course</h3>
-      </div>
+  <section class="tfac-splash tfac-splash-left">
+    <!-- Splash Module Include -->
+    <?php include 'modules/splash-module.php'; ?>
+
+    <!-- First BKG Url is for the mask, second is for the desired image -->
+    <div class="tfac-splash-hero">
+      <div class="tfac-splash-mask" style="background-image: url('../img/splashes/splash-feature.svg');" ></div>
+      <div class="tfac-splash-image" style="background-image: url('./img/play/play-splash-ropes.png');"></div>
     </div>
-    <a class="cta-button" href="#">Find Our More</a>
+   </div>
   </section>
-  <section class="soft-play-splash">
-    <h2>Kids<span class="green"> Soft Play</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <div class="mdev-activity-list">
-      <!-- Wordpress Query/Loop - Background Image attached to mdev-activity, CPT Title on H3 -->
-        <div class="mdev-activity">
-          <p>fun obstacles and slides for active kids</p>
-          <h3>Adventure Playground</h3>
-        </div>
-      </div>
-      <a href="cta-button" href="#">Find our More</a>
+
+  <section class="tfac-splash tfac-splash-right">
+    <!-- Splash Module Include -->
+    <?php include 'modules/splash-module.php'; ?>
+
+    <!-- First BKG Url is for the mask, second is for the desired image -->
+    <div class="tfac-splash-hero">
+      <div class="tfac-splash-mask" style="background-image: url('../img/splashes/splash-feature.svg');" ></div>
+      <div class="tfac-splash-image" style="background-image: url('./img/play/play-splash-kids.png');"></div>
+    </div>
+   </div>
   </section>
+
+  <section class="tfac-splash tfac-splash-left">
+    <!-- Splash Module Include -->
+    <?php include 'modules/splash-module.php'; ?>
+
+    <!-- First BKG Url is for the mask, second is for the desired image -->
+    <div class="tfac-splash-hero">
+      <div class="tfac-splash-mask" style="background-image: url('../img/splashes/splash-feature.svg');" ></div>
+      <div class="tfac-splash-image" style="background-image: url('./img/play/play-splash-trampoline.png');"></div>
+    </div>
+   </div>
+  </section>
+  <!-- Arcade Module -->
   <?php include 'modules/arcade-module.php'; ?>
-  <?php include 'modules/activity-module.php'; ?>
-  <?php include 'modules/plan-module.php'; ?>
-
-
+  <!-- Activity Module -->
+  <!-- TODO - Add proper BKG Image -->
+  <section class="tfac-activity-module" style="background-image: url(../img/home/home-bkg-intro.png);">
+    <?php include 'modules/activity-module.php' ?>
+  </section>
+  <!-- Plan Section -->
+  <section class="tfac-adventure-plan" style="background-image:url('./img/plan-bkgs/plan-bkg-trampoline.png')">
+    <?php include 'modules/plan-module.php'; ?>
+  </section>
 </main>
 <?php include 'structure/footer.php'; ?>

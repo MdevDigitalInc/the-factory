@@ -11,7 +11,7 @@
     <?php include 'nav/navigation-inner.php'; ?>
 
     <section class="tfac-hero-mask">
-      <div class="tfac-main-hero hero-bkg-filter tfac-hero-inner" style="background-image:url('./img/heros/hero-arcade.png')">
+      <div class="tfac-main-hero hero-bkg-filter tfac-hero-inner u-focus-left" style="background-image:url('./img/heros/hero-arcade.png')">
         <div class="mdev-main-wrapper">
           <div class="tfac-hero-content flex flex-hor-start flex-vert-center">
             <div class="tfac-hero-cta">

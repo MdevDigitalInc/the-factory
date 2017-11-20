@@ -116,3 +116,24 @@
   font-weight: $font-weight-bold;
   color: $tfac-yellow;
 }
+
+// Focal Points
+.u-focus-left {
+  background-position: left top;
+}
+
+.u-focus-right {
+  background-position: right top;
+}
+
+.u-focus-center {
+  background-position: center top;
+}
+
+.u-focus-middle {
+  background-position: center;
+}
+
+.u-pad-top {
+  padding-top: $tfac-padding-md;
+}

@@ -12,18 +12,57 @@
   min-width: 320px;
 
   @media #{$tablet-only} {
-    max-width: 800px;
+    max-width: 88vw;
   }
-
+  @media #{$tablet-prt-only} {
+    max-width: 95vw;
+  }
   @media #{$laptop-only} {
-    max-width: 1400px;
+    max-width: 85vw;
   }
-
   @media #{$desktop-only} {
     max-width: 1500px;
   }
-
   @media #{$xl-up} {
-    max-width: 1680px;
+    max-width: 80vw;
   }
+}
+
+.tfac-content-section {
+  width: 100%;
+  position: relative;
+  background-zie: cover;
+  background-position: center top;
+  padding: 10vh 0;
+
+  .tfac-content-blurb {
+    width: 100%;
+    position: relative;
+    margin-bottom: 5vh;
+
+    .tfac-content-title {
+      width: 29%;
+      font-size: 5.2vw;
+    }
+
+    p {
+      width: 70%;
+      font-size: 1.3vw;
+      line-height: 1.9vw;
+
+      @media #{$tablet-prt-only} {
+        font-size: 1.9vw;
+        line-height: 2.7vw;
+      }
+    }
+  }
+}
+
+.tfac-extra-padding {
+  padding-bottom: 20vh;
+}
+
+.tfac-food-hoist {
+  margin-top: -10vh;
+  padding-top: 0;
 }

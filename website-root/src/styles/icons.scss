@@ -1,15 +1,18 @@
 // Main Icons
 
-.mdev-icon {
+.tfac-icon {
   display: inline-block;
   color: inherit;
   background: inherit;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
 // Size Modifiers
 
-.--size-s {
+.tfac-icon-sm {
   width: 9.3vw;
   height: 9.3vw;
 
@@ -19,17 +22,17 @@
   }
 }
 
-.--size-m {
+.tfac-icon-md {
   width: 9.3vw;
   height: 9.3vw;
 
   @media #{$tablet-up} {
-    height: 1.8vw;
-    width: 1.8vw;
+    height: 2.8vw;
+    width: 2.8vw;
   }
 }
 
-.--size-l {
+.tfac-icon-lg {
   width: 9.3vw;
   height: 9.3vw;
 
@@ -39,40 +42,18 @@
   }
 }
 
-// Border Modifiers
-.--rounded-icon {
-  border-radius: $standard-radius;
+// Icon Background
+.icon-faq {
+  background-image: url('../img/icons/icon-faq.svg');
 }
 
-// Style Modifiers
-.--workorder-icon {
-  background: red;
-}
+// Icon Links
+.tfac-link-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
 
-.--billing-icon {
-  background: green;
-}
-
-.--contact-icon {
-  background: blue;
-}
-
-.--user-icon {
-  background: orange;
-}
-
-.--time-icon {
-  background: pink;
-}
-
-.--date-icon {
-  background: purple;
-}
-
-.--info-icon {
-  background: blue;
-}
-
-.--back-icon {
-  background: $color-brand-primary;
+  @media #{$portrait} {
+    font-size: 2vw;
+  }
 }

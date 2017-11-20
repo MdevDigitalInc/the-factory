@@ -1,51 +1,52 @@
-<section class="mdev-activity-tiles">
-    <div class="mdev-main-wrapper">
-
-      <h3 class="activity-title u-uppercase u-normal">More things to do at <span class="tfac-blue u-bold">The Factory</span></h3>
-      <div class="tiles">
-        <div class="tile">
-          <div class="tile-image" style="background-image: url('img/home/home-feat-axethrowing.png')">
-            <h5><span class="u-normal">Axe</span> Throwing</h5>
+  <div class="mdev-main-wrapper">
+    <!-- Title -->
+    <h3 class="tfac-activity-title u-uppercase u-normal">
+      More things to do at <span class="tfac-blue u-bold">The Factory</span>
+    </h3>
+    <!-- Activity Info -->
+    <div class="tfac-activity-content flex flex-row flex-hor-between flex-vert-stretch">
+      <div class="tfac-activity-item">
+        <div class="item-image" style="background-image: url('img/home/home-feat-axethrowing.png')">
+          <h5 class="u-uppercase">Axe <span class="u-bold">Throwing</span></h5>
+        </div>
+        <div class="item-content">
+          <div class="item-text">
+            <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
           </div>
-          <div class="tile-content">
-            <div>
-              <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-            </div>
-            <div class="cta-wrapper">
-              <img src="batl-logo.png" alt="BATL" />
-              <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
-          </div>
+          <div class="item-actions">
+            <img src="./img/the-factory-logo.svg" alt="BATL" />
+            <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
         </div>
       </div>
-      <div class="tile">
-          <div class="tile-image" style="background-image: url('img/home/home-feat-virtualreality.png')">
-            <h5><span class="u-normal">Virtual</span> Reality</h5>
-          </div>
-          <div class="tile-content">
-            <div>
-              <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-            </div>
-            <div class="cta-wrapper">
-              <img src="batl-logo.png" alt="BATL" />
-              <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="tile">
-          <div class="tile-image" style="background-image: url('img/home/home-feat-escaperoom.png')">
-            <h5><span class="u-normal">Escape</span> Rooms</h5>
-          </div>
-          <div class="tile-content">
-            <div>
-              <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-            </div>
-            <div class="cta-wrapper">
-              <img src="batl-logo.png" alt="BATL" />
-              <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
-          </div>
-        </div>
-      </div>
-        
     </div>
+    <div class="tfac-activity-item">
+        <div class="item-image" style="background-image: url('img/home/home-feat-virtualreality.png')">
+          <h5 class="u-uppercase">Virtual <span class="u-bold">Reality</span></h5>
+        </div>
+        <div class="item-content">
+          <div class="item-text">
+            <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
+          </div>
+          <div class="item-actions">
+            <img src="./img/the-factory-logo.svg" alt="BATL" />
+            <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="tfac-activity-item">
+        <div class="item-image" style="background-image: url('img/home/home-feat-escaperoom.png')">
+          <h5 class="u-uppercase">Escape <span class="u-bold">Rooms</span></h5>
+        </div>
+        <div class="item-content">
+          <div class="item-text">
+            <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
+          </div>
+          <div class="item-actions">
+            <img src="./img/the-factory-logo.svg" alt="BATL" />
+            <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
+        </div>
+      </div>
+    </div>
+
   </div>
-</section>
+</div>

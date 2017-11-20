@@ -17,6 +17,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- [ Stylesheet ] -->
 <link href="./css/styles.css" rel="stylesheet">
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
 <!-- [ ICONS ] -->
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="mobile-web-app-capable" content="yes">
