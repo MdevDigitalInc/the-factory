@@ -60,7 +60,10 @@ $dropdown-padding: 1.5vw;
   }
 
   .single-column {
+    /* !Important needed to override column size */
+    /* stylelint-disable */
     width: 15vw !important;
+    /* stylelint-enable */
   }
 }
 
