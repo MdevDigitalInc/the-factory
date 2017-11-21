@@ -2,35 +2,35 @@
 <div class="tfac-nav-dropdown">
   <a class="hover-stroke" href="#" title="Play at The Factory">Play</a>
   <!-- Drop Down -->
-  <div class="tfac-hidden-menu" data-hidden-menu>
+  <div class="tfac-hidden-menu" data-hidden-menu aria-hidden="true" aria-role="menu">
     <div class="tfac-dropdown-content flex flex-hor-between flex-vert-stretch">
       <div class="tfac-dropdown-column">
-        <a href="#" title="All Attractions">All Attractions</a>
-        <a href="#" title="Ropes">Ropes</a>
-        <a href="#" title="Ropes">Trampolines</a>
-        <a href="#" title="Ropes">Indoor Playground</a>
-        <a href="#" title="Ropes">Kids Soft Pay</a>
-        <a href="#" title="Ropes">Interactive Play</a>
-        <a href="#" title="Ropes">Arcade</a>
-        <a href="#" title="Ropes">Axe Throwing</a>
-        <a href="#" title="Ropes">Virtual reality </a>
-        <a href="#" title="Ropes">Escape Rooms</a>
+        <a href="#" title="All Attractions" aria-role="menu-item">All Attractions</a>
+        <a href="#" title="Ropes" aria-role="menu-item">Ropes</a>
+        <a href="#" title="Trampolines" aria-role="menu-item">Trampolines</a>
+        <a href="#" title="Indoor Playground" aria-role="menu-item">Indoor Playground</a>
+        <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
+        <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
+        <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
+        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
+        <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
+        <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
       <div class="tfac-dropdown-column tfac-dropdown-images">
         <a class="tfac-dropdown-tile"
-          href="#" title=""
+          href="#" title="Must Add Title" aria-role="menu-item"
           style="background-image:url('./img/home/home-feat-ropes.png')">
           <span>Ropes</span>
         </a>
 
         <a class="tfac-dropdown-tile"
-          href="#" title=""
+          href="#" title="Must Add Title" aria-role="menu-item"
           style="background-image:url('./img/home/home-feat-tramps.png')">
           <span>Trampoline</span>
         </a>
 
         <a class="tfac-dropdown-tile"
-          href="#" title=""
+          href="#" title="Must Add Title" aria-role="menu-item"
           style="background-image:url('./img/home/home-feat-playground.png')">
           <span>Indoor Playground</span>
         </a>
@@ -42,29 +42,29 @@
 <div class="tfac-nav-dropdown">
   <a class="hover-stroke" href="#" title="Groups Information">Groups</a>
   <!-- Drop Down -->
-  <div class="tfac-hidden-menu" data-hidden-menu>
+  <div class="tfac-hidden-menu" data-hidden-menu aria-hidden="true" aria-role="menu">
     <div class="tfac-dropdown-content flex flex-hor-between flex-vert-stretch">
       <div class="tfac-dropdown-column">
-        <a href="#" title="All Attractions">All Attractions</a>
-        <a href="#" title="Ropes">Ropes</a>
-        <a href="#" title="Ropes">Trampolines</a>
-        <a href="#" title="Ropes">Indoor Playground</a>
-        <a href="#" title="Ropes">Kids Soft Pay</a>
-        <a href="#" title="Ropes">Interactive Play</a>
-        <a href="#" title="Ropes">Arcade</a>
-        <a href="#" title="Ropes">Axe Throwing</a>
-        <a href="#" title="Ropes">Virtual reality </a>
-        <a href="#" title="Ropes">Escape Rooms</a>
+        <a href="#" title="All Attractions" aria-role="menu-item">All Attractions</a>
+        <a href="#" title="Ropes" aria-role="menu-item">Ropes</a>
+        <a href="#" title="Trampolines" aria-role="menu-item">Trampolines</a>
+        <a href="#" title="Indoor Playground" aria-role="menu-item">Indoor Playground</a>
+        <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
+        <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
+        <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
+        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
+        <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
+        <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
       <div class="tfac-dropdown-column tfac-dropdown-images">
         <a class="tfac-dropdown-tile"
-          href="#" title=""
+          href="#" title="Must Add Title" aria-role="menu-item"
           style="background-image:url('./img/home/home-feat-ropes.png')">
           <span>Ropes</span>
         </a>
 
         <a class="tfac-dropdown-tile"
-          href="#" title=""
+          href="#" title="Must Add Title" aria-role="menu-item"
           style="background-image:url('./img/home/home-feat-tramps.png')">
           <span>Trampoline</span>
         </a>
@@ -77,19 +77,19 @@
 <div class="tfac-nav-dropdown">
   <a class="hover-stroke" href="#" title="Plan Your Outing">Plan</a>
   <!-- Drop Down -->
-  <div class="tfac-hidden-menu single-column" data-hidden-menu>
+  <div class="tfac-hidden-menu" data-hidden-menu aria-hidden="true" aria-role="menu">
     <div class="tfac-dropdown-content flex flex-hor-between flex-vert-stretch">
       <div class="tfac-dropdown-column">
-        <a href="#" title="All Attractions">All Attractions</a>
-        <a href="#" title="Ropes">Ropes</a>
-        <a href="#" title="Ropes">Trampolines</a>
-        <a href="#" title="Ropes">Indoor Playground</a>
-        <a href="#" title="Ropes">Kids Soft Pay</a>
-        <a href="#" title="Ropes">Interactive Play</a>
-        <a href="#" title="Ropes">Arcade</a>
-        <a href="#" title="Ropes">Axe Throwing</a>
-        <a href="#" title="Ropes">Virtual reality </a>
-        <a href="#" title="Ropes">Escape Rooms</a>
+        <a href="#" title="All Attractions" aria-role="menu-item">All Attractions</a>
+        <a href="#" title="Ropes" aria-role="menu-item">Ropes</a>
+        <a href="#" title="Trampolines" aria-role="menu-item">Trampolines</a>
+        <a href="#" title="Indoor Playground" aria-role="menu-item">Indoor Playground</a>
+        <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
+        <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
+        <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
+        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
+        <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
+        <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
     </div>
   </div>
@@ -98,19 +98,19 @@
 <div class="tfac-nav-dropdown">
   <a class="hover-stroke" href="#" title="About Us">About</a>
   <!-- Drop Down -->
-  <div class="tfac-hidden-menu single-column" data-hidden-menu>
+  <div class="tfac-hidden-menu" data-hidden-menu aria-hidden="true" aria-role="menu">
     <div class="tfac-dropdown-content single-column flex flex-hor-between flex-vert-stretch">
       <div class="tfac-dropdown-column">
-        <a href="#" title="All Attractions">All Attractions</a>
-        <a href="#" title="Ropes">Ropes</a>
-        <a href="#" title="Ropes">Trampolines</a>
-        <a href="#" title="Ropes">Indoor Playground</a>
-        <a href="#" title="Ropes">Kids Soft Pay</a>
-        <a href="#" title="Ropes">Interactive Play</a>
-        <a href="#" title="Ropes">Arcade</a>
-        <a href="#" title="Ropes">Axe Throwing</a>
-        <a href="#" title="Ropes">Virtual reality </a>
-        <a href="#" title="Ropes">Escape Rooms</a>
+        <a href="#" title="All Attractions" aria-role="menu-item">All Attractions</a>
+        <a href="#" title="Ropes" aria-role="menu-item">Ropes</a>
+        <a href="#" title="Trampolines" aria-role="menu-item">Trampolines</a>
+        <a href="#" title="Indoor Playground" aria-role="menu-item">Indoor Playground</a>
+        <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
+        <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
+        <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
+        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
+        <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
+        <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
     </div>
   </div>

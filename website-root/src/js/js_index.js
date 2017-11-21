@@ -45,6 +45,26 @@
         activeNavigation( mainNav );
       },250);
     });
+
+    // Mobile Nav Controls
+    // ----------------------------
+    //
+    // Toggle Mobile Nav Open | Close
+    $('[data-open-menu]').click( function(){
+      $('[data-mobile-menu]').toggleClass('tfac-mobile-nav-active');
+      $('body').toggleClass('body-active-mobile-nav');
+    });
+    // Toggle Mobile Nav Accordion Logic
+    $('[data-accordion-item]').click( function(event){
+      // If tapped item already selected...
+      if ($(event.target).hasClass('tfac-accordion-active')){
+        $(event.target).removeClass('tfac-accordion-active');
+      }
+      else {
+        $('[data-accordion-item]').removeClass('tfac-accordion-active');
+        $(event.target).toggleClass('tfac-accordion-active');
+      }
+    });
   });
 
   // Auxiliary Functions
@@ -59,8 +79,6 @@
     navHiddenDropdown.css({
       "top": heightAdjustment + 'px'
     });
-
-    console.log('done');
   };
 
   function activeNavigation( target ) {

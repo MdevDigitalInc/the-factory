@@ -1,24 +1,52 @@
 .tfac-mobile-nav {
   position: fixed;
-  display: none;
+  display: block;
+  overflow: auto;
+  transform-origin: left;
+  transform: scalex(0);
   right: 0;
   left: 0;
+  opacity: 0;
   background: #000;
   width: 100%;
-  padding: 2vw;
+  padding: 2vw 0;
   z-index: 200;
   height: 100%;
+  transition: transform .2s, opacity .5s;
 
   img {
-    width: 60%;
+    width: 40%;
     display: block;
-    margin: 0 auto;
+    margin: 4vh auto 0;
   }
 
   .tfac-btn {
     width: 100%;
     text-align: center;
-    margin: 2vw 0;
+    margin: 5vh 0 0;
+  }
+
+  .tfac-mobile-social {
+    width: 100%;
+    padding: 0 14vw;
+
+    a {
+      width: 10%;
+    }
+
+    img {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  .aoda-compliant {
+    width: 100%;
+    text-align: center;
+    color: $white;
+    position: relative;
+    margin-top: 10vh;
+    display: block;
   }
 }
 
@@ -26,31 +54,84 @@
   width: 100%;
   position: relative;
   color: $white;
+  padding: 5vh 0;
 
   .tfac-accordion-item {
     width: 100%;
-    border-bottom: 1px solid $tfac-green;
+    border-bottom: .5px solid $white;
   }
 
   .tfac-accordion-title {
     width: 100%;
     padding: 1vw;
-    font-size: 3vw;
+    font-size: 7vw;
     text-transform: uppercase;
     font-weight: 700;
+    padding: 2vh 7vw;
     color: $white;
+    position: relative;
+    z-index: -1;
+    background: transparent;
+    transition: all, .3s;
   }
+}
+
+.tfac-mobile-nav-content {
+  padding: 0 8vw;
 }
 
 .tfac-accordion-hidden {
   width: 100%;
   background: #333;
+  transform-origin: top;
+  transform: scaley(0);
+  transition: all, .3s;
+  opacity: 0;
+  display: none;
 
   a {
     width: 100%;
     display: block;
-    padding: 1vw 2vw;
-    border-bottom: 1px solid $tfac-green;
+    padding: 2vh 12vw;
+    border-bottom: .5px solid $white;
   }
 }
 
+.tfac-accordion-active {
+  .tfac-accordion-hidden {
+    display: block;
+    transform: scaley(1);
+    opacity: 1;
+  }
+
+  .tfac-accordion-arrow {
+    transform: rotate(180deg);
+  }
+
+  .tfac-accordion-title {
+    background: #1a1a1a;
+  }
+}
+
+.tfac-accordion-arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid $white;
+  @include center(vertical);
+  margin-left: 15px;
+  transform-origin: center;
+  transition: all, .3s;
+}
+
+.tfac-mobile-nav-active {
+  transform: scalex(1);
+  opacity: 1;
+}
+
+.body-active-mobile-nav {
+  height: 100vh;
+  overflow: hidden;
+  transition: transform .5s, opacity .2s;
+}

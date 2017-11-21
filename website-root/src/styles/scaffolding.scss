@@ -1,7 +1,16 @@
 /*-------------------------------------
  *	SCAFFOLDING & LAYOUT UTILITIES
 /-------------------------------------*/
-
+/* Main */
+body {
+  font-family: $main-font;
+  font-size: $font-size-body;
+  color: $black;
+  background-color: $white;
+  z-index: 1;
+  width: 100%;
+  overflow-x: hidden;
+}
 // Wrapper Classes
 
 .mdev-main-wrapper {
