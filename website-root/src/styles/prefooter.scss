@@ -15,7 +15,11 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    font-size: 1.2vw;
+    font-size: 4.2vw;
+
+    @media #{$tablet-up} {
+      font-size: 1.2vw;
+    }
 
     @media #{$tablet-prt-only} {
       font-size: 1.9vw;
@@ -38,21 +42,35 @@
 
   img {
     max-height: 50px;
+    height: 38px;
     width: auto;
+
+    @media #{$tablet-up} {
+      height: auto;
+    }
+
+    @media #{$tablet-up} {
+      height: auto;
+    }
   }
 }
 
 .tfac-column-action {
   padding-top: $tfac-padding-md;
 
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     flex-wrap: wrap;
   }
 
   .tfac-btn {
-    width: 49%;
+    width: 100%;
     text-align: center;
+    margin-bottom: 1vh;
 
+    @media #{$tablet-up} {
+      width: 49%;
+      margin: 0;
+    }
     @media #{$desktop-only} {
       letter-spacing: -1px;
     }
@@ -65,19 +83,34 @@
 }
 
 .tfac-pre-column {
-  width: 33%;
+  width: 50%;
   padding: 2vw 2vw 0;
+
+  @media #{$tablet-up} {
+    width: 33%;
+  }
 
   &:first-child {
     padding-left: 0;
+    width: 100%;
+
+    @media #{$tablet-up} {
+      width: 33%;
+    }
   }
   &:last-child {
     padding-right: 0;
   }
 
   h2 {
-    font-size: 277%;
+    font-size: 135%;
+    text-align: center;
+    margin: 2vh 0;
 
+    @media #{$tablet-up} {
+      text-align: left;
+      margin: 0;
+    }
     @media #{$tablet-only} {
       font-size: 167%;
     }
@@ -96,10 +129,23 @@
   }
 }
 
+.tfac-pre-footer-links {
+  flex-wrap: wrap;
+
+  @media #{$tablet-up} {
+    flex-wrap: nowrap;
+  }
+}
+
 .tfac-image-strip {
   width: 100%;
   position: relative;
   margin: 1vh 0;
+  display: none;
+
+  @media #{$tablet-up} {
+    display: block;
+  }
 
   .tfac-image-link {
     display: inline-block;
@@ -113,5 +159,3 @@
     }
   }
 }
-
-

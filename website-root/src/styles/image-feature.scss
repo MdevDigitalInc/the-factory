@@ -2,7 +2,7 @@
 .tfac-image-feature {
   width: 100%;
   position: relative;
-  padding: 10vh 0;
+  padding: 2vh 0 10vh;
 
   img {
     width: 100%;
@@ -22,7 +22,7 @@
     @media #{$tablet-only} {
       width: 65%;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       width: 100%;
     }
     @media #{$laptop-up} {
@@ -35,7 +35,7 @@
     z-index: 1;
     position: relative;
     margin-top: -17%;
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       display: none;
     }
     @media #{$tablet-only} {
@@ -50,10 +50,20 @@
     margin: 1.5vw 0;
     padding: 2vw 3vw;
 
+    @media #{$phone-only} {
+      flex-wrap: wrap;
+    }
+
     .tfac-arcade-title {
       flex-basis: 50%;
       text-align: center;
       margin-right: 1vw;
+
+      @media #{$phone-only} {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 2vh;
+      }
     }
 
     .button_wrapper {
