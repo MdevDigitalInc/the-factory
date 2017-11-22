@@ -64,12 +64,13 @@
 
 // Footer Social
 .tfac-footer-social {
-  position: relativel;
+  position: relative;
   width: 15%;
   display: none;
 
   @media #{$tablet-up} {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 // Social Links

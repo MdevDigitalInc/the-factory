@@ -144,7 +144,7 @@
   display: none;
 
   @media #{$tablet-up} {
-    display: block;
+    display: flex;
   }
 
   .tfac-image-link {
