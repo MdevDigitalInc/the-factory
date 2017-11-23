@@ -12,7 +12,8 @@
 
     <section class="tfac-hero-mask">
       <div class="tfac-main-hero hero-bkg-filter">
-        <video class="tfac-hero-video"
+        <!-- Important to add tfac-large-header -->
+        <video class="tfac-hero-video tfac-large-header"
           poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg"
           style="background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jp'); background-size: 100%;"
           preload="auto" autoplay muted loop>

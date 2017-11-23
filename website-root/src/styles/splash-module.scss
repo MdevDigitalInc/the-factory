@@ -233,14 +233,14 @@ $splash-item-xl: 315px;
 }
 
 .tfac-splash-center {
-  margin: 10vh 0;
+  margin: 5vh 0;
 
   .tfac-splash-hero {
     width: 100%;
     @include center(horizontal);
     top: 6%;
 
-    @media #{$portrait} {
+    @media #{$tablet-prt-only} {
       top: 10%;
     }
   }
@@ -259,29 +259,46 @@ $splash-item-xl: 315px;
     margin-top: 34vh;
     padding: 0 10% 2%;
 
+    @media #{$phone-only} {
+      /* Disabled because override was needed */
+      /* stylelint-disable */
+      align-items: flex-start !important;
+      /* styelint-enable */
+      margin-top: 32vh;
+    }
+
     @media #{$tablet-only} {
       padding: 0 10% 3.5%;
     }
     @media #{$laptop-only} {
       padding: 0 10% 3.2%;
     }
-    @media #{$portrait} {
+    @media #{$tablet-prt-only} {
       margin-top: 30vh;
     }
   }
 
   .tfac-splash-media {
-    width: 45%;
-    padding-top: 65%;
+    width: 40%;
+    padding-top: 85%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     box-shadow: 0 0 50px rgba( 0,0,0,.5 );
+
+    @media #{$tablet-up} {
+      padding-top: 65%;
+      width: 45%;
+    }
   }
 
   .tfac-splash-copy {
     width: 55%;
-    padding: 2vw;
+    padding: 0 2vw 2vw;
+
+    @media #{$tablet-up} {
+      padding: 2vw;
+    }
 
     p {
       margin-bottom: 1vw;
@@ -290,6 +307,28 @@ $splash-item-xl: 315px;
 
   .tfac-icon {
     margin-right: .5vw;
+  }
+
+  .tfac-splash-activity-actions {
+    flex-wrap: wrap;
+
+    @media #{$tablet-up} {
+      flex-wrap: nowrap;
+    }
+
+    @media #{$phone-only} {
+      .tfac-link-icon {
+        width: 100%;
+        order: 2;
+        padding-left: 14%;
+      }
+      .tfac-btn {
+        width: 100%;
+        order: 1;
+        margin-bottom: 2vh;
+        text-align: center;
+      }
+    }
   }
 }
 

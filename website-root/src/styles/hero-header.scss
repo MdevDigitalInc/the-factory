@@ -111,8 +111,13 @@
   @media #{$tablet-only} {
     width: 145%;
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     width: 185%;
+  }
+}
+.tfac-large-header {
+  @media #{$phone-only} {
+    width: 300%;
   }
 }
 // Filters

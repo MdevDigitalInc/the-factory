@@ -3,8 +3,12 @@
   position: relative;
 
   .tfac-stats-content {
-    width: 50%;
+    width: 100%;
     padding-top: 5vh;
+
+    @media #{$tablet-up} {
+      width: 50%;
+    }
   }
 
   .tfac-stats {
@@ -38,7 +42,11 @@
   background-size: cover;
   padding: 38% 0;
   margin-top: -29vh;
+  display: none;
 
+  @media #{$tablet-up} {
+    display: block;
+  }
   @media #{$tablet-only} {
     margin-top: -19vh;
   }
@@ -112,6 +120,30 @@
     text-transform: uppercase;
     color: $tfac-blue;
     font-size: 1vw;
+  }
+}
+
+.tfac-page-intro {
+  flex-direction: row;
+  margin-top: 7vh;
+  flex-wrap: wrap;
+
+  @media #{$tablet-up} {
+    flex-wrap: nowrap;
+  }
+  @media #{$portrait} {
+    margin-top: 5vh;
+  }
+
+  h2 {
+    padding-bottom: $tfac-padding-sm;
+  }
+  .tfac-intro-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
   }
 }
 

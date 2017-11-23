@@ -1,25 +1,25 @@
-.tfac-page-intro {
-  flex-direction: row;
-  margin-top: 7vh;
-
-  @media #{$portrait} {
-    margin-top: 5vh;
-  }
-
-  h2 {
-    padding-bottom: $tfac-padding-sm;
-  }
-}
-
 .tfac-grid-showcase {
-  padding: 100px 0;
+  padding: 10vh 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: $white;
 
+  @media #{$tablet-up} {
+    flex-wrap: nowrap;
+  }
+
   .tfac-showcase-intro {
-    width: 35%;
+    width: 100%;
+    order: 2;
+    margin-top: 4vh;
+
+    @media #{$tablet-up} {
+      width: 35%;
+      order: 1;
+      margin: 0;
+    }
   }
 
   h3 {
@@ -32,7 +32,13 @@
 }
 
 .tfac-grid-tiles {
-  width: 52%;
+  width: 100%;
+  order: 1;
+
+  @media #{$tablet-up} {
+    wdth: 52%;
+    order: 2;
+  }
 
   .tfac-tile {
     width: 48%;
