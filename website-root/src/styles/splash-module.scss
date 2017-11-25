@@ -7,7 +7,7 @@
   @media #{$desktop-up} {
     width: 85%;
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     flex-wrap: wrap;
     padding: 0 7vw;
   }
@@ -18,7 +18,10 @@
     @media #{$tablet-only} {
       width: 40%;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$phone-only} {
+      margin-bottom: 2vh;
+    }
+    @media #{$portrait} {
       width: 100%;
       /* stylelint-disable */
       order: 1 !important;
@@ -34,10 +37,13 @@
     @media #{$tablet-only} {
       width: 60%;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       width: 100%;
       padding: 0;
       margin-bottom: 60px;
+    }
+    @media #{$phone-only} {
+      margin-bottom: 0;
     }
   }
 
@@ -81,8 +87,11 @@ $splash-item-xl: 315px;
     @media #{$tablet-only} {
       max-height: $splash-item-tablet;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       max-height: $splash-item-tablet-prt;
+    }
+    @media #{$phone-only} {
+      max-height: 150px;
     }
     @media #{$laptop-only} {
       max-height: $splash-item-laptop;
@@ -117,15 +126,16 @@ $splash-item-xl: 315px;
 // Padding
 .tfac-splash-padding {
   padding: 5vh 0 10vh;
-  margin-bottom: 30vh;
 
+  @media #{$tablet-up} {
+    padding: 5vh 0 10vh;
+    margin-bottom: 10vh;
+  }
   @media #{$laptop-only} {
     padding: 2vh 0 5vh;
-    margin-bottom: 10vh;
   }
   @media #{$desktop-up} {
     padding: 5vh 0 10vh;
-    margin-bottom: 10vh;
   }
 }
 
@@ -140,16 +150,19 @@ $splash-item-xl: 315px;
   @media #{$tablet-only} {
     width: 72%;
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     width: 100%;
     transform: scale(1.8);
     top: 25%;
+  }
+  @media #{$phone-only} {
+    top: 30%;
   }
   @media #{$laptop-only} {
     top: 42%;
   }
   @media #{$desktop-only} {
-    top: 58%;
+    top: 50%;
   }
 }
 
@@ -190,7 +203,7 @@ $splash-item-xl: 315px;
   .tfac-btn {
     float: left;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       float: right;
     }
   }
@@ -220,14 +233,14 @@ $splash-item-xl: 315px;
 }
 
 .tfac-splash-center {
-  margin: 10vh 0;
+  margin: 5vh 0;
 
   .tfac-splash-hero {
     width: 100%;
     @include center(horizontal);
     top: 6%;
 
-    @media #{$portrait} {
+    @media #{$tablet-prt-only} {
       top: 10%;
     }
   }
@@ -246,29 +259,46 @@ $splash-item-xl: 315px;
     margin-top: 34vh;
     padding: 0 10% 2%;
 
+    @media #{$phone-only} {
+      /* Disabled because override was needed */
+      /* stylelint-disable */
+      align-items: flex-start !important;
+      /* styelint-enable */
+      margin-top: 32vh;
+    }
+
     @media #{$tablet-only} {
       padding: 0 10% 3.5%;
     }
     @media #{$laptop-only} {
       padding: 0 10% 3.2%;
     }
-    @media #{$portrait} {
+    @media #{$tablet-prt-only} {
       margin-top: 30vh;
     }
   }
 
   .tfac-splash-media {
-    width: 45%;
-    padding-top: 65%;
+    width: 40%;
+    padding-top: 85%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     box-shadow: 0 0 50px rgba( 0,0,0,.5 );
+
+    @media #{$tablet-up} {
+      padding-top: 65%;
+      width: 45%;
+    }
   }
 
   .tfac-splash-copy {
     width: 55%;
-    padding: 2vw;
+    padding: 0 2vw 2vw;
+
+    @media #{$tablet-up} {
+      padding: 2vw;
+    }
 
     p {
       margin-bottom: 1vw;
@@ -277,6 +307,28 @@ $splash-item-xl: 315px;
 
   .tfac-icon {
     margin-right: .5vw;
+  }
+
+  .tfac-splash-activity-actions {
+    flex-wrap: wrap;
+
+    @media #{$tablet-up} {
+      flex-wrap: nowrap;
+    }
+
+    @media #{$phone-only} {
+      .tfac-link-icon {
+        width: 100%;
+        order: 2;
+        padding-left: 14%;
+      }
+      .tfac-btn {
+        width: 100%;
+        order: 1;
+        margin-bottom: 2vh;
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -292,7 +344,7 @@ $splash-item-xl: 315px;
     @media #{$tablet-up} {
       font-size: 5vw;
     }
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       font-size: 7vw;
     }
   }

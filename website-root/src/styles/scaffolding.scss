@@ -1,11 +1,20 @@
 /*-------------------------------------
  *	SCAFFOLDING & LAYOUT UTILITIES
 /-------------------------------------*/
-
+/* Main */
+body {
+  font-family: $main-font;
+  font-size: $font-size-body;
+  color: $black;
+  background-color: $white;
+  z-index: 1;
+  width: 100%;
+  overflow-x: hidden;
+}
 // Wrapper Classes
 
 .mdev-main-wrapper {
-  width: 98%;
+  width: 93%;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -34,22 +43,40 @@
   background-zie: cover;
   background-position: center top;
   padding: 10vh 0;
+  overflow: hidden;
 
   .tfac-content-blurb {
     width: 100%;
     position: relative;
     margin-bottom: 5vh;
+    flex-wrap: wrap;
+    padding: 0 3vw;
+
+    @media #{$tablet-up} {
+      flex-wrap: nowrap;
+      padding: 0;
+    }
 
     .tfac-content-title {
-      width: 29%;
-      font-size: 5.2vw;
+      width: 100%;
+      font-size: 7.2vw;
+      margin-bottom: 2vh;
+
+      @media #{$tablet-up} {
+        width: 29%;
+        font-size: 5.2vw;
+        margin: 0;
+      }
     }
 
     p {
-      width: 70%;
-      font-size: 1.3vw;
-      line-height: 1.9vw;
+      width: 100%;
 
+      @media #{$tablet-up} {
+        width: 70%;
+        font-size: 1.3vw;
+        line-height: 1.9vw;
+      }
       @media #{$tablet-prt-only} {
         font-size: 1.9vw;
         line-height: 2.7vw;
@@ -65,4 +92,12 @@
 .tfac-food-hoist {
   margin-top: -10vh;
   padding-top: 0;
+}
+
+.hidden-xs {
+  display: none;
+
+  @media #{$tablet-up} {
+    display: block;
+  }
 }

@@ -16,22 +16,27 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media #{$portrait} {
-    max-height: 75vh;
-  }
-
   .tfac-hero-content {
     position: relative;
     z-index: 10;
     width: 100%;
     @include center(vertical);
+    flex-wrap: wrap;
+
+    @media #{$tablet-up} {
+      flex-wrap: no-wrap;
+    }
   }
 
   .tfac-home-logo {
-    width: 25%;
+    width: 55%;
     position: relative;
     text-align: center;
     top: -25px;
+
+    @media #{$tablet-up} {
+      width: 25%;
+    }
 
     img {
       width: 55%;
@@ -43,15 +48,25 @@
   .tfac-hero-cta {
     padding-left: $tfac-padding-sm;
     color: $white;
-    width: 50%;
+    width: 100%;
+
+    @media #{$tablet-up} {
+      width: 50%;
+    }
 
     h1 {
-      letter-spacing: 5px;
+      letter-spacing: 2px;
+      margin: 2vw 0 1vw;
+
+      @media #{$tablet-up} {
+        letter-spacing: 5px;
+        margin: 0;
+      }
     }
   }
 
   .tfac-main-cta {
-    font-size: 30px;
+    font-size: 4.5vw;
     line-height: 24px;
     vertical-align: middle;
 
@@ -96,8 +111,13 @@
   @media #{$tablet-only} {
     width: 145%;
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     width: 185%;
+  }
+}
+.tfac-large-header {
+  @media #{$phone-only} {
+    width: 300%;
   }
 }
 // Filters

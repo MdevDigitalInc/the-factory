@@ -7,7 +7,11 @@
 
   .tfac-activity-title {
     letter-spacing: 2px;
-    padding-bottom: 3vh;
+    padding: 0 2vw 3vh;
+
+    @media #{$tablet-up} {
+      padding: 0 0 3vh;
+    }
   }
 }
 
@@ -15,7 +19,7 @@
   position: relative;
   width: 100%;
 
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     flex-wrap: wrap;
   }
 }
@@ -30,10 +34,10 @@
 
   @media #{$tablet-only} {
     width: 33%;
-    box-shadow: 0 0 20px rgba(0,0,0,.5);
   }
-  @media #{$tablet-prt-only} {
+  @media #{$portrait} {
     width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
   }
   @media #{$laptop-only} {
     width: 32%;
@@ -49,7 +53,7 @@
     color: $white;
     position: relative;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       padding-top: 40%;
     }
 
@@ -58,7 +62,7 @@
       bottom: 20px;
       left: 20px;
 
-      @media #{$tablet-prt-only} {
+      @media #{$portrait} {
         font-size: 5vw;
       }
     }
@@ -71,7 +75,7 @@
     background: $white;
     padding: 1.2vw;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       padding: 3vw;
     }
   }
@@ -80,7 +84,7 @@
     width: 55%;
     padding-right: 1vw;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       width: 70%;
 
       p {
@@ -95,7 +99,7 @@
     width: 45%;
     padding-left: 2vw;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       width: 30%;
     }
 
@@ -117,7 +121,7 @@
     display: block;
     padding: 0;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       display: flex;
       flex-wrap: wrap;
       align-items: flex-end;
@@ -128,7 +132,7 @@
     width: 100%;
     padding: 1.2vw 1vw 0;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       padding: 3vw;
       width: 70%;
 
@@ -143,7 +147,7 @@
     width: 100%;
     padding: 1vw;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       padding: 3vw;
       width: 30%;
     }
@@ -155,8 +159,11 @@
     padding-bottom: 1vw;
     display: block;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       font-size: 2.4vw;
+    }
+    @media #{$phone-only} {
+      font-size: 4.2vw;
     }
   }
 }
@@ -172,14 +179,21 @@
     letter-spacing: 1px;
     background: $black;
     min-width: 30%;
-    max-width: 75%;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    // Activate Nav Background    max-width: 75%;
     clip-path: polygon(0 0, 100% 0%, 84% 100%, 0 89%);
-    font-size: .9vw;
+    font-size: 1vw;
 
-    @media #{$tablet-prt-only} {
+    @media #{$portrait} {
       padding: 1.8vw 2.2vw 1.8vw 1.8vw;
-      font-size: 2vw;
+      font-size: 3vw;
       min-width: 15%;
+    }
+    @media #{$phone-only} {
+      padding: 2.8vw 6.2vw 2.8vw 2.8vw;
+      font-size: 3.7vw;
     }
     @media #{$laptop-only} {
       font-size: 1vw;

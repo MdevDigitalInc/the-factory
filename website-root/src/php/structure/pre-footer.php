@@ -1,10 +1,10 @@
 <section class="tfac-pre-footer">
   <div class="mdev-main-wrapper">
-      <h5 class="u-uppercase">More to do at <span class="tfac-blue u-bold">The Factory</span></h5>
+      <h5 class="u-uppercase hidden-xs">More to do at <span class="tfac-blue u-bold">The Factory</span></h5>
       <!-- Image Strip -->
       <?php include 'modules/image-strip-sm.php'; ?>
 
-      <div class="flex flex-row flex-hor-between flex-no-wrap">
+      <div class="tfac-pre-footer-links flex flex-row flex-hor-between flex-no-wrap">
 
         <div class="tfac-pre-column">
           <h2 class="u-uppercase"><span class="tfac-blue u-bold">Canada's Biggest</span> Indoor adventure park</h2>
