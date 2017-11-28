@@ -1,79 +1,100 @@
-.food-intro {
-  padding: $tfac-padding-xl 0;
+.tfac-food-intro {
+  padding: 5vh 0;
   text-align: center;
   width: 80vw;
   margin: 0 auto;
-  
+
   h3 {
-    font-size: 60px;
     margin-bottom: $tfac-padding-lg;
   }
-  
-  p {
-    font-size: 26px;
-    line-height: 36px;
+}
+
+.tfac-food-tiles-content {
+  width: 100%;
+
+  @media #{$tablet-up} {
+    width: 68%;
   }
 }
 
-.tiles-intro {
-  max-width: 460px;
-  margin-right: $tfac-padding-md;
-  
-  p {
-    font-size: 26px;
-    line-height: 46px;
-  }
-}
-
-.food-tiles {
+.tfac-food-tiles {
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  padding: $tfac-padding-xl 0;
-  
-  .mdev-main-wrapper {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .tile:first-child {
-    margin-top: 0;
+  padding: 5vh 0;
+
+  @media #{$phone-only} {
+    .mdev-main-wrapper {
+      flex-wrap: wrap;
+    }
   }
 
-  .tile {
-    max-width: 960px;
-    display: flex;
-    flex-direction: row;
-    margin: 40px 0;
-    height: 315px;
+  .tfac-food-tile-item {
+    width: 100%;
+    margin: 2vh 0;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
-  
-    .tile-image {
-      width: 50%;
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  
-    .tile-content {
-      width: 50%;
-      padding: 25px;
-      background-color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    h5 {
-      margin-bottom: $tfac-padding-md;
-      text-transform: uppercase;
-      font-size: 30px;
-      letter-spacing: 2px;
-    }
 
-    p {
-      font-size: 18px;
-      line-height: 26px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .tfac-food-tile-image {
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tfac-food-tile-content {
+    width: 50%;
+    padding: 1vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .tfac-food-tile-logo {
+    width: 100%;
+    text-align: right;
+
+    img {
+      width: 30%;
+    }
+  }
+
+  .phone {
+    margin-top: 1vw;
+  }
+
+  h5 {
+    margin-bottom: 1vw;
+    margin-top: -1vh;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 3vw;
+
+    @media #{$tablet-up} {
+      font-size: 1vw;
     }
   }
 }
+
+.tfac-tiles-intro {
+  width: 100%;
+  margin-right: $tfac-padding-md;
+  display: none;
+
+  @media #{$tablet-up} {
+    width: 30%;
+    display: block;
+  }
+
+  p {
+    font-size: 1.2vw;
+    line-height: 2.5vh;
+  }
+}
+
 
