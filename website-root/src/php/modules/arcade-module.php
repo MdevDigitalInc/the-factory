@@ -1,11 +1,10 @@
 <section class="tfac-image-feature">
     <!-- Add Metaboxes for 3 different images -->
     <div class="tfac-image-feature-content flex flex-row flex-vert-center">
-      <div class="tfac-image-back">
-        <img src="img/arcade/arcade-left.png" alt="" />
+      <div class="tfac-image-back" style="background-image: url('img/arcade/arcade-left.png')">
       </div>
       <div class="tfac-image-main">
-        <img class="top" src="img/arcade/arcade-main.png" alt="" />
+        <div class="tfac-top-image" style="background-image: url('img/arcade/arcade-main.png')"> </div>
         <div class="tfac-feature-text flex flex-row" >
           <h2 class="tfac-arcade-title u-uppercase">Arcade</h2>
           <div>
@@ -16,8 +15,7 @@
           </div>
         </div>
       </div>
-      <div class="tfac-image-back">
-        <img class="back" src="img/arcade/arcade-right.jpg" alt="" />
+      <div class="tfac-image-back" style="background-image: url('img/arcade/arcade-right.jpg')">
       </div>
     </div>
   </section>
