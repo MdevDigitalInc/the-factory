@@ -71,9 +71,10 @@ $h5-font-sizes: (
 );
 
 $h6-font-sizes: (
-  null  : 10px,
-  $tablet-up: 18px,
-  $desktop-up: 18px
+  null  : 14px,
+  $tablet-up: 1.8vw,
+  $desktop-up: 1vw,
+  $xl-up: 1.3vw
 );
 
 // Links

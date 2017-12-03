@@ -1,5 +1,7 @@
-<?php /* Template Name: Plan */
-include 'hero-headers/header-video.php'; ?>
+<div class="tfac-small-header">
+  <?php /* Template Name: Plan */
+  include 'hero-headers/header-inner.php'; ?>
+</div>
 
 <main role="main">
   <div class="mdev-main-wrapper">

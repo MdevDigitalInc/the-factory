@@ -2,53 +2,14 @@
 include 'hero-headers/header-video.php'; ?>
 
 <main role="main">
-  <section class="groups-intro mdev-main-wrapper">
-    <div>
-      <h2 class="u-uppercase">Smiles <span class="tfac-blue u-bold">Guaranteed</span></h2>
-      <p>Forget cookie-cutter birthday parties; book your child’s birthday party or special event at The Factory! With us, you can easily customize your party package to include the room, activities and food you want to make the special day one to remember. You can book your party package <a href="#" class="tfac-blue">online</a> or speak directly to our birthday party specialist who will help make your event perfect. </p>
-    </div>
-    <div>
-      <img src="img/parties/kids/party-kids-intro.png" alt="" />
-    </div>
-  </section>
-  <section class="activities-available mdev-main-wrapper">
-    <h3 class="u-uppercase">Available Activities for <span class="tfac-blue u-bold">Kids 0-10 years</span></h3>
-    <div class="activities-available-wrapper">
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/kids/party-kids-feat-softplay.png')">
-        </div>
-        <div class="activity-content">
-          <h5>Soft Play</h5>
-          <p>If you're hosting little ones aged 0-8, our soft play area is a perfect spot to let them run and explore our adventure playground. We even have a party space available within this area so you never have to leave.</p>
-        </div>
-      </div>
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/kids/party-kids-feat-ropes.png')">
-        </div>
-        <div class="activity-content">
-          <h5>High Ropes</h5>
-          <p>For the bigger kids with at least a 68-inch reach, they can enjoy the high ropes and ziplines. At each platform, there are easy to hard obstacles to choose from so that any skill level can enjoy the climb.</p>
-        </div>
-      </div>
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/kids/party-kids-feat-trampolines.png')">
-        </div>
-        <div class="activity-content">
-          <h5>Trampoline</h5>
-          <p>For 3+ years, make a unique and high-energy party for kids by including the trampoline park in your package! Kids will love jumping with their friends. Minimum weight required.</p>
-        </div>
-      </div>
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/kids/party-kids-feat-arcade.png')">
-        </div>
-        <div class="activity-content">
-          <h5>Arcade</h5>
-          <p>Start or end your party with plenty of interactive and fun video games. Arcade credits can be added to any package.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
+  <div class="mdev-main-wrapper">
+    <?php include 'modules/page-intro-groups.php'; ?>
+
+    <!-- Activity Component -->
+    <?php include 'components/group-activities.php'; ?>
+  </div>
+
+
   <section class="party-booking">
     <div class="mdev-main-wrapper">
       <div class="booking-header">
@@ -107,7 +68,7 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
   <section class="specialized-groups mdev-main-wrapper">
     <h3 class="u-uppercase">Specialized <span class="tfac-blue u-bold">Groups</span></h3>
     <div class="specialized-group-wrapper">
@@ -182,7 +143,7 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
   <section class="group-booking-footer">
     <div class="mdev-main-wrapper">
       <div class="book-now">
@@ -222,6 +183,6 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
 </main>
 <?php include 'structure/footer.php'; ?>

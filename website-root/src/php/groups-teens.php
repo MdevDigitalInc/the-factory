@@ -2,45 +2,13 @@
 include 'hero-headers/header-video.php'; ?>
 
 <main role="main">
-  <section class="groups-intro mdev-main-wrapper">
-    <div>
-      <h2 class="u-uppercase">We Do Parties <span class="tfac-blue u-bold">GBigger</span></h2>
-      <p>Are you spending countless hours searching online for a unique and fun spot to host your teenager's birthday party or event?  With high ropes, trampolines, arcade, axe throwing, and food no need to keep searching; we've got the place for adventure and birthday success.  You can book and customize your party package <a href="#" class="tfac-blue">online</a> or speak directly to our birthday party specialist to help you create the best party ever.</p>
-    </div>
-    <div>
-      <img src="img/parties/kids/party-teen-intro.png" alt="" />
-    </div>
-  </section>
-  <section class="activities-available mdev-main-wrapper">
-    <h3 class="u-uppercase">Available Activities for <span class="tfac-blue u-bold">Teens 13-18 years</span></h3>
-    <div class="activities-available-wrapper">
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/teens/party-teens-feat-trampolines.png')">
-        </div>
-        <div class="activity-content">
-          <h5>Trampoline</h5>
-          <p>Great for friends and groups! Race on the Ultimate Warrior course, compete on the glow-in-the-dark dodgeball courts, dunk harder in the basketball zone, or face off against the spinning arms of the Meltdown</p>
-        </div>
-      </div>
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/teens/party-teens-feat-ropes.png')">
-        </div>
-        <div class="activity-content">
-          <h5>High Ropes</h5>
-          <p>The ropes course at The Factory is North America's largest!  With 88 obstacles and 145 foot ziplines flying over the trampoline park, this activity for your teen's party will make your party truly next level.</p>
-        </div>
-      </div>
-      <div class="activity">
-        <div class="activity-image" style="background-image: url('img/parties/teens/party-teens-feat-arcade.png')">
-        </div>
-        <div class="activity-content">
-          <h5>Arcade</h5>
-          <p>A great add-on to any teen party!  There are over 40 arcade games for your party guests to choose from.  As an added bonus, your party can redeem their gaming points for prizes.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  
+   <div class="mdev-main-wrapper">
+    <?php include 'modules/page-intro-groups.php'; ?>
+
+    <!-- Activity Component -->
+    <?php include 'components/group-activities.php'; ?>
+  </div>
+
   <section class="other-activities-available mdev-main-wrapper">
     <h3 class="u-uppercase u-normal">Other <span class="tfac-blue u-bold">activities</span> available <span class="tfac-blue u-bold">On-site</span></h3>
     <div class="other-activities-available-wrapper">
@@ -49,7 +17,7 @@ include 'hero-headers/header-video.php'; ?>
           <div class="activity-image" style="background-image: url('img/parties/teens/party-teens-feat-trampolines.png')">
           </div>
           <div class="activity-logo">
-          
+
           </div>
         </div>
         <div class="activity-content">
@@ -63,7 +31,7 @@ include 'hero-headers/header-video.php'; ?>
           <div class="activity-image" style="background-image: url('img/parties/teens/party-teens-feat-ropes.png')">
           </div>
           <div class="activity-logo">
-          
+
           </div>
         </div>
         <div class="activity-content">
@@ -87,7 +55,7 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
   <section class="party-booking">
     <div class="mdev-main-wrapper">
       <div class="booking-header">
@@ -146,7 +114,7 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
   <section class="specialized-groups mdev-main-wrapper">
     <h3 class="u-uppercase">Specialized <span class="tfac-blue u-bold">Groups</span></h3>
     <div class="specialized-group-wrapper">
@@ -205,7 +173,7 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
   <section class="group-booking-footer">
     <div class="mdev-main-wrapper">
       <div class="book-now">
@@ -245,6 +213,6 @@ include 'hero-headers/header-video.php'; ?>
       </div>
     </div>
   </section>
-  
+
 </main>
 <?php include 'structure/footer.php'; ?>

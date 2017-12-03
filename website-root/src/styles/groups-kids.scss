@@ -1,83 +1,25 @@
-.groups-intro {
-  padding: 100px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  
-  h2 {
-    font-size: 60px;
-  }
-  
-  p {
-    font-size: 18px;
-    line-height: 30px;
-  }
-}
-  
-.activities-available {
-  padding: 100px 0;
-}
-
-.activities-available-wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: $tfac-padding-lg;
-  
-  .activity {
-    max-width: 700px;
-    display: flex;
-    flex-direction: row;
-    background: #fff;
-    align-items: center;
-    margin: $tfac-padding-sm 0;
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-  }
-
-  .activity-image {
-    width: 40%;
-    max-width: 240px;
-    height: 240px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .activity-content {
-    width: 60%;
-    padding: $tfac-padding-md;
-  
-    h5 {
-      font-size: 30px;
-      text-transform: uppercase;
-      padding-bottom: $tfac-padding-sm;
-    }
-  }
-}
-
 .party-booking {
   padding: 100px 0;
   background: #f5f5f5;
-  
+
   .booking-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
     .title {
       width: 35%;
     }
-    
+
     .description {
       width: 65%;
     }
   }
-  
+
   h3 {
     font-size: 40px;
   }
-  
+
   p {
     font-size: 22px;
     line-height: 36px;
@@ -97,17 +39,17 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
     div:first-child {
       padding-right: $tfac-padding-sm;
     }
-    
+
     h6 {
       font-size: 24px;
       font-weight: $heading-weight;
       padding-bottom: $tfac-padding-sm;
     }
-    
+
     p {
       font-size: 18px;
       line-height: 26px;
@@ -122,11 +64,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   p {
     font-size: 18px;
   }
-  
+
   span {
     background: url('/img/icons/icon-faq-blue.svg');
     background-repeat: no-repeat;
@@ -151,7 +93,7 @@
   width: 28%;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   background: #fff;
-  
+
   .tile-image {
     width: 100%;
     height: auto;
@@ -161,17 +103,17 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+
   .tile-content {
     padding: $tfac-padding-sm;
   }
-  
+
   p {
     font-size: 18px;
     line-height: 26px;
     margin-bottom: $tfac-padding-sm;
   }
-  
+
   a {
     color: $tfac-blue;
   }
@@ -183,14 +125,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
   .image {
     z-index: 1;
     width: 50vw;
     height: 60vh;
     background-size: cover;
   }
-  
+
   .content {
     z-index: 3;
     width: 60vw;
@@ -202,13 +144,13 @@
     justify-content: center;
     padding: $tfac-padding-lg $tfac-padding-lg $tfac-padding-lg 5vw;
   }
-  
+
   h2 {
     font-size: 60px;
     letter-spacing: 2px;
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   p {
     font-size: 22px;
     line-height: 36px;
@@ -220,7 +162,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   .image-tiles {
     display: flex;
     flex-direction: row;
@@ -228,32 +170,32 @@
     justify-content: space-between;
     flex-basis: 90%;
   }
-  
+
   .tile {
     margin: $tfac-padding-sm 0;
     width: 355px;
     height: 150px;
     background-size: cover;
   }
-  
+
   .addon-content {
     padding-top: $tfac-padding-xl;
     padding-left: $tfac-padding-md;
-    
+
     h2 {
       font-size: 60px;
       padding-bottom: $tfac-padding-sm;
     }
-    
+
     p {
       font-size: 18px;
       line-height: 26px;
     }
-    
+
     .link-wrapper {
       padding-top: $tfac-padding-sm;
     }
-    
+
     a {
       font-size: 22px;
     }
@@ -265,40 +207,40 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   .image-tiles {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  
+
   .tile {
     margin: $tfac-padding-sm 0;
     width: 355px;
     height: 150px;
     background-size: cover;
   }
-  
+
   .food-content {
     padding-top: $tfac-padding-xl;
     padding-right: $tfac-padding-md;
     flex-basis: 90%;
-    
+
     h2 {
       font-size: 60px;
       padding-bottom: $tfac-padding-sm;
     }
-    
+
     p {
       font-size: 18px;
       line-height: 26px;
     }
-    
+
     .link-wrapper {
       padding-top: $tfac-padding-sm;
     }
-    
+
     a {
       font-size: 22px;
     }
@@ -307,7 +249,7 @@
 
 .group-booking-footer {
   background-color: $tfac-blue;
-  
+
   .mdev-main-wrapper {
     display: flex;
     flex-direction: row;
@@ -319,33 +261,33 @@
   color: $white;
   width: 600px;
   padding: $tfac-padding-md;
-  
+
   .title {
     font-size: 40px;
     line-height: 48px;
   }
-  
+
   .phone {
     font-size: 60px;
     font-family: $heading-font;
     line-height: 80px;
   }
-  
+
   .sub-text {
     font-size: 30px;
     line-height: 46px;
   }
-  
+
   .divider {
     height: 3px;
     margin: $tfac-padding-md 0;
     background-color: $white;
   }
-  
+
   .questions-title {
     font-size: 30px;
     padding-bottom: $tfac-padding-sm;
-    
+
     a {
       font-size: 22px;
     }
@@ -361,14 +303,14 @@
   justify-content: center;
   align-items: center;
   padding: $tfac-padding-md;
-  
+
   .form-inner {
     background-color: rgba(255,255,255,.8);
     width: 600px;
     min-height: 100%;
     padding: 50px;
   }
-  
+
   p {
     font-size: 30px;
   }
@@ -377,23 +319,23 @@
 .more-info {
   width: 600px;
   padding: $tfac-padding-md;
-  
+
   .tfac-info-link {
     color: $white;
     border-bottom-color: $white;
   }
-  
+
   h5 {
     color: $white;
     font-size: 30px;
   }
-  
+
   p {
     padding-top: $tfac-padding-sm;
     font-size: 40px;
     color: $white;
     line-height: 52px;
-    
+
     span {
       font-weight: $heading-weight;
     }
