@@ -1,38 +1,44 @@
-.party-rooms {
+.tfac-party-rooms {
   position: relative;
-  margin: 100px 0;
+  margin: 10vh 0;
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media #{$portrait} {
+    flex-wrap: wrap;
+  }
 
   .image {
     z-index: 1;
     width: 50vw;
     height: 70vh;
     background-size: cover;
+
+    @media #{$portrait} {
+      width: 100%;
+    }
   }
 
   .content {
     z-index: 3;
     width: 60vw;
-    height: 60vh;
+    padding: 20vh 2vw;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: $tfac-padding-lg $tfac-padding-lg $tfac-padding-lg 5vw;
+
+    @media #{$portrait} {
+      width: 80%;
+      margin: 0 auto -5vh;
+      padding: 10vh 2vh;
+    }
   }
 
   h2 {
-    font-size: 60px;
-    letter-spacing: 2px;
-    padding-bottom: $tfac-padding-sm;
-  }
-
-  p {
-    font-size: 22px;
-    line-height: 36px;
+    padding-bottom: 2vh;
   }
 }
 
