@@ -47,9 +47,9 @@
         </div>
       </div>
     </div>
-    <div class="bottom-cta mdev-main-wrapper">
+    <div class="tfac-party-cta flex flex-row flex-hor-between flex-vert-center mdev-main-wrapper">
       <div>
-        <p class="u-uppercase u-bold"><span class="party-faq u-bold u-uppercase tfac-blue"><a href="#">Party FAQs</a></span> | Still have Questions?  Call or fill out the form below</p>
+        <p class="u-uppercase u-bold"><span class="tfac-party-faq u-bold u-uppercase tfac-blue"><a href="#">Party FAQs</a></span> Still have Questions?  Call or fill out the form below</p>
       </div>
       <div>
       <a href="#" class="tfac-btn tfac-main-cta u-uppercase">I'm Ready To Book<i class="tfac-btn-arrow"></i></a>

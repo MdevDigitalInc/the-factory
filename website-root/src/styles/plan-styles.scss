@@ -1,29 +1,29 @@
 .plan-info {
   margin: 60px auto;
-  
+
   .plan-contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     padding-top: $tfac-padding-sm;
-    
+
     .title {
-      font-size: $intro-stats;
+      font-size: 20px;
     }
-    
+
     div {
       width: 45%;
     }
   }
-  
+
   .description {
     padding-top: $tfac-padding-sm;
     font-size: 18px;
     line-height: 36px;
     width: 40%;
   }
-  
+
   ul {
     padding-bottom: $tfac-padding-sm;
   }
@@ -31,23 +31,23 @@
   li {
     font-size: 18px;
   }
-  
+
   li span {
     color: $tfac-blue;
     line-height: $line-height-sm;
   }
-  
+
   .phone-block {
     font-size: 22px;
     line-height: $line-height-md;
     width: 45%;
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   .phone {
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   .email {
     padding-bottom: $tfac-padding-lg;
   }
@@ -57,26 +57,26 @@
   border-top: 1px solid #e5e5e5;
   background: #f5f5f5;
   padding-top: 100px;
-  
+
   .title-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-bottom: $tfac-padding-md;
-      
+
     .title {
       width: 25%;
       margin-right: $tfac-padding-lg;
     }
-    
+
     h2 {
       font-size: 60px;
     }
-    
+
     .description {
       width: 60%;
     }
-    
+
     p {
       font-size: 24px;
       line-height: 30px;
@@ -84,14 +84,14 @@
     }
   }
 }
-  
+
 .steps {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-  
+
 .step {
   width: 48%;
   display: flex;
@@ -99,17 +99,17 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: $tfac-padding-lg;
-    
+
   .icon {
     padding-right: $tfac-padding-sm;
   }
-    
+
   .step-title {
     font-size: 24px;
     font-weight: $heading-weight;
     padding-bottom: $tfac-padding-sm;
   }
-    
+
   .step-content {
     font-size: $font-size-body;
     line-height: $line-height-sm;
@@ -120,11 +120,11 @@
   padding: 60px 0;
   background: #f5f5f5;
   border-bottom: 1px solid #e5e5e5;
-  
+
   h3 {
     font-size: 40px;
   }
-  
+
   .button-wrapper {
     display: flex;
     flex-direction: row;
@@ -137,27 +137,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+
   div {
     border-right: 1px solid $tfac-blue;
     padding: 0 $tfac-padding-sm;
   }
-  
+
   div:first-child {
     padding-left: 0;
   }
-  
+
   div:last-child {
     border: none;
     padding-right: 0;
   }
-  
+
   .title {
     font-size: 24px;
     font-weight: $heading-weight;
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   .content {
     font-size: $font-size-body;
     line-height: $line-height-sm;
@@ -166,24 +166,24 @@
 
 .wristbands {
   padding: 100px 0;
-  
+
   h2 {
     font-size: 60px;
   }
-  
+
   .tile-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: $tfac-padding-lg;
   }
-  
+
   .wristband-item {
     width: 24%;
     box-shadow: 0 0 50px rgba(0,0,0,.5);
     background: $white;
   }
-  
+
   .tile-image {
     width: 100%;
     height: auto;
@@ -194,7 +194,7 @@
     position: relative;
     padding: 80% 20px 20px;
   }
-  
+
   .tile-content {
     padding: 20px;
   }
@@ -205,31 +205,31 @@
   background: #f5f5f5;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  
+
   .tile-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: $tfac-padding-xl;
   }
-  
+
   .tile {
     width: 24%;
     display: flex;
     flex-direction: column;
   }
-  
+
   img {
     display: block;
     margin: 0 auto $tfac-padding-md;
   }
-  
+
   .title {
     font-weight: $font-weight-bold;
     font-size: 24px;
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   .content {
     font-size: $font-size-body;
     line-height: $line-height-sm;
@@ -244,16 +244,16 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  
+
   h4 {
     font-size: 80px;
   }
-  
+
   .title {
     width: 50%;
     margin-right: $tfac-padding-lg;
   }
-  
+
   p {
     font-size: 22px;
     line-height: 36px;
@@ -265,13 +265,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
+
   .tile {
     width: 23%;
     box-shadow: 0 0 50px rgba(0,0,0,.5);
     background: $white;
   }
-  
+
   .tile-image {
     width: 100%;
     background-size: cover;
@@ -279,21 +279,21 @@
     background-position: center center;
     height: 250px;
   }
-  
+
   h5 {
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   .content {
     padding: $tfac-padding-lg $tfac-padding-sm $tfac-padding-sm;
   }
-  
+
   .button-wrapper {
     display: flex;
     justify-content: flex-end;
     margin-top: $tfac-padding-sm;
   }
-  
+
   a {
     color: $tfac-blue;
     text-transform: uppercase;
@@ -302,34 +302,34 @@
 
 .food-module {
   padding: 100px 0;
-  
+
   .content {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     margin: $tfac-padding-sm auto;
   }
-  
+
   .title {
     width: 50%;
     margin-right: $tfac-padding-lg;
   }
-  
+
   h4 {
     font-size: 80px;
   }
-  
+
   .description p {
     font-size: 22px;
     line-height: 36px;
   }
-  
+
   .button-wrapper {
     display: flex;
     justify-content: flex-end;
     margin-top: $tfac-padding-sm;
   }
-  
+
   a {
     font-size: 22px;
   }
@@ -341,46 +341,46 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   padding: 20vh 0 10vh;
-  
+
   .inner {
     background-color: rgba(250, 250, 250, .8);
     padding: 2vw;
   }
-  
+
   h3 {
     text-align: center;
     margin-bottom: $tfac-padding-lg;
   }
-  
+
   .info-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
     div {
       width: 20%;
     }
   }
-  
+
   img {
     height: 95px;
     width: auto;
     display: block;
     margin: $tfac-padding-sm auto;
   }
-  
+
   .title {
     font-size: 24px;
     letter-spacing: 2px;
     padding: $tfac-padding-sm 0;
   }
-  
+
   .description {
     font-size: 18px;
     line-height: 26px;
     padding-bottom: $tfac-padding-sm;
   }
-  
+
   a {
     font-size: 20px;
   }
@@ -395,7 +395,7 @@
   flex-direction: row;
   justify-content: space-around;
   margin-top: $tfac-padding-lg;
-  
+
   .tile {
     width: 23%;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
@@ -403,12 +403,12 @@
     text-align: center;
     padding: $tfac-padding-sm;
   }
-  
+
   .price {
     font-size: $font-size-cta-heading;
     padding: $tfac-padding-sm 0;
   }
-  
+
   p {
     font-size: 18px;
     padding-bottom: $tfac-padding-sm;

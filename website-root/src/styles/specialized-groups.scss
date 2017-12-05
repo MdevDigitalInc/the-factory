@@ -1,0 +1,42 @@
+.specialized-groups {
+  padding: 100px 0;
+}
+
+.specialized-group-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: $tfac-padding-lg;
+}
+
+.specialized {
+  width: 28%;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  background: #fff;
+
+  .tile-image {
+    width: 100%;
+    height: auto;
+    color: $white;
+    position: relative;
+    padding: 70% 20px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tile-content {
+    padding: $tfac-padding-sm;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: $tfac-padding-sm;
+  }
+
+  a {
+    color: $tfac-blue;
+  }
+}
+
+

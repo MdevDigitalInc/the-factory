@@ -1,0 +1,129 @@
+.party-rooms {
+  position: relative;
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .image {
+    z-index: 1;
+    width: 50vw;
+    height: 70vh;
+    background-size: cover;
+  }
+
+  .content {
+    z-index: 3;
+    width: 60vw;
+    height: 60vh;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $tfac-padding-lg $tfac-padding-lg $tfac-padding-lg 5vw;
+  }
+
+  h2 {
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding-bottom: $tfac-padding-sm;
+  }
+
+  p {
+    font-size: 22px;
+    line-height: 36px;
+  }
+}
+
+.party-addons {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .image-tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 90%;
+  }
+
+  .tile {
+    margin: $tfac-padding-sm 0;
+    width: 355px;
+    height: 150px;
+    background-size: cover;
+  }
+
+  .addon-content {
+    padding-top: $tfac-padding-xl;
+    padding-left: $tfac-padding-md;
+
+    h2 {
+      font-size: 60px;
+      padding-bottom: $tfac-padding-sm;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .link-wrapper {
+      padding-top: $tfac-padding-sm;
+    }
+
+    a {
+      font-size: 22px;
+    }
+  }
+}
+
+.party-food {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .image-tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tile {
+    margin: $tfac-padding-sm 0;
+    width: 355px;
+    height: 150px;
+    background-size: cover;
+  }
+
+  .food-content {
+    padding-top: $tfac-padding-xl;
+    padding-right: $tfac-padding-md;
+    flex-basis: 90%;
+
+    h2 {
+      font-size: 60px;
+      padding-bottom: $tfac-padding-sm;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .link-wrapper {
+      padding-top: $tfac-padding-sm;
+    }
+
+    a {
+      font-size: 22px;
+    }
+  }
+}
+
+
