@@ -1,0 +1,32 @@
+.tfac-auxiliary-activities-content {
+  margin-top: 5vh;
+  width: 100%;
+
+  .image-tile {
+    width: 40%;
+    max-width: 240px;
+    height: 300px;
+  }
+
+  .activity-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+  }
+
+  .activity-content {
+    width: 60%;
+    padding: 0 $tfac-padding-md $tfac-padding-md;
+
+    h5 {
+      font-size: 30px;
+      padding-bottom: $tfac-padding-sm;
+    }
+
+    .link-wrapper {
+      padding-top: $tfac-padding-sm;
+    }
+  }
+}
+
+

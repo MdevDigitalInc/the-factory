@@ -30,11 +30,22 @@
     }
   }
 
+  .tfac-top-image {
+    width: 100%;
+    padding-top: 55%;
+    background-size: cover;
+    background-position: center top;
+  }
+
   .tfac-image-back {
     width: 30%;
     z-index: 1;
     position: relative;
     margin-top: -17%;
+    padding-top: 23%;
+    background-size: cover;
+    background-position: top center;
+
     @media #{$portrait} {
       display: none;
     }
@@ -50,6 +61,9 @@
     margin: 1.5vw 0;
     padding: 2vw 3vw;
 
+    @media #{$laptop-up} {
+      padding: 2vw 0;
+    }
     @media #{$phone-only} {
       flex-wrap: wrap;
     }
@@ -77,4 +91,22 @@
     }
   }
 }
+
+.tfac-vr-feature {
+  .tfac-arcade-title {
+    text-align: left;
+  }
+
+  .tfac-image-back {
+    margin-top: -11.5%;
+
+    @media #{$laptop-only} {
+      margin-top: -12.5%;
+    }
+    @media #{$desktop-up} {
+      margin-top: -11.5%;
+    }
+  }
+}
+
 /* stylelint-enable */

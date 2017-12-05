@@ -135,16 +135,27 @@
     margin-top: 5vh;
   }
 
+  .tfac-intro-content {
+    width: 100%;
+
+    @media #{$tablet-up} {
+      width: 70%;
+    }
+  }
+
   h2 {
     padding-bottom: $tfac-padding-sm;
   }
   .tfac-intro-image {
     width: 100%;
 
+    @media #{$tablet-up} {
+      width: 35%;
+    }
+
     img {
       width: 100%;
     }
   }
 }
-
 
