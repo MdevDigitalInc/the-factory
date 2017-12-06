@@ -48,12 +48,14 @@
       </div>
     </div>
     <div class="tfac-party-cta flex flex-row flex-hor-between flex-vert-center mdev-main-wrapper">
-      <div>
-        <p class="u-uppercase u-bold"><span class="tfac-party-faq u-bold u-uppercase tfac-blue"><a href="#">Party FAQs</a></span> Still have Questions?  Call or fill out the form below</p>
-      </div>
-      <div>
+      <p class="tfac-party u-uppercase u-bold flex flex-wrap">
+        <span class="flex flex-vert-center tfac-party-faq u-bold u-uppercase tfac-blue">
+          <i class="tfac-icon tfac-icon-sm icon-faq-blue"></i>
+          <a href="#">Party FAQs</a></span>
+        <span class="tfac-party-faq-text">
+          still have Questions?  Call or fill out the form below
+      </span></p>
       <a href="#" class="tfac-btn tfac-main-cta u-uppercase">I'm Ready To Book<i class="tfac-btn-arrow"></i></a>
-      </div>
     </div>
   </section>
 

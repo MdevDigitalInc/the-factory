@@ -78,6 +78,9 @@ $tfac-booking-border: 2px solid rgba( 51,51,51,.5 );
 }
 
 .tfac-party-cta {
+  @media #{$portrait} {
+    flex-wrap: wrap;
+  }
 
   p {
     vertical-align: middle;
@@ -85,16 +88,34 @@ $tfac-booking-border: 2px solid rgba( 51,51,51,.5 );
 
   .tfac-party-faq {
     border-right: 2px solid #333;
-    padding-right: 1vw;
     margin-right: 1vw;
+
+    @media #{$phone-only} {
+      border: none;
+      margin: 1vw auto;
+      width: 140px;
+      text-align: center;
+    }
+    a {
+      padding: 0 1vw;
+    }
   }
 
-  span {
-    background: url('/img/icons/icon-faq-blue.svg');
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding-left: 50px;
-    font-size: 24px;
+  .tfac-party-faq-text {
+    text-aling: left;
+
+    @media #{$phone-only} {
+      text-align: center;
+      display: block;
+      width: 100%;
+      margin-top: 2vh;
+    }
+  }
+
+  .tfac-btn {
+    @media #{$phone-only} {
+      margin: 2vh auto 0;
+    }
   }
 }
 .group-booking-footer {
