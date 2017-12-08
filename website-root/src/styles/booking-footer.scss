@@ -1,0 +1,121 @@
+.tfac-footer-groups {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  background: $tfac-blue;
+  padding: 0 3%;
+
+  @media #{$portrait} {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+}
+
+
+.tfac-group-column {
+  background: $tfac-blue;
+  width: 33.333%;
+  color: $white;
+
+  @media#{$portrait} {
+    width: 50%;
+    order: 1;
+  }
+
+  @media #{$phone-only} {
+    display: none;
+  }
+
+  &:first-child {
+    padding-right: 3%;
+  }
+  &:last-child {
+    padding-left: 3%;
+    padding: 5vh 0 5vh 3%;
+  }
+
+  .tfac-group-call {
+    font-size: 2.2vw;
+    line-height: 48px;
+    display: block;
+  }
+
+  .tfac-group-number {
+    font-size: 3.2vw;
+    line-height: 88px;
+    display: block;
+  }
+
+  .tfac-spice-text {
+    font-size: 1.5vw;
+    line-height: 46px;
+    display: block;
+  }
+
+  .tfac-group-faq-cta {
+    font-size: 1.6vw;
+    padding: 2vh 0;
+    margin-top: 2vh;
+    display: block;
+    width: 100%;
+    border-top: 3px solid $white;
+  }
+
+  .tfac-group-action a {
+    font-size: 1.2vw;
+    text-transform: uppercase;
+
+    i {
+      margin-right: .6vw;
+    }
+  }
+
+  .tfac-info-links {
+    width: 60%;
+  }
+
+  .tfac-info-link {
+    border-bottom: 2px solid $white;
+  }
+  .tfac-slogan-mini {
+    width: 86%;
+    margin-top: 4vh;
+    font-size: 2.4vw;
+    display: block;
+  }
+}
+
+.tfac-group-form-content {
+  width: 45%;
+  background-image: url('/img/parties/parties-contact-bkg.png');
+  background-size: cover;
+  padding: 1vw 3vw;
+
+  @media#{$portrait} {
+    width: 100%;
+    order: 2;
+  }
+
+  @media #{$phone-only} {
+    display: block;
+  }
+
+  .tfac-form-container {
+    width: 100%;
+    padding: 1vw 3vw;
+    background: rgba( 255, 255, 255, .8 );
+  }
+
+  textarea {
+    min-height: 20vh;
+  }
+
+  select {
+    width: 30%;
+  }
+
+  option {
+    width: 20%;
+  }
+}
