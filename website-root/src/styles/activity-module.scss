@@ -107,8 +107,8 @@
 }
 
 // Quantiy Query [ At Most 2 ]
-.tfac-activity-item:nth-last-child(-n+2):first-child,
-.tfac-activity-item:nth-last-child(-n+2):first-child ~ .tfac-activity-item {
+.tfac-activity-item:nth-last-child( -n+2 ):first-child,
+.tfac-activity-item:nth-last-child( -n+2 ):first-child ~ .tfac-activity-item {
   width: 48%;
 
   @media #{$portrait} {

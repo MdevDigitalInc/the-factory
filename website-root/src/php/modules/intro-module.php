@@ -9,15 +9,15 @@
       </div>
       <div class="tfac-data">
         <h3>75</h3>
-        <p class="u-uppercase">Feet High</p>
+        <p class="u-uppercase">Feet</br> High</p>
       </div>
       <div class="tfac-data">
         <h3>145</h3>
-        <p class="u-uppercase">Foot Ziplines</p>
+        <p class="u-uppercase">Foot</br> Ziplines</p>
       </div>
       <div class="tfac-data">
         <h3>2</h3>
-        <p class="u-uppercase">Free Fall Jumps</p>
+        <p class="u-uppercase">Free Fall</br> Jumps</p>
       </div>
     </div>
   </div>

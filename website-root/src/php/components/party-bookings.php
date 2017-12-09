@@ -2,7 +2,7 @@
     <div class="mdev-main-wrapper">
       <div class="tfac-party-booking-header flex flex-row flex-hor-between">
         <div class="tfac-party-booking-title">
-          <h3 class="u-uppercase">How to book your <span class="tfac-blue u-bold">Party Package</span></h3>
+          <h3 class="u-uppercase">How to book your </br><span class="tfac-blue u-bold">Party Package</span></h3>
         </div>
         <div class='tfac-party-booking-description'>
           <p>When you organize a children's party at The Factory, you know that you'll be creating a memorable and insanely fun experience for the kids, as well as a simple planning process for you.  Pick one attraction or many, we'll help manage the details for you.  For parties of less than 40, you can book online.</p>
