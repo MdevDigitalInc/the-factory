@@ -1,4 +1,4 @@
-<div class="mdev-main-wrapper">
+<div class="mdev-main-wrapper flex flex-row flex-wrap flex-hor-end">
 <!-- Activity Info -->
   <div class="tfac-activity-content flex flex-row flex-hor-between flex-vert-stretch">
 
@@ -61,6 +61,7 @@
         </div>
       </div>
     </div>
-
   </div>
+  <a class="tfac-btn tfac-main-cta u-scooch">
+    See All <i class="tfac-btn-arrow" ></i></a>
 </div>

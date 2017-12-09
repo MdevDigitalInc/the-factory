@@ -26,6 +26,8 @@
           <a href="#">Pricing</a>
           <a href="#">Promotions</a>
           <a href="#">Account Login</a>
+          <a href="#" class="tfac-btn tfac-secondary-cta u-uppercase">
+            Book Now<i class="tfac-btn-arrow"></i></a>
         <h5 class="u-uppercase u-bold u-pad-top">Groups</h5>
           <a href="#">Kids</a>
           <a href="#">Teens</a>

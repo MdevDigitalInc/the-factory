@@ -1,7 +1,6 @@
 .tfac-footer-groups {
   width: 100%;
   position: relative;
-  padding: 0;
   overflow: hidden;
   background: $tfac-blue;
   padding: 0 3%;
@@ -31,7 +30,6 @@
     padding-right: 3%;
   }
   &:last-child {
-    padding-left: 3%;
     padding: 5vh 0 5vh 3%;
   }
 
@@ -66,9 +64,11 @@
     font-size: 1.2vw;
     text-transform: uppercase;
 
+    /* stylelint-disable */
     i {
       margin-right: .6vw;
     }
+    /* stylelint-enable */
   }
 
   .tfac-info-links {

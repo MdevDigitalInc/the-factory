@@ -107,9 +107,12 @@ $link-font-sizes: (
 p,
 .p {
   @include font-size($p-font-sizes);
-  line-height: 1.9vw;
+  line-height: 1.6vw;
   @media #{$portrait} {
     line-height: 2.8vh;
+  }
+  @media #{$desktop-only} {
+    line-height: 2.5vh;
   }
   @media #{$xl-up} {
     line-height: 1.5vw;

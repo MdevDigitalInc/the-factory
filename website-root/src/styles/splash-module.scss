@@ -162,7 +162,10 @@ $splash-item-xl: 315px;
     top: 42%;
   }
   @media #{$desktop-only} {
-    top: 50%;
+    top: 45%;
+  }
+  @media #{$xl-up} {
+    top: 46%;
   }
 }
 

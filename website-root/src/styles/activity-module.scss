@@ -25,22 +25,19 @@
 }
 
 .tfac-activity-item {
-  width: 48%;
+  width: 30%;
   min-width: 200px;
   position: relative;
   z-index: 2;
   background: $white;
-  box-shadow: 0 0 50px rgba(0,0,0,.5);
+  box-shadow: 0 0 50px rgba( 0, 0, 0, .2 );
 
   @media #{$tablet-only} {
-    width: 47%;
+    width: 32%;
   }
   @media #{$portrait} {
     width: 100%;
-    box-shadow: 0 0 20px rgba(0,0,0,.5);
-  }
-  @media #{$laptop-only} {
-    width: 47%;
+    box-shadow: 0 0 20px rgba( 0, 0, 0, .2 );
   }
 
   .item-image {
@@ -78,6 +75,10 @@
     @media #{$portrait} {
       padding: 3vw;
     }
+
+    .tfac-btn {
+      margin-top: 2vh;
+    }
   }
 
   .item-text {
@@ -96,21 +97,27 @@
   }
 
   .item-actions {
-    width: 45%;
+    width: 25%;
     padding-left: 2vw;
 
     @media #{$portrait} {
       width: 30%;
     }
+  }
+}
 
-    .tfac-btn {
-      width: 100%;
-      text-align: center;
-    }
+// Quantiy Query [ At Most 2 ]
+.tfac-activity-item:nth-last-child(-n+2):first-child,
+.tfac-activity-item:nth-last-child(-n+2):first-child ~ .tfac-activity-item {
+  width: 48%;
 
-    img {
-      padding-bottom: $tfac-padding-sm;
-    }
+  @media #{$portrait} {
+    width: 100%;
+    margin-bottom: 2vh;
+  }
+
+  .item-image {
+    padding-top: 50%;
   }
 }
 
@@ -183,7 +190,7 @@
     left: -1px;
     top: -1px;
     // Activate Nav Background    max-width: 75%;
-    clip-path: polygon(0 0, 100% 0%, 84% 100%, 0 89%);
+    clip-path: polygon( 0 0, 100% 0%, 84% 100%, 0 89% );
     font-size: 1vw;
 
     @media #{$portrait} {
@@ -198,5 +205,12 @@
     @media #{$laptop-only} {
       font-size: 1vw;
     }
+  }
+}
+.u-scooch {
+  margin-top: 1vw;
+
+  @media #{$portrait} {
+    marti-top: 2vh;
   }
 }

@@ -69,6 +69,7 @@
         <h3 class="tfac-content-title u-uppercase">Food <span class="tfac-blue"></br>&</span> Drink</h3>
         <p>Be the hero of your group and plan the best birthday party or special ever!  Book you party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
       </div>
+      <a href="#" class="cta-small-link u-uppercase tfac-blue" title="">See all food & drink </a>
     </div>
   </section>
   <!-- Plan Section -->

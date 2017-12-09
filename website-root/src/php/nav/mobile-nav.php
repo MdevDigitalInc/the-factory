@@ -107,9 +107,10 @@
   <p class="aoda-compliant"> This website is AODA Compliant </p>
 
   <!-- Mobile Nav Button -->
-  <div class="tfac-menu-open close"
-    data-open-menu
-    role="button" aria-label="Mobile Navigation">
-    <span aria-hidden="true" aria-label="Click to open mobile menu"class="hidden">Mobile Menu</span>
+  <div class="tfac-menu" data-open-menu >
+    <div class="tfac-menu-open close"
+      role="button" aria-label="Mobile Navigation">
+      <span aria-hidden="true" aria-label="Click to open mobile menu"class="hidden">Mobile Menu</span>
+    </div>
   </div>
 </div>
