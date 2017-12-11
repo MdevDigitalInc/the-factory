@@ -162,7 +162,10 @@ $splash-item-xl: 315px;
     top: 42%;
   }
   @media #{$desktop-only} {
-    top: 50%;
+    top: 45%;
+  }
+  @media #{$xl-up} {
+    top: 46%;
   }
 }
 
@@ -238,7 +241,7 @@ $splash-item-xl: 315px;
   .tfac-splash-hero {
     width: 100%;
     @include center(horizontal);
-    top: 6%;
+    top: 9%;
 
     @media #{$tablet-prt-only} {
       top: 10%;

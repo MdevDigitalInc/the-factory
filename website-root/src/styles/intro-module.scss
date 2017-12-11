@@ -24,6 +24,11 @@
     p {
       margin-top: 1vw;
     }
+
+    h3 {
+      font-family: $heading-font;
+      font-size: 360%;
+    }
   }
 
   h2 {
@@ -137,9 +142,14 @@
 
   .tfac-intro-content {
     width: 100%;
+    padding-right: 8vw;
 
     @media #{$tablet-up} {
       width: 70%;
+    }
+
+    p {
+      margin-bottom: 1vh;
     }
   }
 
@@ -148,9 +158,10 @@
   }
   .tfac-intro-image {
     width: 100%;
+    margin-top: -4vw;
 
     @media #{$tablet-up} {
-      width: 35%;
+      width: 45%;
     }
 
     img {

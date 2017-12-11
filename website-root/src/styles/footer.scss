@@ -60,6 +60,11 @@
   @media #{$desktop-up} {
     min-width: 800px;
   }
+
+  .tfac-btn {
+    width: 60%;
+    margin-top: 2vh;
+  }
 }
 
 // Footer Social
