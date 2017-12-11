@@ -1,38 +1,52 @@
-.party-rooms {
+.tfac-party-rooms {
   position: relative;
-  margin: 100px 0;
+  margin: 5vh 0 15vh;
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  @media #{$portrait} {
+    flex-wrap: wrap;
+  }
 
   .image {
     z-index: 1;
     width: 50vw;
     height: 70vh;
     background-size: cover;
+
+    @media #{$portrait} {
+      width: 100%;
+      height: 55vh;
+    }
   }
 
   .content {
     z-index: 3;
     width: 60vw;
-    height: 60vh;
+    padding: 10vh 2vw 10vh 11%;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: $tfac-padding-lg $tfac-padding-lg $tfac-padding-lg 5vw;
+    position: absolute;
+    left: 0;
+
+    @media #{$portrait} {
+      width: 80%;
+      margin: 0 auto -5vh;
+      padding: 10vh 2vh;
+    }
   }
 
   h2 {
-    font-size: 60px;
-    letter-spacing: 2px;
-    padding-bottom: $tfac-padding-sm;
+    padding-bottom: 2vh;
+    font-size: 3.2vw;
   }
-
   p {
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 1.2vw;
+    line-height: 4vh;
   }
 }
 
@@ -81,47 +95,44 @@
   }
 }
 
-.party-food {
-  margin: 100px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.tfac-party-food {
+  margin: 10vh 0;
+  flex-wrap: wrap;
 
-  .image-tiles {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  @media #{$tablet-up} {
+    flex-wrap: nowrap;
+  }
+
+  .tfac-image-tiles {
+    width: 100%;
+    margin-top: 3vh;
+
+    @media #{$tablet-up} {
+      width: 40%;
+      margin: 0;
+    }
   }
 
   .tile {
-    margin: $tfac-padding-sm 0;
-    width: 355px;
-    height: 150px;
     background-size: cover;
+    width: 48%;
+    padding-top: 25%;
+    margin: 1%;
   }
 
-  .food-content {
-    padding-top: $tfac-padding-xl;
-    padding-right: $tfac-padding-md;
-    flex-basis: 90%;
+  .tfac-food-content {
+    width: 100%;
+    padding-right: 2vw;
 
-    h2 {
-      font-size: 60px;
-      padding-bottom: $tfac-padding-sm;
+    @media #{$tablet-up} {
+      width: 60%;
     }
-
-    p {
-      font-size: 18px;
-      line-height: 26px;
+    h2 {
+      padding-bottom: 3vh;
     }
 
     .link-wrapper {
       padding-top: $tfac-padding-sm;
-    }
-
-    a {
-      font-size: 22px;
     }
   }
 }

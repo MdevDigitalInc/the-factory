@@ -41,7 +41,7 @@ $dropdown-padding: 1.5vw;
     background: $white;
     color: $black;
     width: 35vw;
-    z-index: -1;
+    z-index: 1;
     transition: all, .2s;
     overflow: hidden;
     transform: scaley(0);

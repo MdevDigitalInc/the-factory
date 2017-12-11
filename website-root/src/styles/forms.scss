@@ -18,9 +18,9 @@ input {
   &[type="search"],
   &[type="url"] {
     width: 100%;
-    padding: 20px;
+    padding: 1vw;
     background: $white;
-    border: none;
+    border: 1px solid #a0a0a0;
     outline: 0;
     font-size: inherit;
   }
@@ -29,6 +29,24 @@ input {
   &[type="submit"] {
     @extend .tfac-btn;
   }
+}
+
+textarea {
+  width: 100%;
+  padding: 1vw;
+  background: $white;
+  resize: vertical;
+  border: 1px solid #a0a0a0;
+  font-size: inherit;
+  font-family: $main-font;
+}
+
+select {
+  padding: .5vw;
+  background: $white;
+  border: 1px solid #a0a0a0;
+  position: relative;
+  color: #4c4c4c;
 }
 
 /* stylelint-enable */
@@ -44,5 +62,32 @@ input {
 .mdev-action-group {
   width: 100%;
   position: relative;
+}
+
+.tfac-form-row {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2vh;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:first-child {
+    margin-top: 2vh;
+  }
+
+  button:only-child {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.tfac-half-split {
+  display: flex;
+
+  input {
+    width: 48%;
+  }
 }
 

@@ -22,10 +22,11 @@
       </div>
   </div>
   <!-- Mobile Nav Button -->
-  <div class="tfac-menu-open"
-    data-open-menu
-    role="button" aria-label="Mobile Navigation">
-    <span aria-hidden="true" aria-label="Click to open mobile menu"class="hidden">Mobile Menu</span>
+  <div class="tfac-menu" data-open-menu>
+    <div class="tfac-menu-open"
+      role="button" aria-label="Mobile Navigation">
+      <span aria-hidden="true" aria-label="Click to open mobile menu"class="hidden">Mobile Menu</span>
+    </div>
   </div>
 </nav>
 <!--Mobile Navigation-->

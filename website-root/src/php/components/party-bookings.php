@@ -2,7 +2,7 @@
     <div class="mdev-main-wrapper">
       <div class="tfac-party-booking-header flex flex-row flex-hor-between">
         <div class="tfac-party-booking-title">
-          <h3 class="u-uppercase">How to book your <span class="tfac-blue u-bold">Party Package</span></h3>
+          <h3 class="u-uppercase">How to book your </br><span class="tfac-blue u-bold">Party Package</span></h3>
         </div>
         <div class='tfac-party-booking-description'>
           <p>When you organize a children's party at The Factory, you know that you'll be creating a memorable and insanely fun experience for the kids, as well as a simple planning process for you.  Pick one attraction or many, we'll help manage the details for you.  For parties of less than 40, you can book online.</p>
@@ -48,12 +48,14 @@
       </div>
     </div>
     <div class="tfac-party-cta flex flex-row flex-hor-between flex-vert-center mdev-main-wrapper">
-      <div>
-        <p class="u-uppercase u-bold"><span class="tfac-party-faq u-bold u-uppercase tfac-blue"><a href="#">Party FAQs</a></span> Still have Questions?  Call or fill out the form below</p>
-      </div>
-      <div>
+      <p class="tfac-party u-uppercase u-bold flex flex-wrap">
+        <span class="flex flex-vert-center tfac-party-faq u-bold u-uppercase tfac-blue">
+          <i class="tfac-icon tfac-icon-sm icon-faq-blue"></i>
+          <a href="#">Party FAQs</a></span>
+        <span class="tfac-party-faq-text">
+          still have Questions?  Call or fill out the form below
+      </span></p>
       <a href="#" class="tfac-btn tfac-main-cta u-uppercase">I'm Ready To Book<i class="tfac-btn-arrow"></i></a>
-      </div>
     </div>
   </section>
 

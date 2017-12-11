@@ -1,5 +1,5 @@
 .tfac-food-intro {
-  padding: 5vh 0;
+  padding: 7vh 0;
   text-align: center;
   width: 80vw;
   margin: 0 auto;
@@ -21,7 +21,7 @@
   background-color: #f5f5f5;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  padding: 5vh 0;
+  padding: 10vh 0;
 
   @media #{$phone-only} {
     .mdev-main-wrapper {
@@ -31,8 +31,8 @@
 
   .tfac-food-tile-item {
     width: 100%;
-    margin: 2vh 0;
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    margin: 5vh 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
 
     &:first-child {
       margin-top: 0;
@@ -63,7 +63,8 @@
   }
 
   .phone {
-    margin-top: 1vw;
+    margin: 1.3vw 0;
+    font-size: 1.5vw;
   }
 
   h5 {
@@ -90,11 +91,8 @@
     width: 30%;
     display: block;
   }
-
   p {
-    font-size: 1.2vw;
-    line-height: 2.5vh;
+    font-size: 1.5vw;
+    line-height: 6vh;
   }
 }
-
-

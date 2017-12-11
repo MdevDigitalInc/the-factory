@@ -12,7 +12,6 @@
         <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
         <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
         <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
-        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
         <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
         <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
@@ -52,7 +51,6 @@
         <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
         <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
         <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
-        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
         <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
         <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
@@ -87,7 +85,6 @@
         <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
         <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
         <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
-        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
         <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
         <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
@@ -108,7 +105,6 @@
         <a href="#" title="Kids Soft Play" aria-role="menu-item">Kids Soft Pay</a>
         <a href="#" title="Interactive Play" aria-role="menu-item">Interactive Play</a>
         <a href="#" title="Arcade" aria-role="menu-item">Arcade</a>
-        <a href="#" title="Axe Throwing" aria-role="menu-item">Axe Throwing</a>
         <a href="#" title="Virtual Reality" aria-role="menu-item">Virtual reality </a>
         <a href="#" title="Escape Rooms" aria-role="menu-item">Escape Rooms</a>
       </div>
