@@ -1,4 +1,4 @@
-<h5 class="u-uppercase u-bold">I need more info</h5>
+<h5 class="u-uppercase">I need more info</h5>
 <div class="tfac-info-links">
   <a class="tfac-info-link u-uppercase" href="#" title="">
       <img src="img/icons/icon-plan.svg" />

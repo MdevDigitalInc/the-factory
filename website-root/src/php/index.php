@@ -52,9 +52,9 @@
   <!-- Groups -->
   <section class="tfac-content-section tfac-extra-padding" style="background-image: url(../img/home/home-bkg-intro.png);">
     <div class="mdev-main-wrapper">
-      <div class="tfac-content-blurb flex flex-row flex-hor-between flex-vert-end">
+      <div class="tfac-content-blurb  tfac-party-blurb flex flex-row flex-hor-between flex-vert-end">
         <h3 class="tfac-content-title u-uppercase">Parties <span class="tfac-blue">&</span> Event</h3>
-        <p>Be the hero of your group and plan the best birthday party or special ever!  Book you party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
+        <p>Be the hero of your group and plan the best birthday party or special ever!  Book your party package using our a-la-carte online system or contact us for a more hands-on customized approach.</p>
       </div>
       <!-- Card Module -->
       <?php include 'modules/card-module.php'; ?>
@@ -73,7 +73,7 @@
     </div>
   </section>
   <!-- Plan Section -->
-  <section class="tfac-adventure-plan" style="background-image:url('./img/plan-bkgs/plan-bkg-ropes.png')">
+  <section class="tfac-adventure-plan hero-bkg-scanlines" style="background-image:url('./img/plan-bkgs/plan-bkg-ropes.png')">
     <?php include 'modules/plan-module.php'; ?>
   </section>
 </main>

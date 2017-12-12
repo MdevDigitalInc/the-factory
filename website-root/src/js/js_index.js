@@ -77,7 +77,7 @@
         heightAdjustment = mainNavDropdown.outerHeight();
 
     navHiddenDropdown.css({
-      "top": heightAdjustment + 'px'
+      "top": ( heightAdjustment - 0.2 ) + 'px'
     });
   };
 

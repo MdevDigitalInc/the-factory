@@ -72,19 +72,38 @@ html {
         font-size: 5.2vw;
         margin: 0;
       }
+
+      @media #{$desktop-only} {
+        margin-left: 5%;
+      }
     }
 
     p {
       width: 100%;
 
       @media #{$tablet-up} {
-        width: 70%;
+        width: 65%;
         font-size: 1.3vw;
         line-height: 1.9vw;
       }
       @media #{$tablet-prt-only} {
         font-size: 1.9vw;
         line-height: 2.7vw;
+      }
+    }
+  }
+
+  .tfac-party-blurb {
+
+    @media #{$desktop-only} {
+      .tfac-content-title {
+        font-size: 4.7vw;
+        width: 25%;
+      }
+
+      p {
+        width: 70%;
+        font-size: 1.2vw;
       }
     }
   }

@@ -2,11 +2,20 @@
   padding: 10vh 0;
 
   h5 {
-    padding-bottom: $tfac-padding-sm;
+    padding-bottom: 1vw;
+  }
+
+  .mdev-main-wrapper {
+    @media #{$desktop-only} {
+      max-width: 1750px;
+    }
   }
 }
 
 .tfac-info-links {
+  @media #{$laptop-up} {
+    width: 55%;
+  }
   .tfac-info-link {
     width: 100%;
     padding: 1vw 0;
