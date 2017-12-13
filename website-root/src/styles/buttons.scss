@@ -62,7 +62,7 @@
       border-left: .5vw solid $white;
     }
     @media #{$tablet-only} {
-      border-left: 1vw solid $white;
+      border-left: .5vw solid $white;
     }
   }
 }
@@ -103,4 +103,10 @@
 
 .cta-small-link {
   float: right;
+  display: flex;
+  aling-items: center;
+
+  @media #{$tablet-up} {
+    font-size: 1.2vw;
+  }
 }

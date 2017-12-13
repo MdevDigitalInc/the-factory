@@ -7,7 +7,7 @@
       <img src="./img/the-factory-logo.svg" alt="The Factory, Canada's Biggest Indoor Adventure Park">
       <h4 class="tfac-blue u-bold">Sign up for our newsletter</h4>
 
-      <form class="tfac-footer-form flex flex-hor-start flex-vert-start">
+      <form class="tfac-footer-form flex flex-hor-start flex-vert-stretch">
         <input class="footer-input" type="text" name="e-newsletter" placeholder="Your Email Address"></input>
         <button class="tfac-btn tfac-secondary-cta">Go <i class="tfac-btn-arrow"></i></button>
       </form>

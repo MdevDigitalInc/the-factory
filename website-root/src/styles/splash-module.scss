@@ -40,7 +40,7 @@
 
 
     @media #{$tablet-only} {
-      width: 60%;
+      width: 55%;
     }
     @media #{$portrait} {
       width: 100%;
@@ -60,7 +60,7 @@
     font-size: inherit;
 
     @media #{$tablet-only} {
-      font-size: 2.4vw;
+      font-size: 1.4vw;
     }
     @media #{$xl-up} {
       font-size: 1.2vw;
@@ -70,10 +70,11 @@
 
 //Splash Item Sizes
 $splash-item-tablet-prt: 260px;
-$splash-item-tablet: 170px;
+$splash-item-tablet: 210px;
 $splash-item-laptop: 180px;
 $splash-item-desktop: 250px;
-$splash-item-xl: 315px;
+$splash-item-xl: 515px;
+
 
 .tfac-splash-list {
   width: 100%;

@@ -125,3 +125,19 @@ html {
     display: block;
   }
 }
+
+.tfac-link-decorative {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+
+  @media #{$tablet-only} {
+    width: 16%;
+  }
+  @media #{$portrait} {
+    width:15%;
+  }
+  img {
+    width: 100%;
+  }
+}
