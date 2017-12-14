@@ -50,7 +50,7 @@
     }
 
     span {
-      font-weight: normal;
+      font-weight: 400;
     }
   }
 
@@ -103,7 +103,7 @@
     bottom: 1vw;
     display: none;
     font-size: 1.2vw;
-    font-weight: normal;
+    font-weight: 400;
     text-transform: uppercase;
 
     @media #{$tablet-up} {
