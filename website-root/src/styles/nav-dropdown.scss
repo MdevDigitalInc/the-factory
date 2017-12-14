@@ -41,7 +41,7 @@ $dropdown-padding: 1.5vw;
     background: $white;
     color: $black;
     width: 35vw;
-    z-index: 1;
+    z-index: -1;
     transition: all, .2s;
     overflow: hidden;
     transform: scaley(0);
@@ -72,7 +72,7 @@ $dropdown-padding: 1.5vw;
   width: 50%;
 
   &:last-child {
-    border-left: 1px solid $black;
+    border-left: 1px solid #cbcbcb;
   }
 
   &:only-child {

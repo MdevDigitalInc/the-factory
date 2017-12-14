@@ -1,9 +1,10 @@
 .tfac-adventure-plan {
-  padding: 20vh 0 10vh;
+  padding: 40vh 0 10vh;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;
 
   h3 {
     letter-spacing: 2px;
@@ -14,9 +15,18 @@
     }
   }
 
+  .mdev-main-wrapper {
+    @media #{$desktop-only} {
+      max-width: 1750px;
+    }
+  }
+
   .tfac-plan-content {
-    background-color: rgba(250, 250, 250, .8);
+    background-color: rgba( 250, 250, 250, .8 );
     padding: 2vw;
+    position: relative;
+    z-index: 6;
+    box-shadow: 0 0 30px rgba( 0, 0, 0, .2 );
   }
 
   .tfac-plan-item-wrapper {
@@ -36,7 +46,11 @@
 
     @media #{$tablet-up} {
       width: 20%;
-      text-alicn: left;
+      text-align: left;
+    }
+
+    span {
+      font-weight: normal;
     }
   }
 
@@ -67,11 +81,12 @@
       margin-bottom: 2vw;
     }
     @media #{$xl-up} {
-      margin-bottom: 3.5vw;
+      margin-bottom: 5.5vw;
     }
   }
 
   h5 {
+    padding-top: 2vw;
     padding-bottom: $tfac-padding-sm;
 
     @media #{$tablet-only} {
@@ -87,17 +102,12 @@
     position: absolute;
     bottom: 1vw;
     display: none;
+    font-size: 1.2vw;
+    font-weight: normal;
+    text-transform: uppercase;
 
     @media #{$tablet-up} {
       display: block;
-    }
-
-    a {
-      letter-spacing: $letter-spacing-md;
-      @media #{$tablet-only} {
-        font-size: 1.1vw;
-        latter-spacing: 1px;
-      }
     }
   }
 }

@@ -11,7 +11,7 @@
         </div>
 
         <div class="tfac-pre-column">
-          <h5 class="u-uppercase u-bold">I'm Ready to Book!</h5>
+          <h5 class="u-uppercase">I'm Ready to Book!</h5>
           <p>Already know what you want to do? Click "Book Online" to guarantee your spot and get the time that's best for you.  If you need to book a party room for your event, click "Book Event" to get started.</p>
           <div class="tfac-column-action flex flex-start flex-hor-between flex-vert-center">
             <a href="#" class="tfac-btn tfac-main-cta">Book Online<i class="tfac-btn-arrow"></i></a>

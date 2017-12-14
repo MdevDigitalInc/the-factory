@@ -191,3 +191,11 @@ $line-offset: -6px;
 .tfac-nav-active {
   background: $black;
 }
+
+.tfac-menu {
+  display: block;
+
+  @media #{$tablet-up} {
+    display: none;
+  }
+}

@@ -25,12 +25,23 @@
   border: none;
 
   @media #{$tablet-up} {
-    font-size: 1vw;
-    padding: 1.3vw 1vw 1vw;
+    font-size: 0.94vw;
+    padding: 1.14vw 1.14vw .9vw;
   }
 
   @media #{$tablet-prt-only} {
     font-size: 1.3vw;
+    padding: 2vw 1.8vw 1.8vw;
+  }
+}
+
+.tfac-cta-small {
+  padding: 2.6vw 3vw 2vw;
+  @media #{$tablet-up} {
+    padding: .8vw .8vw .6vw;
+  }
+
+  @media #{$tablet-prt-only} {
     padding: 2vw 1.8vw 1.8vw;
   }
 }
@@ -51,7 +62,7 @@
       border-left: .5vw solid $white;
     }
     @media #{$tablet-only} {
-      border-left: 1vw solid $white;
+      border-left: .5vw solid $white;
     }
   }
 }
@@ -92,4 +103,10 @@
 
 .cta-small-link {
   float: right;
+  display: flex;
+  aling-items: center;
+
+  @media #{$tablet-up} {
+    font-size: 1.2vw;
+  }
 }

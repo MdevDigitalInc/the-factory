@@ -3,7 +3,7 @@
   <div class="tfac-activity-content flex flex-row flex-hor-between flex-vert-stretch">
 
     <div class="tfac-activity-item tfac-promo-item">
-      <div class="item-image" style="background-image: url('img/home/home-feat-axethrowing.png')"></div>
+      <div class="item-image" style="background-image: url('img/home/home-feat-tramps.png')"></div>
       <div class="item-content">
         <div class="tfac-promo-type">
           <span class="tfac-green u-uppercase">Event</span>
@@ -15,7 +15,7 @@
           </p>
         </div>
         <div class="tfac-promo-action flex flex-row flex-hor-end">
-          <a class="tfac-btn tfac-main-cta"
+          <a class="tfac-btn tfac-secondary-cta tfac-cta-small"
             href="#"
             title="More Information">More<i class="tfac-btn-arrow"></i>
           </a>
@@ -34,7 +34,7 @@
           </p>
         </div>
         <div class="tfac-promo-action flex flex-row flex-hor-end">
-          <a class="tfac-btn tfac-main-cta"
+          <a class="tfac-btn tfac-secondary-cta tfac-cta-small"
             href="#"
             title="More Information">More<i class="tfac-btn-arrow"></i>
           </a>
@@ -54,7 +54,7 @@
           </p>
         </div>
         <div class="tfac-promo-action flex flex-row flex-hor-end">
-          <a class="tfac-btn tfac-main-cta"
+          <a class="tfac-btn tfac-secondary-cta tfac-cta-small"
             href="#"
             title="More Information">More<i class="tfac-btn-arrow"></i>
           </a>

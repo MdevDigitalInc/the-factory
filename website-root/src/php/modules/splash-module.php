@@ -6,7 +6,7 @@
         </div>
         <!-- Splash Content -->
         <div class="tfac-splash-content">
-          <p>Located in London, Ontario, The Factory is the must-do attraction for the active and adventurous, with many activities to choose from, all under one roof.  The decision is yours - make yoday like every other day, or make today epic.</p>
+          <p>Located in London, Ontario, The Factory is the must-do attraction for the active and adventurous, with many activities to choose from, all under one roof.  The decision is yours - make today like every other day, or make today epic.</p>
           <div class="tfac-splash-list clearfix">
             <!-- Wordpress Query/Loop - Background Image attached to mdev-activity, CPT Title on H3 -->
 
