@@ -190,13 +190,7 @@
     width: 27%;
     padding: 1.2vw 1vw;
 
-    @media #{$laptop-only} {
-      padding: 1vw;
-    }
-    @media #{$desktop-only} {
-      padding-top: 1.2vw;
-    }
-    @media #{$xl-up} {
+    @media #{$tablet-up} {
       padding: 1vw;
     }
   }
