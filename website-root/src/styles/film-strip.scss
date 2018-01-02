@@ -9,6 +9,8 @@
     display: block;
     height: 14vh;
     background-size: cover;
+    background-position: center top;
+    box-shadow: 0 0 30px rgba( 0, 0, 0, .2 );
 
     @media #{$tablet-up} {
       height: 23vh;
@@ -36,6 +38,8 @@
     width: 30%;
     background-size: cover;
     height: 18vh;
+    background-position: center top;
+    box-shadow: 0 0 30px rgba( 0, 0, 0, .2 );
 
     @media #{$tablet-up} {
       height: 28vh;

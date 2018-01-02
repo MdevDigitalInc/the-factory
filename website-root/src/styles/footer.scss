@@ -10,10 +10,14 @@
   }
 
   h5 {
-    padding-bottom: $tfac-padding-md;
+    padding-bottom: .6vw;
 
     @media #{$tablet-only} {
       padding-bottom: $tfac-padding-sm;
+    }
+
+    @media #{$desktop-only} {
+      font-size: 28px;
     }
   }
 }
@@ -28,7 +32,7 @@
   }
 
   img {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     display: block;
     position: relative;
@@ -62,8 +66,12 @@
   }
 
   .tfac-btn {
-    width: 60%;
+    width: 64%;
     margin-top: 2vh;
+
+    @media #{$laptop-up} {
+      min-width: 185px;
+    }
   }
 }
 
@@ -88,7 +96,6 @@
     padding: 30px 0;
     border-bottom: 1px solid $white;
     text-transform: capitalize;
-    font-weight: $heading-weight;
     font-size: 1.2vw;
 
     @media #{$tablet-only} {
@@ -96,6 +103,9 @@
     }
     @media #{$xl-up} {
       padding: 1.4vw 0;
+    }
+    &:last-child {
+      border-bottom: none;
     }
   }
 
@@ -136,10 +146,9 @@
   }
 
   a {
-    line-height: 1.2vw;
+    line-height: 1.4vw;
     width: 100%;
     display: block;
-    font-weight: $heading-weight;
     font-size: 1vw;
 
     @media #{$tablet-only} {
@@ -170,21 +179,19 @@
     }
     @media #{$desktop-only} {
       height: 60px;
+      font-size: 1.3vw;
     }
     @media #{$xl-up} {
-      height: 75px;
+      height: auto;
     }
   }
 
   .tfac-btn {
     width: 27%;
-    padding: 1.2vw 1vw 1vw;
+    padding: 1.2vw 1vw;
 
-    @media #{$laptop-only} {
+    @media #{$tablet-up} {
       padding: 1vw;
-    }
-    @media #{$desktop-only} {
-      padding-top: 1.2vw;
     }
   }
 
@@ -196,6 +203,12 @@
     /* stylelint-disable */
     border-left: .25vw solid #fafafa !important;
     /* stylelint-enable */
+    @media #{$laptop-up} {
+      position: absolute;
+      @include center(vertical);
+      top: 51%;
+      right: .5vw;
+    }
   }
 }
 
@@ -204,7 +217,7 @@
   background: blue;
   background-color: $black;
   color: $white;
-  padding: .6vw 0;
+  padding: .3vw 0;
 
   .mdev-main-wrapper {
     display: flex;
@@ -242,7 +255,7 @@
       width: auto;
       letter-spacing: auto;
       text-align: left;
-      font-size: .8vw;
+      font-size: .7vw;
     }
     @media #{$tablet-prt-only} {
       font-size: 1.6vw;
@@ -254,9 +267,10 @@
 }
 
 .tfac-footer-address {
+  line-height: 1.4vw;
+
   @media #{$tablet-only} {
     font-size: 1vw;
-    line-height: 1.3vw;
   }
 }
 

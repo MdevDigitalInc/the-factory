@@ -12,7 +12,7 @@
         <div class="item-content">
           <div class="item-text">
             <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-            <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
+            <a href="#" class="tfac-btn tfac-secondary-cta tfac-cta-small">More<i class="tfac-btn-arrow"></i></a>
           </div>
           <div class="item-actions">
             <img src="./img/the-factory-logo.svg" alt="BATL" />
@@ -26,7 +26,7 @@
         <div class="item-content">
           <div class="item-text">
             <p>If you haven't tried axe throwing, you're missing out! A great idea for a group or party.</p>
-            <a href="#" class="tfac-btn tfac-main-cta">More<i class="tfac-btn-arrow"></i></a>
+            <a href="#" class="tfac-btn tfac-secondary-cta tfac-cta-small">More<i class="tfac-btn-arrow"></i></a>
           </div>
           <div class="item-actions">
             <img src="./img/the-factory-logo.svg" alt="BATL" />

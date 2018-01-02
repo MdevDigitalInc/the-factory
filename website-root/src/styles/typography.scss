@@ -28,7 +28,7 @@ h6,.h6, {
 $p-font-sizes: (
   null  : 14px,
   $tablet-up : 15px,
-  $desktop-up: 1vw,
+  $desktop-up: .94vw,
   $xl-up: 1.2vw
 );
 
@@ -43,7 +43,7 @@ $h2-font-sizes: (
   null  : 30px,
   $tablet-up : 32px,
   $laptop-up : 3vw,
-  $desktop-only: 2.6vw,
+  $desktop-only: 3.13vw,
   $xl-up: 3.2vw
 );
 
@@ -112,7 +112,7 @@ p,
     line-height: 2.8vh;
   }
   @media #{$desktop-only} {
-    line-height: 3vh;
+    line-height: 3.2vh;
   }
   @media #{$xl-up} {
     line-height: 1.5vw;

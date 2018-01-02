@@ -6,17 +6,18 @@
 
   @media #{$tablet-up} {
     flex-wrap: nowrap;
+    overflow: visible;
   }
 
   .tfac-card {
     width: 100%;
     position: relative;
     background: $white;
-    box-shadow: 0 0 15px rgba(0,0,0,.5);
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
 
     @media #{$tablet-up} {
       width: 24%;
-      box-shadow: 0 0 50px rgba(0,0,0,.5);
+      box-shadow: 0 0 40px rgba(0,0,0,.2);
     }
   }
 
@@ -34,7 +35,7 @@
     padding: 3vw 3vw 8vw;
 
     @media #{$tablet-up} {
-      padding: 1.5vw;
+      padding: 1vw 1.5vw;
     }
   }
 
@@ -64,6 +65,7 @@
     font-size: 3vw;
     display: inline-block;
     position: absolute;
+    text-transform: uppercase;
     right: 3vw;
     bottom: 3vw;
 
