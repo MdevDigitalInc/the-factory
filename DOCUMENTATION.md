@@ -1,4 +1,4 @@
-![Moreira Development](http://moreiradevelopment.io/social/googleLogo.png)
+![MDEV Digital](https://mdev.digital/social/githubLogo.svg)
 
 # HTML5 Website Boilerplate
 ## How to use the Mdev HTML5 Boilerplate
